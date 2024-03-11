@@ -28,25 +28,25 @@ const Nav = () => {
           <img src={circlePNG} width={50}></img>
         </Link>
         <div className={`flex gap-5 ${width < 750 ? "hidden" : ""}`}>
-          <Link to="about" onClick={() => ctx.scrollToSection("/about")}>
+          <Link to="about" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/about")}>
             About
           </Link>
-          <Link to="schedule" onClick={() => ctx.scrollToSection("/schedule")}>
+          <Link to="schedule" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/schedule")}>
             Schedule
           </Link>
-          <Link to="tracks" onClick={() => ctx.scrollToSection("/tracks")}>
+          <Link to="tracks" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/tracks")}>
             Tracks
           </Link>
-          <Link to="faq" onClick={() => ctx.scrollToSection("/faq")}>
+          <Link to="faq" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/faq")}>
             FAQ
           </Link>
-          <Link to="sponsors" onClick={() => ctx.scrollToSection("/about")}>
+          <Link to="sponsors" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/sponsors")}>
             Sponsors
           </Link>
-          <Link to="donate" onClick={() => ctx.scrollToSection("/about")}>
+          <Link to="donate" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/about")}>
             Donate
           </Link>
-          <Link to="team" onClick={() => ctx.scrollToSection("/team")}>
+          <Link to="team" className="hover:text-blue-300 transition-all" onClick={() => ctx.scrollToSection("/team")}>
             Team
           </Link>
         </div>

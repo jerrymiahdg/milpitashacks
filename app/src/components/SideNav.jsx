@@ -19,25 +19,25 @@ const SideNav = () => {
         ctx.sideNavActive ? "translate-nav-down" : "translate-nav-up"
       } flex flex-col fixed bg-gray-950 right-0 p-8 gap-5 rounded-bl-2xl transition-all border-l border-b border-gray-700 z-40`}
     >
-      <Link to="about" onClick={sideNavLinkClickHandler("/about")}>
+      <Link to="about" className="hover:text-blue-300 transition-all" onClick={sideNavLinkClickHandler("/about")}>
         About
       </Link>
-      <Link to="schedule" onClick={sideNavLinkClickHandler("/schedule")}>
+      <Link to="schedule" className="hover:text-blue-300 transition-all" onClick={sideNavLinkClickHandler("/schedule")}>
         Schedule
       </Link>
-      <Link to="tracks" onClick={sideNavLinkClickHandler("/tracks")}>
+      <Link to="tracks" className="hover:text-blue-300 transition-all" onClick={sideNavLinkClickHandler("/tracks")}>
         Tracks
       </Link>
-      <Link to="faq" onClick={sideNavLinkClickHandler("/faq")}>
+      <Link to="faq" className="hover:text-blue-300 transition-all" onClick={sideNavLinkClickHandler("/faq")}>
         FAQ
       </Link>
-      <Link to="sponsors" onClick={sideNavLinkClickHandler("/sponsors")}>
+      <Link to="sponsors" className="hover:text-blue-300 transition-all" onClick={sideNavLinkClickHandler("/sponsors")}>
         Sponsors
       </Link>
-      <Link to="donate" onClick={sideNavLinkClickHandler("/donate")}>
+      <Link to="donate" className="hover:text-blue-300 transition-all" onClick={sideNavLinkClickHandler("/donate")}>
         Donate
       </Link>
-      <Link to="team" onClick={sideNavLinkClickHandler("/team")}>
+      <Link to="team" className="hover:text-blue-300 transition-all" onClick={sideNavLinkClickHandler("/team")}>
         Team
       </Link>
     </div>

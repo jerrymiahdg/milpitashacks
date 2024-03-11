@@ -41,7 +41,7 @@ function App() {
     } else if (scrollTo === "/faq") {
       faqRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (scrollTo === "/sponsors") {
-      homeRef.current.scrollIntoView({ behavior: "smooth" });
+      sponsorsRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (scrollTo === "/team") {
       teamRef.current.scrollIntoView({ behavior: "smooth" });
     }
