@@ -13,6 +13,7 @@ import SideNav from "./components/SideNav";
 import { useLocation } from "react-router-dom";
 import { useRef } from "react";
 import Sponsors from "./components/sections/Sponsors";
+import { MeteorsDemo } from "./components/sections/MeteorsDemo";
 
 export const Context = createContext();
 
@@ -57,7 +58,8 @@ function App() {
         <Nav />
         <SideNav />
         <div ref={homeRef}>
-          <Hero />
+          <MeteorsDemo />
+          {/* <Hero /> */}
         </div>
         <div ref={aboutRef}>
           <About />
@@ -78,8 +80,8 @@ function App() {
           <Team />
         </div>
         <div className="bg-gray-900 flex-col items-center justify-center p-20 w-full">
-          <div className="pb-20">
-            <h1 className="text-3xl font-bold">Register now.</h1>
+          <div className="pb-10">
+            <h1 className="text-4xl font-bold">Register now.</h1>
           </div>
           <button className="bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100">
             <a
