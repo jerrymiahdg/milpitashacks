@@ -16,8 +16,8 @@ const SideNav = () => {
   return (
     <div
       className={`${
-        ctx.sideNavActive ? "translate-y-[67px]" : "translate-y-[-352px]"
-      } flex flex-col fixed bg-gray-950 right-0 p-8 gap-5 rounded-bl-2xl translate-y-[67px] transition-all border-l border-b border-gray-700 z-10`}
+        ctx.sideNavActive ? "translate-nav-down" : "translate-nav-up"
+      } flex flex-col fixed bg-gray-950 right-0 p-8 gap-5 rounded-bl-2xl transition-all border-l border-b border-gray-700 z-10`}
     >
       <Link to="about" onClick={sideNavLinkClickHandler("/about")}>
         About

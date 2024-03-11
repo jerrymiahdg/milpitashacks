@@ -1,0 +1,7 @@
+.translate-nav-down {
+  transform: translateY(67px);
+}
+
+.translate-nav-up {
+  transform: translateY(-352px);
+}
