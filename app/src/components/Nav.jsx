@@ -1,14 +1,25 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import circlePNG from "../assets/circle-logo.png";
 import { Link } from "react-router-dom";
+import { Context } from "../App";
 
 const Nav = () => {
   const [width, setWidth] = useState(window.innerWidth);
+  const ctx = useContext(Context);
+  console.log(ctx);
 
   window.addEventListener("resize", () => {
     setWidth(window.innerWidth);
     console.log(width);
   });
+
+  const menuClickHandler = () => {
+    if (ctx.sideNavActive) {
+      ctx.setSideNavActive(false);
+    } else {
+      ctx.setSideNavActive(true);
+    }
+  };
 
   return (
     <div className="flex justify-center fixed w-full bg-gray-950 z-50 border-b border-gray-700">
@@ -16,7 +27,7 @@ const Nav = () => {
         <Link>
           <img src={circlePNG} width={50}></img>
         </Link>
-        <div className={`flex gap-5 ${width < 700 ? "hidden" : ""}`}>
+        <div className={`flex gap-5 ${width < 750 ? "hidden" : ""}`}>
           <Link to="about">About</Link>
           <Link to="schdule">Schedule</Link>
           <Link to="tracks">Tracks</Link>
@@ -26,13 +37,14 @@ const Nav = () => {
           <Link to="team">Team</Link>
         </div>
         <div className="flex gap-5">
-          <button className="bg-blue-700 opacity-90 p-2 rounded-md hover:opacity-100">
+          <button className="bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100">
             Register
           </button>
           <button
-            className={`bg-blue-700 opacity-90 p-2 rounded-md hover:opacity-100 ${
-              width > 700 ? "hidden" : ""
+            className={`bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100 ${
+              width > 750 ? "hidden" : ""
             }`}
+            onClick={menuClickHandler}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

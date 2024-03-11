@@ -1,6 +1,6 @@
 const Tracks = () => {
   return (
-    <div className="flex flex-col items-center bg-gray-900 p-20">
+    <div className="flex flex-col items-center bg-gray-900 pt-20 pb-20 pl-5 pr-5">
       <div className="pb-20">
         <h1 className="text-3xl font-bold">Tracks</h1>
       </div>
