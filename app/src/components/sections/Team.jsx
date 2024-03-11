@@ -8,7 +8,7 @@ const Team = () => {
       <div className="pb-20">
         <h1 className="text-3xl font-bold">Team</h1>
       </div>
-      <div className="flex gap-10 justify-center flex-col 2xl:flex-row max-w-3xl w-full">
+      <div className="flex gap-10 justify-center flex-col 2xl:flex-row max-w-2xl w-full">
         <CardContainer className="inter-var">
           <CardBody className="bg-gray-800 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-yellow-500/[0.1] shadow-lg dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border ">
             <CardItem

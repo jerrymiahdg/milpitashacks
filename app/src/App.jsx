@@ -12,6 +12,7 @@ import Hero from "./components/sections/Hero";
 import SideNav from "./components/SideNav";
 import { useLocation } from "react-router-dom";
 import { useRef } from "react";
+import Sponsors from "./components/sections/Sponsors";
 
 export const Context = createContext();
 
@@ -69,6 +70,9 @@ function App() {
         </div>
         <div ref={faqRef}>
           <FAQ />
+        </div>
+        <div ref={sponsorsRef}>
+          <Sponsors />
         </div>
         <div ref={teamRef}>
           <Team />
