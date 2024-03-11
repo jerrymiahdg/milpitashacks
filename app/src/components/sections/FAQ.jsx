@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const FAQ = () => {
-  const faqs = useState([
+  const [faqs, setFaqs] = useState([
     [
       "Who can participate?",
       "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",

@@ -2,9 +2,9 @@
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
 
-export function Hero() {
+const Hero = () => {
   return (
-    <div className="flex justify-center items-center w-screen h-screen">
+    <div className="flex justify-center items-center w-screen h-screen bg-black">
       <div className="h-[40rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
         <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
           Milpitas Hacks
@@ -32,4 +32,6 @@ export function Hero() {
       </div>
     </div>
   );
-}
+};
+
+export default Hero;

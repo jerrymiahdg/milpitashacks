@@ -1,27 +1,39 @@
+import { useState } from "react";
 import circlePNG from "../assets/circle-logo.png";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  window.addEventListener("resize", () => {
+    setWidth(window.innerWidth);
+    console.log(width);
+  });
+
   return (
-    <div className="flex justify-center fixed w-full bg-neutral-800 z-50 border-b border-neutral-700">
+    <div className="flex justify-center fixed w-full bg-gray-950 z-50 border-b border-gray-700">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link>
           <img src={circlePNG} width={50}></img>
         </Link>
-        <div className="flex gap-5">
+        <div className={`flex gap-5 ${width < 700 ? "hidden" : ""}`}>
           <Link to="about">About</Link>
-          <Link to="about">Schedule</Link>
-          <Link to="about">Tracks</Link>
-          <Link to="about">FAQ</Link>
-          <Link to="about">Sponsors</Link>
-          <Link to="about">Donate</Link>
-          <Link to="about">Team</Link>
+          <Link to="schdule">Schedule</Link>
+          <Link to="tracks">Tracks</Link>
+          <Link to="faq">FAQ</Link>
+          <Link to="sponsors">Sponsors</Link>
+          <Link to="donate">Donate</Link>
+          <Link to="team">Team</Link>
         </div>
         <div className="flex gap-5">
           <button className="bg-blue-700 opacity-90 p-2 rounded-md hover:opacity-100">
             Register
           </button>
-          <button className="bg-blue-700 opacity-90 p-2 rounded-md hover:opacity-100">
+          <button
+            className={`bg-blue-700 opacity-90 p-2 rounded-md hover:opacity-100 ${
+              width > 700 ? "hidden" : ""
+            }`}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="25"

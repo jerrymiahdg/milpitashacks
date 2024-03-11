@@ -8,7 +8,7 @@ import Schedule from "./components/sections/Schedule";
 import Tracks from "./components/sections/Tracks";
 import FAQ from "./components/sections/FAQ";
 import Team from "./components/sections/Team";
-import { Hero } from "./components/sections/Hero";
+import Hero from "./components/sections/Hero";
 
 function App() {
   const [count, setCount] = useState(0);
