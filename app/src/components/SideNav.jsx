@@ -4,6 +4,7 @@ import { Context } from "../App";
 
 const SideNav = () => {
   const ctx = useContext(Context);
+  console.log(ctx.sideNavActive);
 
   const sideNavLinkClickHandler = (scrollTo) => {
     return () => {
