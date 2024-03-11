@@ -8,6 +8,7 @@ import Schedule from "./components/sections/Schedule";
 import Tracks from "./components/sections/Tracks";
 import FAQ from "./components/sections/FAQ";
 import Team from "./components/sections/Team";
+import { Hero } from "./components/sections/Hero";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,9 +16,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="flex justify-center items-center w-screen h-screen">
-        <h1 className="text-7xl font-bold">Milpitas Hacks 2024</h1>
-      </div>
+      <Hero />
       <About />
       <Schedule />
       <Tracks />
