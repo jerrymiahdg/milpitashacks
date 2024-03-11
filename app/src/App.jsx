@@ -7,6 +7,7 @@ import About from "./components/sections/About";
 import Schedule from "./components/sections/Schedule";
 import Tracks from "./components/sections/Tracks";
 import FAQ from "./components/sections/FAQ";
+import Team from "./components/sections/Team";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <Schedule />
       <Tracks />
       <FAQ />
+      <Team />
     </>
   );
 }

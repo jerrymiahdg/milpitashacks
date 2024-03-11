@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="flex justify-center fixed w-full">
+    <div className="flex justify-center fixed w-full bg-neutral-800 z-50 border-b border-neutral-700">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link>
           <img src={circlePNG} width={50}></img>
