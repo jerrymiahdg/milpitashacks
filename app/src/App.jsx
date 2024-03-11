@@ -28,25 +28,25 @@ function App() {
 
   const location = useLocation();
 
-  const scrollToSection = () => {
-    if (location.pathname === "/home") {
+  const scrollToSection = (scrollTo) => {
+    if (scrollTo === "/home") {
       homeRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/about") {
+    } else if (scrollTo === "/about") {
       aboutRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/schedule") {
+    } else if (scrollTo === "/schedule") {
       scheduleRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/tracks") {
+    } else if (scrollTo === "/tracks") {
       tracksRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/faq") {
+    } else if (scrollTo === "/faq") {
       faqRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/sponsors") {
+    } else if (scrollTo === "/sponsors") {
       homeRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/team") {
+    } else if (scrollTo === "/team") {
       teamRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
-  useEffect(scrollToSection, []);
+  // useEffect(() => scrollToSection(location), []);
 
   return (
     <>

@@ -21,11 +21,6 @@ const Nav = () => {
     }
   };
 
-  const sideNavLinkClickHandler = () => {
-    ctx.setSideNavActive(false);
-    ctx.scrollToSection();
-  };
-
   return (
     <div className="flex justify-center fixed w-full bg-gray-950 z-50 border-b border-gray-700">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
@@ -33,25 +28,25 @@ const Nav = () => {
           <img src={circlePNG} width={50}></img>
         </Link>
         <div className={`flex gap-5 ${width < 750 ? "hidden" : ""}`}>
-          <Link to="about" onClick={sideNavLinkClickHandler}>
+          <Link to="about" onClick={() => ctx.scrollToSection("/about")}>
             About
           </Link>
-          <Link to="schedule" onClick={sideNavLinkClickHandler}>
+          <Link to="schedule" onClick={() => ctx.scrollToSection("/schedule")}>
             Schedule
           </Link>
-          <Link to="tracks" onClick={sideNavLinkClickHandler}>
+          <Link to="tracks" onClick={() => ctx.scrollToSection("/tracks")}>
             Tracks
           </Link>
-          <Link to="faq" onClick={sideNavLinkClickHandler}>
+          <Link to="faq" onClick={() => ctx.scrollToSection("/faq")}>
             FAQ
           </Link>
-          <Link to="sponsors" onClick={sideNavLinkClickHandler}>
+          <Link to="sponsors" onClick={() => ctx.scrollToSection("/about")}>
             Sponsors
           </Link>
-          <Link to="donate" onClick={sideNavLinkClickHandler}>
+          <Link to="donate" onClick={() => ctx.scrollToSection("/about")}>
             Donate
           </Link>
-          <Link to="team" onClick={sideNavLinkClickHandler}>
+          <Link to="team" onClick={() => ctx.scrollToSection("/team")}>
             Team
           </Link>
         </div>
