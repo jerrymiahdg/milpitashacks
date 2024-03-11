@@ -17,32 +17,62 @@ export const Context = createContext();
 
 function App() {
   const tracksRef = useRef();
-  console.log(tracksRef);
+  const homeRef = useRef();
+  const aboutRef = useRef();
+  const scheduleRef = useRef();
+  const sponsorsRef = useRef();
+  const teamRef = useRef();
+  const faqRef = useRef();
 
   const [sideNavActive, setSideNavActive] = useState(false);
 
   const location = useLocation();
-  console.log(location);
 
-  useEffect(() => {
-    if (location.pathname === "/tracks") {
+  const scrollToSection = () => {
+    if (location.pathname === "/home") {
+      homeRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.pathname === "/about") {
+      aboutRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.pathname === "/schedule") {
+      scheduleRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.pathname === "/tracks") {
       tracksRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.pathname === "/faq") {
+      faqRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.pathname === "/sponsors") {
+      homeRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.pathname === "/team") {
+      teamRef.current.scrollIntoView({ behavior: "smooth" });
     }
-  }, []);
+  };
+
+  useEffect(scrollToSection, []);
 
   return (
     <>
-      <Context.Provider value={{ sideNavActive, setSideNavActive }}>
+      <Context.Provider
+        value={{ sideNavActive, setSideNavActive, scrollToSection }}
+      >
         <Nav />
         <SideNav />
-        <Hero />
-        <About />
-        <Schedule />
+        <div ref={homeRef}>
+          <Hero />
+        </div>
+        <div ref={aboutRef}>
+          <About />
+        </div>
+        <div ref={scheduleRef}>
+          <Schedule />
+        </div>
         <div ref={tracksRef}>
           <Tracks />
         </div>
-        <FAQ />
-        <Team />
+        <div ref={faqRef}>
+          <FAQ />
+        </div>
+        <div ref={teamRef}>
+          <Team />
+        </div>
       </Context.Provider>
     </>
   );

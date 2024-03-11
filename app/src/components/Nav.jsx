@@ -21,6 +21,11 @@ const Nav = () => {
     }
   };
 
+  const sideNavLinkClickHandler = () => {
+    ctx.setSideNavActive(false);
+    ctx.scrollToSection();
+  };
+
   return (
     <div className="flex justify-center fixed w-full bg-gray-950 z-50 border-b border-gray-700">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
@@ -28,13 +33,27 @@ const Nav = () => {
           <img src={circlePNG} width={50}></img>
         </Link>
         <div className={`flex gap-5 ${width < 750 ? "hidden" : ""}`}>
-          <Link to="about">About</Link>
-          <Link to="schdule">Schedule</Link>
-          <Link to="tracks">Tracks</Link>
-          <Link to="faq">FAQ</Link>
-          <Link to="sponsors">Sponsors</Link>
-          <Link to="donate">Donate</Link>
-          <Link to="team">Team</Link>
+          <Link to="about" onClick={sideNavLinkClickHandler}>
+            About
+          </Link>
+          <Link to="schedule" onClick={sideNavLinkClickHandler}>
+            Schedule
+          </Link>
+          <Link to="tracks" onClick={sideNavLinkClickHandler}>
+            Tracks
+          </Link>
+          <Link to="faq" onClick={sideNavLinkClickHandler}>
+            FAQ
+          </Link>
+          <Link to="sponsors" onClick={sideNavLinkClickHandler}>
+            Sponsors
+          </Link>
+          <Link to="donate" onClick={sideNavLinkClickHandler}>
+            Donate
+          </Link>
+          <Link to="team" onClick={sideNavLinkClickHandler}>
+            Team
+          </Link>
         </div>
         <div className="flex gap-5">
           <button className="bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100">
