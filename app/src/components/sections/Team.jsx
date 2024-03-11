@@ -27,7 +27,7 @@ const Team = () => {
             <div className="">
               <CardItem
                 translateZ={20}
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img src={logoPng} width="175" height="175" />
               </CardItem>
@@ -52,7 +52,7 @@ const Team = () => {
             <div className="">
               <CardItem
                 translateZ={20}
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img src={logoPng} width="175" height="175" />
               </CardItem>
@@ -77,7 +77,7 @@ const Team = () => {
             <div className="">
               <CardItem
                 translateZ={20}
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img src={vasistaPng} width="175" height="175" />
               </CardItem>

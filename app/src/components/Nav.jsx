@@ -52,7 +52,12 @@ const Nav = () => {
         </div>
         <div className="flex gap-5">
           <button className="bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100">
-            Register
+            <a
+              target="_blank"
+              href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
+            >
+              Register
+            </a>
           </button>
           <button
             className={`bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100 ${

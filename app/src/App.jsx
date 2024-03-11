@@ -77,6 +77,19 @@ function App() {
         <div ref={teamRef}>
           <Team />
         </div>
+        <div className="bg-gray-900 flex-col items-center justify-center p-20 w-full">
+          <div className="pb-20">
+            <h1 className="text-3xl font-bold">Register now.</h1>
+          </div>
+          <button className="bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100">
+            <a
+              target="_blank"
+              href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
+            >
+              Register
+            </a>
+          </button>
+        </div>
       </Context.Provider>
     </>
   );
