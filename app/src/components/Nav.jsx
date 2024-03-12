@@ -24,7 +24,7 @@ const Nav = () => {
   return (
     <div className="flex justify-center fixed w-full bg-gray-950 z-50 border-b border-gray-700">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
-        <Link>
+        <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
           <img src={circlePNG} width={50}></img>
         </Link>
         <div className={`flex gap-5 ${width < 750 ? "hidden" : ""}`}>
