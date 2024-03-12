@@ -83,14 +83,14 @@ function App() {
             <h1 className="text-4xl font-bold text-yellow-200">
               Register now.
             </h1>
-            <Button>
-              <a
+            <a
                 target="_blank"
                 href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
-              >
-                Register
-              </a>
+            >
+            <Button>
+              Register
             </Button>
+            </a>
           </div>
         </div>
       </Context.Provider>
