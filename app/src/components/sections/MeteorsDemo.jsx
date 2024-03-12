@@ -9,7 +9,7 @@ export function MeteorsDemo() {
         {/* <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" /> */}
         <div className="relative shadow-xl bg-gray-950 border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-start">
           <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
-            <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+            <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-yellow-200 relative z-20">
               Milpitas Hacks
             </h1>
             <div className="w-[40rem] h-20 relative">

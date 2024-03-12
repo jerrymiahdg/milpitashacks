@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div className="flex flex-col items-center p-20">
       <div className="pb-20">
-        <h1 className="text-3xl font-bold">Team</h1>
+        <h1 className="text-3xl font-bold ">Team</h1>
       </div>
       <div className="flex gap-10 justify-center flex-col 2xl:flex-row max-w-2xl w-full">
         <CardContainer className="inter-var">

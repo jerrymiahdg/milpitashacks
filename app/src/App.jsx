@@ -8,12 +8,12 @@ import Schedule from "./components/sections/Schedule";
 import Tracks from "./components/sections/Tracks";
 import FAQ from "./components/sections/FAQ";
 import Team from "./components/sections/Team";
-import Hero from "./components/sections/Hero";
 import SideNav from "./components/SideNav";
 import { useLocation } from "react-router-dom";
 import { useRef } from "react";
 import Sponsors from "./components/sections/Sponsors";
 import { MeteorsDemo } from "./components/sections/MeteorsDemo";
+import { Button } from "./components/ui/moving-border";
 
 export const Context = createContext();
 
@@ -59,7 +59,6 @@ function App() {
         <SideNav />
         <div ref={homeRef}>
           <MeteorsDemo />
-          {/* <Hero /> */}
         </div>
         <div ref={aboutRef}>
           <About />
@@ -79,18 +78,16 @@ function App() {
         <div ref={teamRef}>
           <Team />
         </div>
-        <div className="bg-gray-900 flex-col items-center justify-center p-20 w-full">
-          <div className="pb-10">
-            <h1 className="text-4xl font-bold">Register now.</h1>
-          </div>
-          <button className="bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100">
+        <div className="flex bg-gray-900 flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10">
+          <h1 className="text-4xl font-bold text-yellow-200">Register now.</h1>
+          <Button>
             <a
               target="_blank"
               href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
             >
               Register
             </a>
-          </button>
+          </Button>
         </div>
       </Context.Provider>
     </>
