@@ -80,7 +80,7 @@ const Nav = () => {
         </div>
         <div className="flex gap-5">
           <button className="">
-            <a target="_blank" href="https://discord.gg/FUfej8q7">
+            <a target="_blank" href="https://discord.gg/VWpmCzZ3Kx">
               <svg
                 width="30px"
                 height="30px"
