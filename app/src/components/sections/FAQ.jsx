@@ -61,7 +61,10 @@ const FAQ = () => {
       <div className="flex flex-col p-5 bg-gray-900 rounded-lg max-w-3xl w-full">
         {faqs.map((faq, i) => (
           <div key={i} className="border-b border-gray-800">
-            <div className="flex justify-between p-2">
+            <div
+              className="flex justify-between p-2 cursor-pointer"
+              onClick={faqClickHandler(i)}
+            >
               <h2>{faq[0]}</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,10 +72,7 @@ const FAQ = () => {
                 viewBox="0 -960 960 960"
                 width="24"
                 fill="white"
-                onClick={faqClickHandler(i)}
-                className={`cursor-pointer transition-all ${
-                  faq[2] ? "rotate-45" : ""
-                }`}
+                className={`transition-all ${faq[2] ? "rotate-45" : ""}`}
               >
                 <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
               </svg>
