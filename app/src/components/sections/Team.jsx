@@ -79,7 +79,12 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src={vasistaPng} width="175" height="175" />
+                <img
+                  src={vasistaPng}
+                  width="175"
+                  className="rounded-full"
+                  height="175"
+                />
               </CardItem>
             </div>
           </CardBody>

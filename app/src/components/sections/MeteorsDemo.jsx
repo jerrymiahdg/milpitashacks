@@ -1,5 +1,6 @@
 import React from "react";
 import { Meteors } from "../ui/meteors";
+import { Button } from "../ui/moving-border";
 
 export function MeteorsDemo() {
   return (
@@ -11,7 +12,7 @@ export function MeteorsDemo() {
             <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
               Milpitas Hacks
             </h1>
-            <div className="w-[40rem] h-40 relative">
+            <div className="w-[40rem] h-20 relative">
               {/* Gradients */}
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -20,6 +21,14 @@ export function MeteorsDemo() {
               {/* Radial Gradient to prevent sharp edges */}
               <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
             </div>
+            <Button>
+              <a
+                target="_blank"
+                href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
+              >
+                Register
+              </a>
+            </Button>
           </div>
           {/* Meaty part - Meteor effect */}
           <Meteors number={20} />
