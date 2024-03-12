@@ -78,16 +78,20 @@ function App() {
         <div ref={teamRef}>
           <Team />
         </div>
-        <div className="flex bg-gray-900 flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10">
-          <h1 className="text-4xl font-bold text-yellow-200">Register now.</h1>
-          <Button>
-            <a
-              target="_blank"
-              href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
-            >
-              Register
-            </a>
-          </Button>
+        <div className="flex justify-center bg-gray-900">
+          <div className="flex  flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10 w-full max-w-7xl">
+            <h1 className="text-4xl font-bold text-yellow-200">
+              Register now.
+            </h1>
+            <Button>
+              <a
+                target="_blank"
+                href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
+              >
+                Register
+              </a>
+            </Button>
+          </div>
         </div>
       </Context.Provider>
     </>
