@@ -101,7 +101,7 @@ const Nav = () => {
             </a>
           </button>
           <button
-            className={`bg-blue-600 opacity-90 p-2 rounded-md hover:opacity-100 ${
+            className={`bg-gray-900 opacity-80 p-2 rounded-md transition-all hover:opacity-100 ${
               width > 750 ? "hidden" : ""
             }`}
             onClick={menuClickHandler}
