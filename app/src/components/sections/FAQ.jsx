@@ -8,28 +8,43 @@ const FAQ = () => {
       false,
     ],
     [
-      "Who can participate?",
-      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
+      "Does this cost money?",
+      "No! The Hackathon is totally free to attend, and all food (lunch, dinner, and snacks) will be provided.",
       false,
     ],
     [
-      "Who can participate?",
-      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
+      "What is Milpitas Hacks?",
+      "A Hackathon a weekend long event where students (in teams of 1-4) build a web app, compete for prizes, attend workshops, and most importantly, build meaningful projects.",
       false,
     ],
     [
-      "Who can participate?",
-      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
+      "What should I bring?",
+      "Bring a laptop, a charger, a water bottle, and anything you might need. Food will be provided but you may bring your own as well, especially if you have food allergies.",
       false,
     ],
     [
-      "Who can participate?",
-      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
+      "What if I have dietary restrictions?",
+      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accomidate food options for you. However, we do not garantee that these accomidations will be made for you, so it is recomended you bring your own food if it is a serious health concern.",
       false,
     ],
     [
-      "Who can participate?",
-      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
+      "Where do I check in?",
+      "The large gym",
+      false,
+    ],
+    [
+      "Do I have to develop anything specific?",
+      "Nope! You can develop whatever you want, but if you are aiming to win it is reccomended to follow the track cybersecurity.",
+      false,
+    ],
+    [
+      "I don't know anything about coding. Can I still participate?",
+      "Yes! There will be several resources and workshops for those who don't know how to code to attend.",
+      false,
+    ],
+    [
+      "I have another question...",
+      "More questions? Reach out to us via milpitashacks@gmail.com",
       false,
     ],
   ]);
