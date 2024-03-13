@@ -96,8 +96,14 @@ const FAQ = () => {
                 <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
               </svg>
             </div>
-            <div className={`${faq[2] ? "" : "hidden"} p-2`}>
-              <h1>{faq[1]}</h1>
+            <div className={`pl-2 ${faq[2] ? "pb-2" : ""} duration-700`}>
+              <h1
+                className={`${
+                  faq[2] ? " max-h-12" : "max-h-0"
+                } ease-in-out duration-700 transition-all overflow-hidden`}
+              >
+                {faq[1]}
+              </h1>
             </div>
           </div>
         ))}
