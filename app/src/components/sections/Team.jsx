@@ -72,7 +72,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt-2 dark:text-gray-300"
             >
-              Tech Lead and Operations
+              Tech Lead and Finance
             </CardItem>
             <div className="">
               <CardItem
