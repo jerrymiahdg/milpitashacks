@@ -27,11 +27,7 @@ const FAQ = () => {
       "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accomidate food options for you. However, we do not garantee that these accomidations will be made for you, so it is recomended you bring your own food if it is a serious health concern.",
       false,
     ],
-    [
-      "Where do I check in?",
-      "The large gym",
-      false,
-    ],
+    ["Where do I check in?", "The large gym", false],
     [
       "Do I have to develop anything specific?",
       "Nope! You can develop whatever you want, but if you are aiming to win it is reccomended to follow the track cybersecurity.",
@@ -44,7 +40,15 @@ const FAQ = () => {
     ],
     [
       "I have another question...",
-      "More questions? Reach out to us via milpitashacks@gmail.com",
+      <>
+        More questions? Reach out to us via{" "}
+        <a
+          href="mailto: milpitashacks@gmail.com"
+          className="text-blue-200 hover:underline"
+        >
+          milpitashacks@gmail.com
+        </a>
+      </>,
       false,
     ],
   ]);
