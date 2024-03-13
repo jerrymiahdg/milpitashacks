@@ -1,6 +1,6 @@
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import vasistaPng from "../../assets/vasista.png";
-import logoPng from "../../assets/circle-logo.png";
+import logoPng from "../../assets/Milpitas Hacks Logo.png";
 
 const Team = () => {
   return (

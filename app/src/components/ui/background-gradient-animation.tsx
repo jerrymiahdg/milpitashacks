@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "../../util/cn";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export const BackgroundGradientAnimation = ({
   gradientBackgroundStart = "rgb(0, 0, 0)",
@@ -12,7 +12,7 @@ export const BackgroundGradientAnimation = ({
   fifthColor = "180, 180, 50",
   pointerColor = "140, 100, 255",
   size = "80%",
-  blendingValue = "hard-light",
+  blendingValue = "hard-light", 
   children,
   className,
   interactive = true,

@@ -23,27 +23,27 @@ const Schedule = () => {
         </div>
         <div className="flex justify-between">
           <h2>11:30 AM</h2>
-          <h2>ML Workshop</h2>
+          <h2>AI/ML Workshop</h2>
         </div>
         <div className="flex justify-between">
           <h2>12:30 PM</h2>
           <h2>Lunch</h2>
         </div>
         <div className="flex justify-between">
-          <h2>03:00 PM</h2>
-          <h2>Speaker Event</h2>
+          <h2>04:00 PM</h2>
+          <h2>Keynote Speaker</h2>
         </div>
         <div className="flex justify-between">
           <h2>08:00 PM</h2>
           <h2>Coding Ends</h2>
         </div>
         <div className="flex justify-between">
-          <h2>08:30 PM</h2>
-          <h2>Judging</h2>
+          <h2>08:15 PM</h2>
+          <h2>Judging Begins</h2>
         </div>
         <div className="flex justify-between">
           <h2>09:30 PM</h2>
-          <h2>Awards</h2>
+          <h2>Awards and Closing Ceremony</h2>
         </div>
       </div>
       <h2 className="max-w-xl text-center">

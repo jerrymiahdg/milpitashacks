@@ -14,7 +14,7 @@ const FAQ = () => {
     ],
     [
       "What is Milpitas Hacks?",
-      "A Hackathon a weekend long event where students (in teams of 1-4) build a web app, compete for prizes, attend workshops, and most importantly, build meaningful projects.",
+      "A Hackathon a weekend long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
       false,
     ],
     [
@@ -30,12 +30,12 @@ const FAQ = () => {
     ["Where do I check in?", "The large gym", false],
     [
       "Do I have to develop anything specific?",
-      "Nope! You can develop whatever you want, but if you are aiming to win it is reccomended to follow the track cybersecurity.",
+      "Nope! You can develop whatever you want, but for track specific prizes, make sure to build a project related to the track.",
       false,
     ],
     [
       "I don't know anything about coding. Can I still participate?",
-      "Yes! There will be several resources and workshops for those who don't know how to code to attend.",
+      "Yes! There will be several resources and workshops for those who don't know how to code to attend. Additionally, you can ask volunteers and event organizers for help.",
       false,
     ],
     [
