@@ -11,7 +11,7 @@ const Sponsors = () => {
         <img src={hackClubLogoPng} />
       </div>
       <div className="pt-20">
-        <h1 className="text-xl font-bold">
+        <h1 className="text-xl font-bold text-center">
           Want to sponsor us?{" "}
           <Link to="prospectus" className="text-blue-300 hover:underline">
             See our sponsors prospectus
