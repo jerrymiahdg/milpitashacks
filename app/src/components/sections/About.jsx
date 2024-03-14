@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <div className="flex flex-col items-center bg-gray-900 pt-20 pb-20 pl-5 pr-5">
+    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 bg-primary pt-20 pb-20 pl-5 pr-5">
       <div className="pb-20">
         <h1 className="text-3xl font-bold">About</h1>
       </div>
       <div className="flex gap-5 max-w-5xl w-full flex-col md:flex-row">
-        <div className="flex flex-col gap-2 p-3 bg-gray-800 rounded-md w-full">
+        <div className="flex flex-col gap-2 p-3 bg-gray-950/50 rounded-md w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="24"
@@ -18,7 +18,7 @@ const About = () => {
           <h2 className="font-bold">Beginner Friendly</h2>
           <h3>All high schoolers regardless of coding experience can have fun!</h3>
         </div>
-        <div className="flex flex-col gap-2 p-3 bg-gray-800 rounded-md w-full">
+        <div className="flex flex-col gap-2 p-3 bg-gray-950/50 rounded-md w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="24"
@@ -31,7 +31,7 @@ const About = () => {
           <h2 className="font-bold">Fully catered</h2>
           <h3>No need to bring lunch or dinner! Our sponsors have generously covered food for everyone!</h3>
         </div>
-        <div className="flex flex-col gap-2 p-3 bg-gray-800 rounded-md w-full">
+        <div className="flex flex-col gap-2 p-3 bg-gray-950/50 rounded-md w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="24"

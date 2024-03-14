@@ -73,11 +73,11 @@ const FAQ = () => {
   };
 
   return (
-    <div className="flex flex-col items-center pt-20 pb-20 pl-5 pr-5">
+    <div className="flex flex-col items-center pt-20 pb-20 pl-5 pr-5  bg-gradient-to-t from-gray-950 bg-primary">
       <div className="pb-20">
         <h1 className="text-3xl font-bold">FAQ</h1>
       </div>
-      <div className="flex flex-col p-5 bg-gray-900 rounded-lg max-w-3xl w-full">
+      <div className="flex flex-col p-5 bg-gray-950/50 rounded-lg max-w-3xl w-full">
         {faqs.map((faq, i) => (
           <div key={i} className="border-b border-gray-800">
             <div

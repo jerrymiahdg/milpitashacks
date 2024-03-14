@@ -41,7 +41,7 @@ const Landing = ({
       <div ref={teamRef}>
         <Team />
       </div>
-      <div className="flex justify-center bg-gray-900">
+      <div className="flex justify-center bg-gradient-to-b from-gray-950 bg-primary">
         <div className="flex  flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10 w-full max-w-7xl">
           <h1 className="text-4xl font-bold text-yellow-200">Register now.</h1>
           <a
