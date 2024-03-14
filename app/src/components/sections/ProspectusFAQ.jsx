@@ -3,27 +3,27 @@ import { useState } from "react";
 const ProspectusFAQ = () => {
   const [faqs, setFaqs] = useState([
     [
-      <b>"Why should you sponsor Milpitas Hacks?"</b>,
+      "Why should you sponsor Milpitas Hacks?",
       "Milpitas Hacks is the first high school hackathon of Milpitas High School in its 55 year history. Being one of the first sponsors for Milpitas Hacks will set up your company for upcoming hackathons and provide valuable recruiting and advertising opportunities.",
       false,
     ],
     [
-      <b>"How will funds be used?"</b>,
+      "How will funds be used?",
       "Any funds received through donations and sponsorships will be used to provide food and snacks for all participants, judges, and organizers, pay for prizes, pay for operational costs, and merchandise.",
       false,
     ],
     [
-      <b>"Are sponsorships tax deductible?"</b>,
+      "Are sponsorships tax deductible?",
       "Yes. Milpitas Hacks is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit legally registered as The Hack Foundation. Our EIN: 81-2908499.",
       false,
     ],
     [
-      <b>"How can you help?"</b>,
+      "How can you help?",
       "Sponsoring Milpitas Hacks is the best way to help. Other than that, sending mentors, judges, or providing free trials of pro versions of products for hackers to use also helps tremendously!",
       false,
     ],
     [
-      <b>"I have another question..."</b>,
+      "I have another question...",
       <>
         More questions? Reach out to us via{" "}
         <a
@@ -68,7 +68,7 @@ const ProspectusFAQ = () => {
               className="flex justify-between p-2 cursor-pointer"
               onClick={faqClickHandler(i)}
             >
-              <h2 className="w-full">{faq[0]}</h2>
+              <h2 className="w-full font-bold">{faq[0]}</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"

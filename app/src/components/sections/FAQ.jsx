@@ -3,43 +3,43 @@ import { useState } from "react";
 const FAQ = () => {
   const [faqs, setFaqs] = useState([
     [
-      <b>"Who can participate?"</b>,
+      "Who can participate?",
       "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
       false,
     ],
     [
-      <b>"Does this cost money?"</b>,
+      "Does this cost money?",
       "No! The Hackathon is totally free to attend, and all food (lunch, dinner, and snacks) will be provided.",
       false,
     ],
     [
-      <b>"What is Milpitas Hacks?"</b>,
+      "What is Milpitas Hacks?",
       "A Hackathon a weekend long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
       false,
     ],
     [
-      <b>"What should I bring?"</b>,
+      "What should I bring?",
       "Bring a laptop, a charger, a water bottle, and anything you might need. Food will be provided but you may bring your own as well, especially if you have food allergies.",
       false,
     ],
     [
-      <b>"What if I have dietary restrictions?"</b>,
+      "What if I have dietary restrictions?",
       "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accomidate food options for you. However, we do not garantee that these accomidations will be made for you, so it is recomended you bring your own food if it is a serious health concern.",
       false,
     ],
-    [<b>"Where do I check in?"</b>, "At the Milpitas High School Theater. (The side of the D-building with the theater entrance.", false],
+    ["Where do I check in?", "At the Milpitas High School Theater. (The side of the D-building with the theater entrance.", false],
     [
-      <b>"Do I have to develop anything specific?"</b>,
+      "Do I have to develop anything specific?",
       "Nope! You can develop whatever you want, but for track specific prizes, make sure to build a project related to the track.",
       false,
     ],
     [
-      <b>"I don't know anything about coding. Can I still participate?"</b>,
+      "I don't know anything about coding. Can I still participate?",
       "Yes! There will be several resources and workshops for those who don't know how to code to attend. Additionally, you can ask volunteers and event organizers for help.",
       false,
     ],
     [
-      <b>"I have another question..."</b>,
+      "I have another question...",
       <>
         More questions? Reach out to us via{" "}
         <a
@@ -84,7 +84,7 @@ const FAQ = () => {
               className="flex justify-between p-2 cursor-pointer"
               onClick={faqClickHandler(i)}
             >
-              <h2 className="w-full">{faq[0]}</h2>
+              <h2 className="w-full font-bold">{faq[0]}</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
