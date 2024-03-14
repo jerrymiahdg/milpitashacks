@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import hackClubLogoPng from "../../assets/hack-club-logo.png";
 
 const Sponsors = () => {
@@ -12,9 +13,9 @@ const Sponsors = () => {
       <div className="pt-20">
         <h1 className="text-xl font-bold">
           Want to sponsor us?{" "}
-          <a href="" className="text-blue-300 hover:underline">
+          <Link to="prospectus" className="text-blue-300 hover:underline">
             See our sponsors prospectus
-          </a>
+          </Link>
         </h1>
       </div>
     </div>

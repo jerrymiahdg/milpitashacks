@@ -9,11 +9,13 @@ import Tracks from "./components/sections/Tracks";
 import FAQ from "./components/sections/FAQ";
 import Team from "./components/sections/Team";
 import SideNav from "./components/SideNav";
-import { useLocation } from "react-router-dom";
+import { Route, useLocation, Routes } from "react-router-dom";
 import { useRef } from "react";
 import Sponsors from "./components/sections/Sponsors";
 import { MeteorsDemo } from "./components/sections/MeteorsDemo";
 import { Button } from "./components/ui/moving-border";
+import Landing from "./components/pages/Landing";
+import Prospectus from "./components/pages/Prospectus";
 
 export const Context = createContext();
 
@@ -48,7 +50,9 @@ function App() {
     }
   };
 
-  // useEffect(() => scrollToSection(location), []);
+  useEffect(() => {
+    scrollToSection(location.pathname);
+  }, []);
 
   return (
     <>
@@ -57,42 +61,23 @@ function App() {
       >
         <Nav />
         <SideNav />
-        <div ref={homeRef}>
-          <MeteorsDemo />
-        </div>
-        <div ref={aboutRef}>
-          <About />
-        </div>
-        <div ref={scheduleRef}>
-          <Schedule />
-        </div>
-        <div ref={tracksRef}>
-          <Tracks />
-        </div>
-        <div ref={faqRef}>
-          <FAQ />
-        </div>
-        <div ref={sponsorsRef}>
-          <Sponsors />
-        </div>
-        <div ref={teamRef}>
-          <Team />
-        </div>
-        <div className="flex justify-center bg-gray-900">
-          <div className="flex  flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10 w-full max-w-7xl">
-            <h1 className="text-4xl font-bold text-yellow-200">
-              Register now.
-            </h1>
-            <a
-                target="_blank"
-                href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
-            >
-            <Button>
-              Register
-            </Button>
-            </a>
-          </div>
-        </div>
+        <Routes>
+          <Route
+            path="/*"
+            element={
+              <Landing
+                tracksRef={tracksRef}
+                homeRef={homeRef}
+                aboutRef={aboutRef}
+                scheduleRef={scheduleRef}
+                teamRef={teamRef}
+                faqRef={faqRef}
+                sponsorsRef={sponsorsRef}
+              />
+            }
+          />
+          <Route path="prospectus" element={<Prospectus />} />
+        </Routes>
       </Context.Provider>
     </>
   );
