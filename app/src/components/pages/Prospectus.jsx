@@ -4,7 +4,7 @@ const Prospectus = () => {
   return (
     <div className="">
       <div className="flex justify-center">
-        <div className="flex flex-col gap-10 items-center px-10 pt-72 pb-48 max-w-4xl w-full font-bold">
+        <div className="flex flex-col gap-10 items-center px-10 py-48 max-w-4xl w-full font-bold">
           <h1 className="text-5xl md:text-7xl text-yellow-200 text-center">
             Milpitas Hacks Prospectus
           </h1>
