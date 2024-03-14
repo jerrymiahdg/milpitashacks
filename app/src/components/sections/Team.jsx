@@ -145,7 +145,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={vasistaPng}
+                  src={logoPng}
                   width="125"
                   className="rounded-full"
                   height="125"
