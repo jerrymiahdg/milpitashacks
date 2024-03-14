@@ -18,7 +18,7 @@ const SideNav = () => {
       <div
         className={`${
           ctx.sideNavActive ? "max-h-96 py-8 border-b border-l" : "max-h-0"
-        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-primary/50 backdrop-blur-lg right-0 px-8 gap-5 rounded-bl-2xl transition-all  border-gray-700 z-40`}
+        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-primary/50 backdrop-blur-lg right-0 px-8 gap-5 rounded-bl-2xl transition-all  border-secondary z-40`}
       >
         <Link
           to="about"
