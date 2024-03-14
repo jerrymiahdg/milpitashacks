@@ -18,40 +18,6 @@ const Landing = ({
   teamRef,
   faqRef,
 }) => {
-  //   const tracksRef = useRef();
-  //   const homeRef = useRef();
-  //   const aboutRef = useRef();
-  //   const scheduleRef = useRef();
-  //   const sponsorsRef = useRef();
-  //   const teamRef = useRef();
-  //   const faqRef = useRef();
-
-  //   getScrollToSection(
-  //   const scrollToSection = (scrollTo) => {
-  //     if (scrollTo === "/home") {
-  //       homeRef.current.scrollIntoView({ behavior: "smooth" });
-  //     } else if (scrollTo === "/about") {
-  //       aboutRef.current.scrollIntoView({ behavior: "smooth" });
-  //     } else if (scrollTo === "/schedule") {
-  //       scheduleRef.current.scrollIntoView({ behavior: "smooth" });
-  //     } else if (scrollTo === "/tracks") {
-  //       tracksRef.current.scrollIntoView({ behavior: "smooth" });
-  //     } else if (scrollTo === "/faq") {
-  //       faqRef.current.scrollIntoView({ behavior: "smooth" });
-  //     } else if (scrollTo === "/sponsors") {
-  //       sponsorsRef.current.scrollIntoView({ behavior: "smooth" });
-  //     } else if (scrollTo === "/team") {
-  //       teamRef.current.scrollIntoView({ behavior: "smooth" });
-  //     }
-  //   };
-  //   );
-  //   useEffect(() => {
-  //     console.log(props.message);
-  //     props.setScrollToSection(scrollToSection);
-  //   }, []);
-
-  const ctx = useContext(Context);
-
   return (
     <>
       <div ref={homeRef}>
