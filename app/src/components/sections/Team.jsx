@@ -2,6 +2,10 @@ import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import vasistaPng from "../../assets/vasista.png";
 import jeremiahPng from "../../assets/jeremiah.png";
 import pranayPng from "../../assets/pranay.png";
+import aahanPng from "../../assets/aahan.png";
+import aidanPng from "../../assets/aidan.png";
+import deveshPng from "../../assets/devesh.png";
+import harishPng from "../../assets/harish.png";
 import logoPng from "../../assets/Milpitas Hacks Logo.png";
 
 const Team = () => {
@@ -31,7 +35,7 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src={logoPng} width="125" height="125" />
+                <img src={aahanPng} width="125" height="125" />
               </CardItem>
             </div>
           </CardBody>
@@ -152,7 +156,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img
-                  src={logoPng}
+                  src={deveshPng}
                   width="125"
                   className="rounded-full"
                   height="125"
@@ -181,7 +185,7 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src={logoPng} width="125" height="125" />
+                <img src={harishPng} width="125" height="125" />
               </CardItem>
             </div>
           </CardBody>
@@ -206,7 +210,7 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src={logoPng} width="125" height="125" />
+                <img src={aidanPng} width="125" height="125" />
               </CardItem>
             </div>
           </CardBody>

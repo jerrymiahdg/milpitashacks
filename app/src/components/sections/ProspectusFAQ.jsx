@@ -3,43 +3,27 @@ import { useState } from "react";
 const ProspectusFAQ = () => {
   const [faqs, setFaqs] = useState([
     [
-      "Who can participate?",
-      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
+      <b>"Why should you sponsor Milpitas Hacks?"</b>,
+      "Milpitas Hacks is the first high school hackathon of Milpitas High School in its 55 year history. Being one of the first sponsors for Milpitas Hacks will set up your company for upcoming hackathons and provide valuable recruiting and advertising opportunities.",
       false,
     ],
     [
-      "Does this cost money?",
-      "No! The Hackathon is totally free to attend, and all food (lunch, dinner, and snacks) will be provided.",
+      <b>"How will funds be used?"</b>,
+      "Any funds received through donations and sponsorships will be used to provide food and snacks for all participants, judges, and organizers, pay for prizes, pay for operational costs, and merchandise.",
       false,
     ],
     [
-      "What is Milpitas Hacks?",
-      "A Hackathon a weekend long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
+      <b>"Are sponsorships tax deductible?"</b>,
+      "Yes. Milpitas Hacks is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit legally registered as The Hack Foundation. Our EIN: 81-2908499.",
       false,
     ],
     [
-      "What should I bring?",
-      "Bring a laptop, a charger, a water bottle, and anything you might need. Food will be provided but you may bring your own as well, especially if you have food allergies.",
+      <b>"How can you help?"</b>,
+      "Sponsoring Milpitas Hacks is the best way to help. Other than that, sending mentors, judges, or providing free trials of pro versions of products for hackers to use also helps tremendously!",
       false,
     ],
     [
-      "What if I have dietary restrictions?",
-      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accomidate food options for you. However, we do not garantee that these accomidations will be made for you, so it is recomended you bring your own food if it is a serious health concern.",
-      false,
-    ],
-    ["Where do I check in?", "The large gym", false],
-    [
-      "Do I have to develop anything specific?",
-      "Nope! You can develop whatever you want, but for track specific prizes, make sure to build a project related to the track.",
-      false,
-    ],
-    [
-      "I don't know anything about coding. Can I still participate?",
-      "Yes! There will be several resources and workshops for those who don't know how to code to attend. Additionally, you can ask volunteers and event organizers for help.",
-      false,
-    ],
-    [
-      "I have another question...",
+      <b>"I have another question..."</b>,
       <>
         More questions? Reach out to us via{" "}
         <a

@@ -7,11 +7,10 @@ const Tracks = () => {
       <div className="flex gap-5">
         <div className="flex flex-col gap-10 p-10 bg-gray-800 rounded-lg">
           <h2 className="font-bold text-3xl sm:text-5xl text-yellow-200">
-            Cybersecurity
+            To be announced...
           </h2>
           <h3>
-            Develop a product that can be used to address and enchance the
-            security of digital systems.
+            To be announced...
           </h3>
         </div>
       </div>

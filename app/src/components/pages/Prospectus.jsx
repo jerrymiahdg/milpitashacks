@@ -6,7 +6,7 @@ const Prospectus = () => {
       <div className="flex justify-center">
         <div className="flex flex-col gap-10 items-center px-10 py-48 max-w-4xl w-full font-bold">
           <h1 className="text-5xl md:text-7xl text-yellow-200 text-center">
-            Milpitas Hacks Prospectus
+            Milpitas Hacks Sponsors Prospectus
           </h1>
           <h2 className="text-center leading-7">
             Milpitas Hacks is the very first hackathon at Milpitas High School.
