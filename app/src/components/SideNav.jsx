@@ -14,61 +14,69 @@ const SideNav = () => {
   };
 
   return (
-    <div
-      className={`${
-        ctx.sideNavActive ? "translate-nav-down" : "translate-nav-up"
-      } flex flex-col fixed bg-gray-950 right-0 p-8 gap-5 rounded-bl-2xl transition-all border-l border-b border-gray-700 z-40`}
-    >
-      <Link
-        to="about"
-        className="hover:text-blue-300 transition-all"
-        onClick={sideNavLinkClickHandler("/about")}
+    <>
+      <div
+        className={`${
+          ctx.sideNavActive ? "translate-nav-down" : "translate-nav-up"
+        } flex flex-col fixed bg-gray-950 right-0 p-8 gap-5 rounded-bl-2xl transition-all border-l border-b border-gray-700 z-40`}
       >
-        About
-      </Link>
-      <Link
-        to="schedule"
-        className="hover:text-blue-300 transition-all"
-        onClick={sideNavLinkClickHandler("/schedule")}
-      >
-        Schedule
-      </Link>
-      <Link
-        to="tracks"
-        className="hover:text-blue-300 transition-all"
-        onClick={sideNavLinkClickHandler("/tracks")}
-      >
-        Tracks
-      </Link>
-      <Link
-        to="faq"
-        className="hover:text-blue-300 transition-all"
-        onClick={sideNavLinkClickHandler("/faq")}
-      >
-        FAQ
-      </Link>
-      <Link
-        to="sponsors"
-        className="hover:text-blue-300 transition-all"
-        onClick={sideNavLinkClickHandler("/sponsors")}
-      >
-        Sponsors
-      </Link>
-      <a
-        href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
-        target="_blank"
-        className="hover:text-blue-300 transition-all"
-      >
-        Donate
-      </a>
-      <Link
-        to="team"
-        className="hover:text-blue-300 transition-all"
-        onClick={sideNavLinkClickHandler("/team")}
-      >
-        Team
-      </Link>
-    </div>
+        <Link
+          to="about"
+          className="hover:text-blue-300 transition-all"
+          onClick={sideNavLinkClickHandler("/about")}
+        >
+          About
+        </Link>
+        <Link
+          to="schedule"
+          className="hover:text-blue-300 transition-all"
+          onClick={sideNavLinkClickHandler("/schedule")}
+        >
+          Schedule
+        </Link>
+        <Link
+          to="tracks"
+          className="hover:text-blue-300 transition-all"
+          onClick={sideNavLinkClickHandler("/tracks")}
+        >
+          Tracks
+        </Link>
+        <Link
+          to="faq"
+          className="hover:text-blue-300 transition-all"
+          onClick={sideNavLinkClickHandler("/faq")}
+        >
+          FAQ
+        </Link>
+        <Link
+          to="sponsors"
+          className="hover:text-blue-300 transition-all"
+          onClick={sideNavLinkClickHandler("/sponsors")}
+        >
+          Sponsors
+        </Link>
+        <a
+          href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
+          target="_blank"
+          className="hover:text-blue-300 transition-all"
+        >
+          Donate
+        </a>
+        <Link
+          to="team"
+          className="hover:text-blue-300 transition-all"
+          onClick={sideNavLinkClickHandler("/team")}
+        >
+          Team
+        </Link>
+      </div>
+      <div
+        className={`w-screen bg-transparent h-screen fixed z-30 ${
+          ctx.sideNavActive ? "" : "hidden"
+        }`}
+        onClick={() => ctx.setSideNavActive(false)}
+      ></div>
+    </>
   );
 };
 

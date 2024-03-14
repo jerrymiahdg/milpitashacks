@@ -84,7 +84,7 @@ const ProspectusFAQ = () => {
               className="flex justify-between p-2 cursor-pointer"
               onClick={faqClickHandler(i)}
             >
-              <h2>{faq[0]}</h2>
+              <h2 className="w-full">{faq[0]}</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
@@ -99,7 +99,7 @@ const ProspectusFAQ = () => {
             <div className={`pl-2 transition-all ${faq[2] ? "pb-2" : ""}`}>
               <h1
                 className={`${
-                  faq[2] ? " max-h-12" : "max-h-0"
+                  faq[2] ? " max-h-56" : "max-h-0"
                 } ease-in-out transition-all overflow-hidden`}
               >
                 {faq[1]}
