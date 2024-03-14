@@ -10,7 +10,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "rgb(0, 17, 82)"
+        primary: "rgb(0, 17, 82)",
+        secondary: "rgb(0, 17, 50)"
       },
       animation: {
         "meteor-effect": "meteor 5s linear infinite",

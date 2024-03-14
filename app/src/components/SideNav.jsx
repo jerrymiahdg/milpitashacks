@@ -18,7 +18,7 @@ const SideNav = () => {
       <div
         className={`${
           ctx.sideNavActive ? "translate-nav-down" : "translate-nav-up"
-        } flex flex-col fixed bg-gray-950 right-0 p-8 gap-5 rounded-bl-2xl transition-all border-l border-b border-gray-700 z-40`}
+        } flex flex-col fixed bg-primary/50 backdrop-blur-lg right-0 p-8 gap-5 rounded-bl-2xl transition-all border-l border-b border-gray-700 z-40`}
       >
         <Link
           to="about"
