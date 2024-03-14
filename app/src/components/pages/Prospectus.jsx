@@ -5,7 +5,7 @@ const Prospectus = () => {
     <div className="">
       <div className="flex justify-center">
         <div className="flex flex-col gap-10 items-center px-10 pt-72 pb-48 max-w-4xl w-full font-bold">
-          <h1 className="text-7xl text-yellow-200 text-center">
+          <h1 className="text-5xl md:text-7xl text-yellow-200 text-center">
             Milpitas Hacks Prospectus
           </h1>
           <h2 className="text-center leading-7">
@@ -29,9 +29,9 @@ const Prospectus = () => {
         </div>
       </div>
       <div className="flex flex-col items-center p-5 gap-5 pb-20">
-        <div className="grid grid-cols-3 max-w-7xl w-full border border-gray-800 rounded-md">
-          <div className="border-r border-gray-800">
-            <div className="font-bold p-5 bg-gray-900 border-r border-b border-gray-800">
+        <div className="flex flex-col md:grid grid-cols-3 max-w-7xl w-full border border-gray-800 rounded-md">
+          <div className="md:border-r border-gray-800">
+            <div className="font-bold p-5 bg-gray-900 border-b border-gray-800">
               Bronze | $750
             </div>
             <div className="p-5 flex flex-col gap-2">
@@ -44,7 +44,7 @@ const Prospectus = () => {
               </ul>
             </div>
           </div>
-          <div className="border-r border-gray-800">
+          <div className="md:border-r border-gray-800">
             <div className="font-bold p-5 bg-gray-900 border-b border-gray-800">
               Silver | $1200
             </div>
