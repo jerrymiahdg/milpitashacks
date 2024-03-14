@@ -5,8 +5,8 @@ import { BackgroundGradientAnimation } from "../ui/background-gradient-animation
 
 export function MeteorsDemo() {
   return (
-    <div className="">
-      <BackgroundGradientAnimation className="h-full">
+    <div className="bg-gradient-to-t from-gray-950 bg-primary">
+      {/* <BackgroundGradientAnimation className="h-full"> */}
       <div className=" h-screen relative w-screen">
         {/* <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" /> */}
         {/* <div className="relative shadow-xl bg-gray-950 border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-start">
@@ -74,7 +74,7 @@ export function MeteorsDemo() {
         </div>
       </div>
 
-      </BackgroundGradientAnimation>
+      {/* </BackgroundGradientAnimation> */}
     </div>
   );
 }

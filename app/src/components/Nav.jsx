@@ -22,7 +22,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-center fixed w-full bg-gray-950 z-50 border-b border-gray-700">
+    <div className="flex justify-center fixed w-full bg-primary/50 z-50 border-b border-gray-700 backdrop-blur-lg">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
           <img src={logoPNG} width={50}></img>
