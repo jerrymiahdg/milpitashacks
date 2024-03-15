@@ -8,7 +8,7 @@ const Sponsors = () => {
         <h1 className="text-3xl font-bold">Sponsors</h1>
       </div>
       <div className="flex gap-5 max-w-5xl w-full flex-col md:flex-row justify-center">
-        <img src={hackClubLogoPng} />
+        <a href="https://hackclub.com/" target="_blank"><img src={hackClubLogoPng} /></a>
       </div>
       <div className="pt-20">
         <h1 className="text-xl font-bold text-center">
