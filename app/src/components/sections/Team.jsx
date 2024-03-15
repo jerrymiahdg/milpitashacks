@@ -303,6 +303,22 @@ const Team = () => {
               >
                 <img src={aidanPng} width="125" height="125" />
               </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
+              >
+                <a
+                  href="https://www.linkedin.com/in/aidan-hoang-15b927257/"
+                  target="_blank"
+                >
+                  <img
+                    src={linkedInPng}
+                    className="rounded-sm"
+                    width="25"
+                    height="25"
+                  />
+                </a>
+              </CardItem>
             </div>
           </CardBody>
         </CardContainer>
