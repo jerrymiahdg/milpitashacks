@@ -9,6 +9,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        primary: "rgb(0, 17, 82)",
+        secondary: "rgb(0, 30, 95)"
+      },
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
       },

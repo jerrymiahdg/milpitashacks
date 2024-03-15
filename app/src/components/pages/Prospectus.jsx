@@ -2,7 +2,7 @@ import ProspectusFAQ from "../sections/ProspectusFAQ";
 
 const Prospectus = () => {
   return (
-    <div className="">
+    <div className="bg-gradient-to-t from-gray-950 bg-primary">
       <div className="flex justify-center">
         <div className="flex flex-col gap-10 items-center px-10 py-48 max-w-4xl w-full font-bold">
           <h1 className="text-5xl md:text-7xl text-yellow-200 text-center">
@@ -31,10 +31,10 @@ const Prospectus = () => {
       <div className="flex flex-col items-center p-5 gap-5 pb-20">
         <div className="flex flex-col md:grid grid-cols-3 max-w-7xl w-full border border-gray-800 rounded-md">
           <div className="md:border-r border-gray-800">
-            <div className="font-bold p-5 bg-gray-900 border-b border-gray-800">
+            <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
               Bronze | $750
             </div>
-            <div className="p-5 flex flex-col gap-2">
+            <div className="p-5 text-lg flex flex-col gap-2">
               <ul className="list-disc pl-5 flex flex-col gap-2">
                 <li>Logo on website under bronze tier</li>
                 <li>Distribute recruiting materials</li>
@@ -45,10 +45,10 @@ const Prospectus = () => {
             </div>
           </div>
           <div className="md:border-r border-gray-800">
-            <div className="font-bold p-5 bg-gray-900 border-b border-gray-800">
+            <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
               Silver | $1200
             </div>
-            <div className="p-5 flex flex-col gap-2">
+            <div className="p-5 text-lg flex flex-col gap-2">
               <h1>Everything in bronze + the following:</h1>
               <ul className="list-disc pl-5 flex flex-col gap-2">
                 <li>1 Emails to 150+ participants</li>
@@ -63,10 +63,10 @@ const Prospectus = () => {
             </div>
           </div>
           <div>
-            <div className="font-bold p-5 bg-gray-900 border-b border-gray-800">
+            <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
               Gold | $2000
             </div>
-            <div className="p-5 flex flex-col gap-2">
+            <div className="p-5 text-lg flex flex-col gap-2">
               <h1>Everything in silver and bronze + the following:</h1>
               <ul className="list-disc pl-5 flex flex-col gap-2">
                 <li>5 emails to 150+ participants</li>
@@ -79,7 +79,7 @@ const Prospectus = () => {
             </div>
           </div>
         </div>
-        <h1>*all number of participants are estimates</h1>
+        <h1 className="text-lg">*all number of participants are estimates</h1>
       </div>
       <ProspectusFAQ />
     </div>

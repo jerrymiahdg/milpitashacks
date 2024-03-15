@@ -22,7 +22,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-center fixed w-full bg-gray-950 z-50 border-b border-gray-700">
+    <div className="flex justify-center fixed w-full bg-primary/50 z-50 border-b border-secondary backdrop-blur-lg">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
           <img src={logoPNG} width={50}></img>
@@ -101,7 +101,7 @@ const Nav = () => {
             </a>
           </button>
           <button
-            className={`bg-gray-900 opacity-80 p-2 rounded-md transition-all hover:opacity-100 ${
+            className={`bg-secondary opacity-80 p-2 rounded-md transition-all hover:opacity-100 ${
               width > 750 ? "hidden" : ""
             }`}
             onClick={menuClickHandler}
