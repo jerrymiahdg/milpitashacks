@@ -40,7 +40,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white flex items-center h-screen"
+                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/aahan-shah/"
@@ -186,7 +186,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/devesh-mamidi-678998231/"
@@ -232,7 +232,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
               >
                 <a
                   href="https://www.linkedin.com/in/harish-manukonda-8bbb02274/"
