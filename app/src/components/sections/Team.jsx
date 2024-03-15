@@ -35,7 +35,8 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <a href="https://www.linkedin.com/in/aahan-shah/" target="_blank"><img src={aahanPng} width="125" height="125" /></a>
+                <img src={aahanPng} width="125" height="125" />
+                <img src={linkedinPng} width="40" height="40" />
               </CardItem>
             </div>
           </CardBody>
