@@ -155,12 +155,12 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img
+                <a href="https://www.linkedin.com/in/devesh-mamidi-678998231/" target="_blank"><img
                   src={deveshPng}
                   width="125"
                   className="rounded-full"
                   height="125"
-                />
+                /></a>
               </CardItem>
             </div>
           </CardBody>
@@ -185,7 +185,7 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src={harishPng} width="125" height="125" />
+                <a href="https://www.linkedin.com/in/harish-manukonda-8bbb02274/" target="_blank"><img src={harishPng} width="125" height="125" /></a>
               </CardItem>
             </div>
           </CardBody>
