@@ -27,7 +27,11 @@ const FAQ = () => {
       "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accomidate food options for you. However, we do not garantee that these accomidations will be made for you, so it is recomended you bring your own food if it is a serious health concern.",
       false,
     ],
-    ["Where do I check in?", "At the Milpitas High School Theater. (The side of the D-building with the theater entrance.", false],
+    [
+      "Where do I check in?",
+      "At the Milpitas High School Theater. (The side of the D-building with the theater entrance.",
+      false,
+    ],
     [
       "Do I have to develop anything specific?",
       "Nope! You can develop whatever you want, but for track specific prizes, make sure to build a project related to the track.",
@@ -77,14 +81,14 @@ const FAQ = () => {
       <div className="pb-20">
         <h1 className="text-3xl font-bold">FAQ</h1>
       </div>
-      <div className="flex flex-col p-5 bg-gray-950/50 rounded-lg max-w-3xl w-full">
+      <div className="flex flex-col p-5 bg-gray-950/50 rounded-lg max-w-5xl w-full">
         {faqs.map((faq, i) => (
           <div key={i} className="border-b border-gray-800">
             <div
               className="flex justify-between p-2 cursor-pointer"
               onClick={faqClickHandler(i)}
             >
-              <h2 className="w-full font-bold">{faq[0]}</h2>
+              <h2 className="w-full font-bold text-lg">{faq[0]}</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
@@ -100,7 +104,7 @@ const FAQ = () => {
               <h1
                 className={`${
                   faq[2] ? " max-h-56" : "max-h-0"
-                } ease-in-out transition-all overflow-hidden`}
+                } ease-in-out text-lg transition-all overflow-hidden`}
               >
                 {faq[1]}
               </h1>
