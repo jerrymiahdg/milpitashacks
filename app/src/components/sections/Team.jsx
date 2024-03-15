@@ -79,6 +79,22 @@ const Team = () => {
               >
                 <img src={pranayPng} width="125" height="125" />
               </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+              >
+                <a
+                  href="https://www.linkedin.com/in/pranay-jain-59563223a/"
+                  target="_blank"
+                >
+                  <img
+                    src={linkedInPng}
+                    className="rounded-sm"
+                    width="25"
+                    height="25"
+                  />
+                </a>
+              </CardItem>
             </div>
           </CardBody>
         </CardContainer>
