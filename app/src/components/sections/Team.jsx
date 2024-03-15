@@ -206,7 +206,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Sponsors
+              Finances
             </CardItem>
             <div className="">
               <CardItem
