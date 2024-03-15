@@ -46,7 +46,7 @@ const Landing = ({
           <h1 className="text-4xl font-bold text-yellow-200">Register now.</h1>
           <a
             target="_blank"
-            href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
+            href="https://tripetto.app/run/O7E32KMH7T"
           >
             <Button>Register</Button>
           </a>
