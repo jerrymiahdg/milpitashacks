@@ -38,6 +38,17 @@ const Team = () => {
               >
                 <img src={aahanPng} width="125" height="125" />
               </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <a href="https://www.linkedin.com/in/aahan-shah/" target="_blank"><img
+                  src={linkedInPng}
+                  className="rounded-sm"
+                  width="25"
+                  height="25"
+                /></a>
+              </CardItem>
             </div>
           </CardBody>
         </CardContainer>
@@ -62,17 +73,6 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img src={pranayPng} width="125" height="125" />
-              </CardItem>
-              <CardItem
-                translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
-              >
-                <img
-                  src={linkedInPng}
-                  className="rounded-sm"
-                  width="25"
-                  height="25"
-                />
               </CardItem>
             </div>
           </CardBody>
@@ -179,6 +179,17 @@ const Team = () => {
                   />
                 </a>
               </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <a href="https://www.linkedin.com/in/devesh-mamidi-678998231/" target="_blank"><img
+                  src={linkedInPng}
+                  className="rounded-sm"
+                  width="25"
+                  height="25"
+                /></a>
+              </CardItem>
             </div>
           </CardBody>
         </CardContainer>
@@ -208,6 +219,17 @@ const Team = () => {
                 >
                   <img src={harishPng} width="125" height="125" />
                 </a>
+              </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <a href="https://www.linkedin.com/in/harish-manukonda-8bbb02274/" target="_blank"><img
+                  src={linkedInPng}
+                  className="rounded-sm"
+                  width="25"
+                  height="25"
+                /></a>
               </CardItem>
             </div>
           </CardBody>
