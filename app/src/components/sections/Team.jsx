@@ -62,7 +62,7 @@ const Team = () => {
               >
                 <img src={pranayPng} width="125" height="125" />
               </CardItem>
-              <CardItem>
+              <CardItem className="absolute">
                 <img src={linkedinPng} width="40" height="40" style={{ position: "absolute", top: "100px" }} />
               </CardItem>
             </div>
