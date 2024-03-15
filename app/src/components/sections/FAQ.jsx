@@ -23,8 +23,8 @@ const FAQ = () => {
       false,
     ],
     [
-      <b>"What if I have dietary restrictions?"</b>,
-      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accomidate food options for you. However, we do not garantee that these accomidations will be made for you, so it is recomended you bring your own food if it is a serious health concern.",
+      <b>What if I have dietary restrictions?</b>,
+      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accommodate food options for you. However, we do not guarantee that these accommodations will be made for you, so it is recommended you bring your own food if it is a serious health concern.",
       false,
     ],
     [
