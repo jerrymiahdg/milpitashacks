@@ -24,7 +24,7 @@ const FAQ = () => {
     ],
     [
       "What if I have dietary restrictions?",
-      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accomidate food options for you. However, we do not garantee that these accomidations will be made for you, so it is recomended you bring your own food if it is a serious health concern.",
+      "No problem! Fill out your dietary restrictions in the application form, and we will try our best to accommodate food options for you. However, we do not guarantee that these accommodations will be made for you, so it is recommended you bring your own food if it is a serious health concern.",
       false,
     ],
     [
@@ -40,6 +40,11 @@ const FAQ = () => {
     [
       "I don't know anything about coding. Can I still participate?",
       "Yes! There will be several resources and workshops for those who don't know how to code to attend. Additionally, you can ask volunteers and event organizers for help.",
+      false,
+    ],
+    [
+      "Can I arrive late?",
+      "Yes but please make sure to inform organizers and have your team arrive before you so that we can save your spot and you don't get replaced by people on the waitlist.",
       false,
     ],
     [
