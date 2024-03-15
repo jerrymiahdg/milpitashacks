@@ -135,7 +135,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
                 <a
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://www.linkedin.com/in/vasistar/"
                   target="_blank"
                 >
                   <img
@@ -175,6 +175,22 @@ const Team = () => {
                   width="125"
                   height="125"
                 />
+              </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+              >
+                <a
+                  href="https://www.linkedin.com/in/jeremiah-de-guzman-0488002ba/"
+                  target="_blank"
+                >
+                  <img
+                    src={linkedInPng}
+                    className="rounded-sm"
+                    width="25"
+                    height="25"
+                  />
+                </a>
               </CardItem>
             </div>
           </CardBody>
