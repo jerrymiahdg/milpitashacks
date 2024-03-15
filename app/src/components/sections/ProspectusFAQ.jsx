@@ -59,7 +59,7 @@ const ProspectusFAQ = () => {
   return (
     <div className="flex flex-col items-center py-20 pl-5 pr-5 border-t border-gray-900">
       <div className="pb-20">
-        <h1 className="text-3xl font-bold">FAQ</h1>
+        <h1 className="text-4xl font-bold">FAQ</h1>
       </div>
       <div className="flex flex-col px-5 pt-5 rounded-lg max-w-3xl w-full">
         {faqs.map((faq, i) => (
@@ -68,7 +68,7 @@ const ProspectusFAQ = () => {
               className="flex justify-between p-2 cursor-pointer"
               onClick={faqClickHandler(i)}
             >
-              <h2 className="w-full font-bold">{faq[0]}</h2>
+              <h2 className="text-lg w-full font-bold">{faq[0]}</h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
@@ -80,7 +80,9 @@ const ProspectusFAQ = () => {
                 <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
               </svg>
             </div>
-            <div className={`pl-2 transition-all ${faq[2] ? "pb-2" : ""}`}>
+            <div
+              className={`text-lg pl-2 transition-all ${faq[2] ? "pb-2" : ""}`}
+            >
               <h1
                 className={`${
                   faq[2] ? " max-h-56" : "max-h-0"
