@@ -36,7 +36,6 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 <img src={aahanPng} width="125" height="125" />
-                <img src={linkedinPng} width="40" height="40" />
               </CardItem>
             </div>
           </CardBody>
