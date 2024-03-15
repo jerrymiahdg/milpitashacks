@@ -40,7 +40,7 @@ const Team = () => {
               </CardItem>
               <CardItem
                 translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white flex justify-center items-center h-screen"
+                className="py-2 rounded-xl text-xs font-normal dark:text-white flex items-center h-screen"
               >
                 <a
                   href="https://www.linkedin.com/in/aahan-shah/"
