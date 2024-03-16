@@ -82,7 +82,9 @@ const Prospectus = () => {
         <h1 className="text-lg">*all number of participants are estimates</h1>
       </div>
       <ProspectusFAQ />
+      <div className="flex flex-col items-center">
       <h1 className="text-lg">Interested in sponsoring us? Contact us at <a href="mailto:milpitashacks@gmail.com">milpitashacks@gmail.com</a></h1>
+      </div>
     </div>
   );
 };
