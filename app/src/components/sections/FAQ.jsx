@@ -61,7 +61,6 @@ const FAQ = () => {
       false,
     ],
   ]);
-  console.log(faqs);
 
   const faqClickHandler = (i) => {
     return () => {
@@ -108,7 +107,7 @@ const FAQ = () => {
             <div className={`pl-2 transition-all ${faq[2] ? "pb-2" : ""}`}>
               <h1
                 className={`${
-                  faq[2] ? " max-h-56" : "max-h-0"
+                  faq[2] ? " max-h-72" : "max-h-0"
                 } ease-in-out text-lg transition-all overflow-hidden`}
               >
                 {faq[1]}

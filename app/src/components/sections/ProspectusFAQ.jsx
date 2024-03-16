@@ -85,7 +85,7 @@ const ProspectusFAQ = () => {
             >
               <h1
                 className={`${
-                  faq[2] ? " max-h-56" : "max-h-0"
+                  faq[2] ? " max-h-72" : "max-h-0"
                 } ease-in-out transition-all overflow-hidden`}
               >
                 {faq[1]}

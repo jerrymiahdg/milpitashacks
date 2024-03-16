@@ -30,59 +30,87 @@ const Prospectus = () => {
       </div>
       <div className="flex flex-col items-center p-5 gap-5 pb-20">
         <div className="flex flex-col md:grid grid-cols-3 max-w-7xl w-full border border-gray-800 rounded-md">
-          <div className="md:border-r border-gray-800">
+          <div className="md:border-r border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
               Bronze | $750
             </div>
-            <div className="p-5 text-lg flex flex-col gap-2">
-              <ul className="list-disc pl-5 flex flex-col gap-2">
-                <li>Logo on website under bronze tier</li>
-                <li>Distribute recruiting materials</li>
-                <li>
-                  Notify everyone on the Discord Server (200+ participants)
-                </li>
-              </ul>
+            <div className="p-5 gap-5 flex flex-col justify-between h-full">
+              <div className="text-lg flex flex-col gap-2">
+                <ul className="list-disc pl-5 flex flex-col gap-2">
+                  <li>Logo on website under bronze tier</li>
+                  <li>Distribute recruiting materials</li>
+                  <li>
+                    Notify everyone on the Discord Server (200+ participants)
+                  </li>
+                </ul>
+              </div>
+              <a>
+                <button className="bg-light p-3 w-full rounded-md opacity-90 hover:opacity-100">
+                  Contact us!
+                </button>
+              </a>
             </div>
           </div>
-          <div className="md:border-r border-gray-800">
+          <div className="border-t md:border-t-0 md:border-r border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
               Silver | $1200
             </div>
-            <div className="p-5 text-lg flex flex-col gap-2">
-              <h1>Everything in bronze + the following:</h1>
-              <ul className="list-disc pl-5 flex flex-col gap-2">
-                <li>1 Emails to 150+ participants</li>
-                <li>Logo on our website under silver tier</li>
-                <li>Send a judge to the panel</li>
-                <li>
-                  Mentioning company name in both Opening & Closing ceremony.
-                </li>
-                <li>Logos on shirts</li>
-                <li>Access to devpost and participant names</li>
-              </ul>
+            <div className="p-5 gap-5 flex flex-col justify-between h-full">
+              <div className="text-lg flex flex-col gap-2">
+                <h1>Everything in bronze + the following:</h1>
+                <ul className="list-disc pl-5 flex flex-col gap-2">
+                  <li>1 Emails to 150+ participants</li>
+                  <li>Logo on our website under silver tier</li>
+                  <li>Send a judge to the panel</li>
+                  <li>
+                    Mentioning company name in both Opening & Closing ceremony.
+                  </li>
+                  <li>Logos on shirts</li>
+                  <li>Access to devpost and participant names</li>
+                </ul>
+              </div>
+              <a>
+                <button className="bg-light p-3 w-full rounded-md opacity-90 hover:opacity-100">
+                  Contact us!
+                </button>
+              </a>
             </div>
           </div>
-          <div>
-            <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
+          <div className=" flex flex-col">
+            <div className="font-bold text-lg p-5 border-t md:border-t-0  bg-gray-950/50 border-b border-gray-800">
               Gold | $2000
-            </div>
-            <div className="p-5 text-lg flex flex-col gap-2">
-              <h1>Everything in silver and bronze + the following:</h1>
-              <ul className="list-disc pl-5 flex flex-col gap-2">
-                <li>5 emails to 150+ participants</li>
-                <li>Distribute company swag</li>
-                <li>Logo on our website under gold tier</li>
-                <li>Custom award category with company name</li>
-                <li>Initial API/Product Demos</li>
-                <li>Sending 2 judges to the judging panel</li>
-              </ul>
+            </div>{" "}
+            <div className="p-5 gap-5 flex flex-col justify-between h-full">
+              <div className=" text-lg flex flex-col gap-2">
+                <h1>Everything in silver and bronze + the following:</h1>
+                <ul className="list-disc pl-5 flex flex-col gap-2">
+                  <li>5 emails to 150+ participants</li>
+                  <li>Distribute company swag</li>
+                  <li>Logo on our website under gold tier</li>
+                  <li>Custom award category with company name</li>
+                  <li>Initial API/Product Demos</li>
+                  <li>Sending 2 judges to the judging panel</li>
+                </ul>
+              </div>
+              <a>
+                <button className="bg-light p-3 w-full rounded-md opacity-90 hover:opacity-100">
+                  Contact us!
+                </button>
+              </a>
             </div>
           </div>
         </div>
         <h1 className="text-lg">*all number of participants are estimates</h1>
-      </div>
-      <div className="flex flex-col items-center p-5">
-      <h1 className="text-lg">Interested in sponsoring us? Contact us at <a href="mailto:milpitashacks@gmail.com" className="text-blue-200 hover:underline">milpitashacks@gmail.com</a></h1>
+        <div className="p-2"></div>
+        <h1 className="text-lg text-center">
+          Interested in sponsoring us? Contact us at{" "}
+          <a
+            href="mailto:milpitashacks@gmail.com"
+            className="text-blue-200 hover:underline"
+          >
+            milpitashacks@gmail.com
+          </a>
+        </h1>
       </div>
       <ProspectusFAQ />
     </div>

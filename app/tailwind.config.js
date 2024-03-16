@@ -11,7 +11,8 @@ export default {
     extend: {
       colors: {
         primary: "rgb(0, 17, 82)",
-        secondary: "rgb(0, 30, 95)"
+        light: "rgb(25, 42, 107)",
+        secondary: "rgb(0, 30, 95)",
       },
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
