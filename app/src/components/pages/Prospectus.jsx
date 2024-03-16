@@ -102,15 +102,6 @@ const Prospectus = () => {
         </div>
         <h1 className="text-lg">*all number of participants are estimates</h1>
         <div className="p-2"></div>
-        <h1 className="text-lg text-center">
-          Interested in sponsoring us? Contact us at{" "}
-          <a
-            href="mailto:milpitashacks@gmail.com"
-            className="text-blue-200 hover:underline"
-          >
-            milpitashacks@gmail.com
-          </a>
-        </h1>
       </div>
       <ProspectusFAQ />
     </div>
