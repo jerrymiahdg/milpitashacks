@@ -4,7 +4,7 @@ const FAQ = () => {
   const [faqs, setFaqs] = useState([
     [
       "Who can participate?",
-      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience required! If you've graduated from high school, you cannot participate, but can help out by volunteering for the day.",
+      "Milpitas Hacks is open to high school students in all grades 9-12, no prior coding experience is required! If you've graduated from high school, you cannot participate, but you can help out by volunteering for the day.",
       false,
     ],
     [
@@ -29,7 +29,7 @@ const FAQ = () => {
     ],
     [
       "Where do I check in?",
-      "At the Milpitas High School Theater. (The side of the D-building with the theater entrance.",
+      "At the Milpitas High School Theater. (The side of the D-building with the theater entrance)",
       false,
     ],
     [

@@ -12,7 +12,7 @@ const Prospectus = () => {
             Milpitas Hacks is the very first hackathon at Milpitas High School.
             Milpitas High School has long been the home of avid programmers,
             from web developers to backend engineers. We want to spread our
-            passion to the rest of the Bay Area through Milpitas Hacks.<br></br>Milpitas
+            passion to the rest of the Bay Area through Milpitas Hacks. Milpitas
             Hacks is hackathon for Bay Area high schoolers that emphasizes the
             inclusion of women in STEM. Our commitment to this is reflected in
             our partnership with Milpitas High STEM Girls as well as Milpitas
@@ -102,15 +102,6 @@ const Prospectus = () => {
         </div>
         <h1 className="text-lg">*all number of participants are estimates</h1>
         <div className="p-2"></div>
-        <h1 className="text-lg text-center">
-          Interested in sponsoring us? Contact us at{" "}
-          <a
-            href="mailto:milpitashacks@gmail.com"
-            className="text-blue-200 hover:underline"
-          >
-            milpitashacks@gmail.com
-          </a>
-        </h1>
       </div>
       <ProspectusFAQ />
     </div>
