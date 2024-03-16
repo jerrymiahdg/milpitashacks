@@ -13,7 +13,7 @@ const Prospectus = () => {
             Milpitas High School has long been the home of avid programmers,
             from web developers to backend engineers. We want to spread our
             passion to the rest of the Bay Area through Milpitas Hacks. Milpitas
-            Hacks is hackathon for Bay Area high schoolers that emphasizes the
+            Hacks is a hackathon for Bay Area high schoolers that emphasizes the
             inclusion of women in STEM. Our commitment to this is reflected in
             our partnership with Milpitas High STEM Girls as well as Milpitas
             High Girls Who Code. This year, we are aiming to have around 200
