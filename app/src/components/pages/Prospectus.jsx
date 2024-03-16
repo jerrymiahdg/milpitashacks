@@ -66,7 +66,7 @@ const Prospectus = () => {
                   <li>
                     Mentioning company name in both Opening & Closing ceremony.
                   </li>
-                  <li>Access to devpost and participant emails</li>
+                  <li>Access to Devpost and participant emails</li>
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
