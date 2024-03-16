@@ -36,7 +36,12 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src={aahanPng} width="125" height="125" />
+                <img
+                  className="rounded-full"
+                  src={aahanPng}
+                  width="125"
+                  height="125"
+                />
               </CardItem>
               <CardItem
                 translateZ={20}
@@ -134,10 +139,7 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
-                <a
-                  href="https://www.linkedin.com/in/vasistar/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/vasistar/" target="_blank">
                   <img
                     src={linkedInPng}
                     className="rounded-sm"
@@ -220,12 +222,12 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                  <img
-                    src={deveshPng}
-                    width="125"
-                    className="rounded-full"
-                    height="125"
-                  />
+                <img
+                  src={deveshPng}
+                  width="125"
+                  className="rounded-full"
+                  height="125"
+                />
               </CardItem>
               <CardItem
                 translateZ={20}
@@ -266,8 +268,7 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                  <img src={harishPng} width="125" height="125" />
-                
+                <img src={harishPng} width="125" height="125" />
               </CardItem>
               <CardItem
                 translateZ={20}
