@@ -44,7 +44,7 @@ const Prospectus = () => {
                   </li>
                 </ul>
               </div>
-              <a>
+              <a href="mailto:milpitashacks@gmail.com">
                 <button className="bg-light p-3 w-full rounded-md opacity-90 hover:opacity-100">
                   Contact us!
                 </button>
@@ -69,7 +69,7 @@ const Prospectus = () => {
                   <li>Access to devpost and participant names</li>
                 </ul>
               </div>
-              <a>
+              <a href="mailto:milpitashacks@gmail.com">
                 <button className="bg-light p-3 w-full rounded-md opacity-90 hover:opacity-100">
                   Contact us!
                 </button>
@@ -92,7 +92,7 @@ const Prospectus = () => {
                   <li>Sending 2 judges to the judging panel</li>
                 </ul>
               </div>
-              <a>
+              <a href="mailto:milpitashacks@gmail.com">
                 <button className="bg-light p-3 w-full rounded-md opacity-90 hover:opacity-100">
                   Contact us!
                 </button>
