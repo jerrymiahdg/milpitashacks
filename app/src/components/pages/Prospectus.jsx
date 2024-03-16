@@ -83,7 +83,7 @@ const Prospectus = () => {
       </div>
       <ProspectusFAQ />
       <div className="flex flex-col items-center p-5">
-      <h1 className="absolute bottom-0 text-lg">Interested in sponsoring us? Contact us at <a href="mailto:milpitashacks@gmail.com" className="text-blue-200 hover:underline">milpitashacks@gmail.com</a></h1>
+      <h1 className="text-lg">Interested in sponsoring us? Contact us at <a href="mailto:milpitashacks@gmail.com" className="text-blue-200 hover:underline">milpitashacks@gmail.com</a></h1>
       </div>
     </div>
   );
