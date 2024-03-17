@@ -1,12 +1,12 @@
 import { useContext, useState } from "react";
 import logoPNG from "../assets/Milpitas Hacks Logo.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Context } from "../App";
 
 const Nav = () => {
   const [width, setWidth] = useState(window.innerWidth);
   const ctx = useContext(Context);
-  console.log(ctx);
+  const location = useLocation();
 
   window.addEventListener("resize", () => {
     setWidth(window.innerWidth);
@@ -27,7 +27,13 @@ const Nav = () => {
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
           <img src={logoPNG} width={50}></img>
         </Link>
-        <div className={`flex gap-5 ${width < 750 ? "hidden" : ""}`}>
+        <div
+          className={`flex gap-5 ${
+            width < 750 || location.pathname.includes("/prospectus")
+              ? "hidden"
+              : ""
+          }`}
+        >
           <Link
             to="about"
             className="hover:text-blue-300 transition-all"
@@ -77,6 +83,42 @@ const Nav = () => {
           >
             Team
           </Link>
+        </div>
+        <div
+          className={`flex gap-5 ${
+            width < 750 || !location.pathname.includes("/prospectus")
+              ? "hidden"
+              : ""
+          }`}
+        >
+          <Link
+            to="prospectus/mission"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/prospectus/mission")}
+          >
+            Mission
+          </Link>
+          <Link
+            to="prospectus/prospectus"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/prospectus/prospectus")}
+          >
+            Prospectus
+          </Link>
+          <Link
+            to="prospectus/faq"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/prospectus/faq")}
+          >
+            Faq
+          </Link>
+          <a
+            href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
+            target="_blank"
+            className="hover:text-blue-300 transition-all"
+          >
+            Donate
+          </a>
         </div>
         <div className="flex gap-5">
           <button className="">

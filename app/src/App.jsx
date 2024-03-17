@@ -27,6 +27,9 @@ function App() {
   const sponsorsRef = useRef();
   const teamRef = useRef();
   const faqRef = useRef();
+  const prospectusRef = useRef();
+  const missionRef = useRef();
+  const prospectusFaqRef = useRef();
 
   const [sideNavActive, setSideNavActive] = useState(false);
 
@@ -47,6 +50,12 @@ function App() {
       sponsorsRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (scrollTo === "/team") {
       teamRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (scrollTo === "/prospectus/mission") {
+      missionRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (scrollTo === "/prospectus/prospectus") {
+      prospectusRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (scrollTo === "/prospectus/faq") {
+      prospectusFaqRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -76,7 +85,16 @@ function App() {
               />
             }
           />
-          <Route path="prospectus" element={<Prospectus />} />
+          <Route
+            path="prospectus/*"
+            element={
+              <Prospectus
+                missionRef={missionRef}
+                prospectusRef={prospectusRef}
+                prospectusFaqRef={prospectusFaqRef}
+              />
+            }
+          />
         </Routes>
       </Context.Provider>
     </>

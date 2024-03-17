@@ -1,10 +1,10 @@
 import ProspectusFAQ from "../sections/ProspectusFAQ";
 
-const Prospectus = () => {
+const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
   return (
-    <div className="bg-gradient-to-t from-gray-950 bg-primary">
+    <div className="bg-gradient-to-t from-gray-950 bg-primary" ref={missionRef}>
       <div className="flex justify-center">
-        <div className="flex flex-col gap-10 items-center px-10 py-48 max-w-4xl w-full font-bold">
+        <div className="flex flex-col gap-20 items-center px-10 py-48 max-w-4xl w-full font-bold">
           <h1 className="text-5xl md:text-7xl text-yellow-200 text-center">
             Milpitas Hacks Sponsors Prospectus
           </h1>
@@ -20,15 +20,21 @@ const Prospectus = () => {
             participants at Milpitas Hacks which we can only do through your
             support! Help us make the first hackathon at Milpitas High School
             since its founding 55 years ago a success and support women in STEM
-            by sponsoring us. <br></br>Sponsoring gets you various benefits including
-            your logo on our website, being able to distribute recruiting
-            materials, being able to distribute company swag, and showcasing
-            your APIs/products among other benefits. We hope to welcome you into
-            our Milpitas Hacks family!
+            by sponsoring us.
+            <br />
+            <br />
+            Sponsoring gets you various benefits including your logo on our
+            website, being able to distribute recruiting materials, being able
+            to distribute company swag, and showcasing your APIs/products among
+            other benefits. We hope to welcome you into our Milpitas Hacks
+            family!
           </h2>
         </div>
       </div>
-      <div className="flex flex-col items-center p-5 gap-5 pb-20">
+      <div
+        className="flex flex-col items-center p-5 gap-5 pb-20"
+        ref={prospectusRef}
+      >
         <div className="flex flex-col md:grid grid-cols-3 max-w-7xl w-full border border-gray-800 rounded-md">
           <div className="md:border-r border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
@@ -46,7 +52,7 @@ const Prospectus = () => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-black transition-all duration-300">
+                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-gray-950 transition-all duration-300">
                   Contact us!
                 </button>
               </a>
@@ -70,7 +76,7 @@ const Prospectus = () => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-black transition-all duration-300">
+                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-gray-950 transition-all duration-300">
                   Contact us!
                 </button>
               </a>
@@ -93,7 +99,7 @@ const Prospectus = () => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-black transition-all duration-300">
+                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-gray-950 transition-all duration-300">
                   Contact us!
                 </button>
               </a>
@@ -103,7 +109,9 @@ const Prospectus = () => {
         <h1 className="text-lg">*all number of participants are estimates</h1>
         <div className="p-2"></div>
       </div>
-      <ProspectusFAQ />
+      <div ref={prospectusFaqRef}>
+        <ProspectusFAQ />
+      </div>
     </div>
   );
 };
