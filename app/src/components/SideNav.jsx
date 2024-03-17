@@ -18,8 +18,10 @@ const SideNav = () => {
     <>
       <div
         className={`${
-          ctx.sideNavActive ? "max-h-96 py-8 border-b border-l" : "max-h-0"
-        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-primary/50 backdrop-blur-lg webkit-backdrop-blur-lg right-0 px-8 gap-5 rounded-bl-2xl transition-all  border-secondary z-40`}
+          ctx.sideNavActive
+            ? "max-h-96 py-8 border-b border-l backdrop-blur-lg"
+            : "max-h-0"
+        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-primary/50 right-0 px-8 gap-5 rounded-bl-2xl transition-all  border-secondary z-40`}
       >
         {!location.pathname.includes("/prospectus") ? (
           <>
