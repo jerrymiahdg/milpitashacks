@@ -89,7 +89,7 @@ const FAQ = () => {
         {faqs.map((faq, i) => (
           <div key={i} className="border-b border-gray-800">
             <div
-              className="flex justify-between p-2 cursor-pointer"
+              className="flex justify-between p-2 cursor-pointer gap-2 items-center"
               onClick={faqClickHandler(i)}
             >
               <h2 className="w-full font-bold text-lg">{faq[0]}</h2>

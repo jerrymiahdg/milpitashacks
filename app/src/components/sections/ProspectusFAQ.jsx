@@ -65,7 +65,7 @@ const ProspectusFAQ = () => {
         {faqs.map((faq, i) => (
           <div key={i} className="border-b border-gray-800">
             <div
-              className="flex justify-between p-2 cursor-pointer"
+              className="flex justify-between p-2 gap-2 cursor-pointer items-center"
               onClick={faqClickHandler(i)}
             >
               <h2 className="text-lg w-full font-bold">{faq[0]}</h2>
