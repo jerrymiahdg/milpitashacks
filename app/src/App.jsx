@@ -59,7 +59,7 @@ function App() {
       scrollByRef(teamRef);
     } else if (scrollTo === "/prospectus/mission") {
       scrollByRef(missionRef);
-    } else if (scrollTo === "/prospectus/prospectus") {
+    } else if (scrollTo === "/prospectus/perks") {
       scrollByRef(prospectusRef);
     } else if (scrollTo === "/prospectus/faq") {
       scrollByRef(prospectusFaqRef);
