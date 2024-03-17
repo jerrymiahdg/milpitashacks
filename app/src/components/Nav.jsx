@@ -110,7 +110,7 @@ const Nav = () => {
             className="hover:text-blue-300 transition-all"
             onClick={() => ctx.scrollToSection("/prospectus/faq")}
           >
-            Faq
+            FAQ
           </Link>
           <a
             href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
