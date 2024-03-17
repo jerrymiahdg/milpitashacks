@@ -35,27 +35,34 @@ function App() {
 
   const location = useLocation();
 
+  const scrollByRef = (ref) => {
+    const navHeight = -67;
+    const y =
+      ref.current.getBoundingClientRect().top + window.scrollY + navHeight;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
+
   const scrollToSection = (scrollTo) => {
     if (scrollTo === "/home") {
-      homeRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(homeRef);
     } else if (scrollTo === "/about") {
-      aboutRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(aboutRef);
     } else if (scrollTo === "/schedule") {
-      scheduleRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(scheduleRef);
     } else if (scrollTo === "/tracks") {
-      tracksRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(tracksRef);
     } else if (scrollTo === "/faq") {
-      faqRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(faqRef);
     } else if (scrollTo === "/sponsors") {
-      sponsorsRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(sponsorsRef);
     } else if (scrollTo === "/team") {
-      teamRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(teamRef);
     } else if (scrollTo === "/prospectus/mission") {
-      missionRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(missionRef);
     } else if (scrollTo === "/prospectus/prospectus") {
-      prospectusRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(prospectusRef);
     } else if (scrollTo === "/prospectus/faq") {
-      prospectusFaqRef.current.scrollIntoView({ behavior: "smooth" });
+      scrollByRef(prospectusFaqRef);
     }
   };
 
