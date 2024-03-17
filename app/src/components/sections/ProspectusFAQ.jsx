@@ -61,7 +61,7 @@ const ProspectusFAQ = () => {
       <div className="pb-20">
         <h1 className="text-4xl font-bold">FAQ</h1>
       </div>
-      <div className="flex flex-col px-5 pt-5 rounded-lg max-w-3xl w-full">
+      <div className="flex flex-col px-5 pt-5 rounded-lg max-w-5xl w-full">
         {faqs.map((faq, i) => (
           <div key={i} className="border-b border-gray-800">
             <div

@@ -4,8 +4,8 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
   return (
     <div className="bg-gradient-to-t from-gray-950 bg-primary" ref={missionRef}>
       <div className="flex justify-center">
-        <div className="flex flex-col gap-20 items-center px-10 py-48 max-w-4xl w-full font-bold">
-          <h1 className="text-5xl md:text-7xl text-yellow-200 text-center">
+        <div className="flex flex-col gap-40 items-center px-10 py-72 max-w-4xl w-full font-bold">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl text-yellow-200 text-center">
             Milpitas Hacks Sponsors Prospectus
           </h1>
           <h2 className="text-center leading-7">
