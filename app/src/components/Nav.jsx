@@ -103,7 +103,7 @@ const Nav = () => {
             className="hover:text-blue-300 transition-all"
             onClick={() => ctx.scrollToSection("/prospectus/prospectus")}
           >
-            Prospectus
+            Perks
           </Link>
           <Link
             to="prospectus/faq"
