@@ -85,9 +85,9 @@ const SideNav = () => {
               Mission
             </Link>
             <Link
-              to="prospectus/prospectus"
+              to="prospectus/perks"
               className="hover:text-blue-300 transition-all"
-              onClick={sideNavLinkClickHandler("/prospectus/prospectus")}
+              onClick={sideNavLinkClickHandler("/prospectus/perks")}
             >
               Perks
             </Link>

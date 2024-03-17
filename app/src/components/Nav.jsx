@@ -99,9 +99,9 @@ const Nav = () => {
             Mission
           </Link>
           <Link
-            to="prospectus/prospectus"
+            to="prospectus/perks"
             className="hover:text-blue-300 transition-all"
-            onClick={() => ctx.scrollToSection("/prospectus/prospectus")}
+            onClick={() => ctx.scrollToSection("/prospectus/perks")}
           >
             Perks
           </Link>
