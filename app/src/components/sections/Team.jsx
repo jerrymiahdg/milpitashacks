@@ -29,7 +29,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Founder and Executive Lead
+              Founder and Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -75,7 +75,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Founder and Executive Lead
+              Founder and Lead
             </CardItem>
             <div className="">
               <CardItem
