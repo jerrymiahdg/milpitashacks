@@ -7,13 +7,11 @@ import Sponsors from "../sections/Sponsors";
 import Team from "../sections/Team";
 import Thanks from "../sections/Thanks";
 import Tracks from "../sections/Tracks";
-import Copyright from "../sections/Copyright";
 import { Button } from "../ui/moving-border";
 import { Context } from "../../App";
 
 const Landing = ({
   tracksRef,
-  copyrightRef,
   homeRef,
   sponsorsRef,
   aboutRef,
@@ -48,9 +46,6 @@ const Landing = ({
       {/*<div ref={thanksRef}>
         <Thanks />
       </div>*/}
-      <div ref={copyrightRef}>
-        <Copyright />
-      </div>
 
       <div className="flex justify-center bg-gradient-to-b from-gray-950 bg-primary">
         <div className="flex  flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10 w-full max-w-7xl">
@@ -62,6 +57,9 @@ const Landing = ({
             <Button>Register</Button>
           </a>
         </div>
+        <h2 className="text-center leading-7">
+      Milpitas Hacks is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), 501(c)(3), (EIN: 81-2908499).
+      </h2>
       </div>
     </>
   );
