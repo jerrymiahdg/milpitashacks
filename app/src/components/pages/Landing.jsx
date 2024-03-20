@@ -5,6 +5,7 @@ import { MeteorsDemo } from "../sections/MeteorsDemo";
 import Schedule from "../sections/Schedule";
 import Sponsors from "../sections/Sponsors";
 import Team from "../sections/Team";
+import Thanks from "../sections/Thanks";
 import Tracks from "../sections/Tracks";
 import { Button } from "../ui/moving-border";
 import { Context } from "../../App";
@@ -17,6 +18,7 @@ const Landing = ({
   scheduleRef,
   teamRef,
   faqRef,
+  thanksRef
 }) => {
   return (
     <>
@@ -40,6 +42,9 @@ const Landing = ({
       </div>
       <div ref={teamRef}>
         <Team />
+      </div>
+      <div ref={thanksRef}>
+        <Thanks />
       </div>
       <div className="flex justify-center bg-gradient-to-b from-gray-950 bg-primary">
         <div className="flex  flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10 w-full max-w-7xl">
