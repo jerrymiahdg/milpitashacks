@@ -18,7 +18,7 @@ const Landing = ({
   scheduleRef,
   teamRef,
   faqRef,
-  thanksRef
+  thanksRef,
 }) => {
   return (
     <>
@@ -50,16 +50,14 @@ const Landing = ({
       <div className="flex justify-center bg-gradient-to-b from-gray-950 bg-primary">
         <div className="flex  flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10 w-full max-w-7xl">
           <h1 className="text-4xl font-bold text-yellow-200">Register now.</h1>
-          <a
-            target="_blank"
-            href="https://tripetto.app/run/O7E32KMH7T"
-          >
+          <a target="_blank" href="https://tripetto.app/run/O7E32KMH7T">
             <Button>Register</Button>
           </a>
         </div>
       </div>
-      <h2 className="text-center leading-7">
-      Milpitas Hacks is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), 501(c)(3), (EIN: 81-2908499).
+      <h2 className="text-center leading-7 p-10">
+        Milpitas Hacks is fiscally sponsored by The Hack Foundation (d.b.a. Hack
+        Club), 501(c)(3), (EIN: 81-2908499).
       </h2>
     </>
   );
