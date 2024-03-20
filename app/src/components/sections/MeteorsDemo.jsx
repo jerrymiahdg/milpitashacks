@@ -1,9 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Meteors } from "../ui/meteors";
 import { Button } from "../ui/moving-border";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 
 export function MeteorsDemo() {
+  const [currentDate, setCurrentDate] = useState(new Date());
+  const dateOfEvent = new Date(2024, 4, 25);
+  const [timeUntilEvent, setTimeUntilEvent] = useState(new Date(dateOfEvent.getTime() - new Date().getTime()));
+  
+  const getFormattedTimeUntilEvent = (time) => {
+    const days = time / (24 * 60 * 60 * 1000);
+    time = time % (24 * 60 * 60 * 1000);
+    const hours = time / (60 * 60 * 1000);
+    time = time % (60 * 60 * 1000);
+    const minutes = time / (60 * 1000);
+    time = time % (60 * 1000);
+    const seconds = time / (1000);
+
+    return {
+      days: days, hours: hours, minutes: minutes, seconds: seconds
+    }
+  }
+
+  useEffect(() => {
+    setInterval(() => {
+      setCurrentDate(new Date());
+      setTimeUntilEvent(new Date(dateOfEvent.getTime() - new Date().getTime()));
+    }, 1000)
+  }, [])
+
   return (
     <div className="bg-gradient-to-t from-gray-950 bg-primary">
       {/* <BackgroundGradientAnimation className="h-full"> */}
@@ -72,6 +97,9 @@ export function MeteorsDemo() {
             >
               <Button>Register</Button>
             </a>
+            <div className="p-10 md:text-lg">
+              <h1 className="italic">In {((timeUntilEvent.getMonth() * 30) + timeUntilEvent.getDay())} Days, {timeUntilEvent.getHours()} Hours, {timeUntilEvent.getMinutes()} Minutes, and {timeUntilEvent.getSeconds()} Seconds</h1>
+            </div>
           </div>
           {/* Meaty part - Meteor effect */}
           {/* <Meteors number={200} /> */}
