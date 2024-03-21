@@ -4,8 +4,7 @@ import { Button } from "../ui/moving-border";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 
 export function MeteorsDemo() {
-  const dateOfEvent = new Date(2024, 5, 25);
-  dateOfEvent.setHours(10);
+  const dateOfEvent = new Date(2024, 5, 25, 10);
   const [timeUntilEvent, setTimeUntilEvent] = useState(new Date(dateOfEvent.getTime() - new Date().getTime()));
 
   useEffect(() => {
@@ -66,7 +65,7 @@ export function MeteorsDemo() {
                 </a>
               </div>
             </div>
-            <div className="w-[40rem] h-20 relative">
+            <div className="w-[40rem] h-5 relative">
               {/* Gradients */}
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -75,6 +74,9 @@ export function MeteorsDemo() {
               {/* Radial Gradient to prevent sharp edges */}
               <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
             </div>
+            <div className="text-sm md:text-md lg:text-lg text-center pb-14">
+              <h1 className="italic">In {((timeUntilEvent.getMonth() * 30) + timeUntilEvent.getDay())} Days, {timeUntilEvent.getHours()} Hours, {timeUntilEvent.getMinutes()} Minutes, and {timeUntilEvent.getSeconds()} Seconds</h1>
+            </div>
             <a
               target="_blank"
               href="https://tripetto.app/run/O7E32KMH7T"
@@ -82,9 +84,6 @@ export function MeteorsDemo() {
             >
               <Button>Register</Button>
             </a>
-            <div className="p-10 md:text-lg">
-              <h1 className="italic">In {((timeUntilEvent.getMonth() * 30) + timeUntilEvent.getDay())} Days, {timeUntilEvent.getHours()} Hours, {timeUntilEvent.getMinutes()} Minutes, and {timeUntilEvent.getSeconds()} Seconds</h1>
-            </div>
           </div>
           {/* Meaty part - Meteor effect */}
           {/* <Meteors number={200} /> */}
