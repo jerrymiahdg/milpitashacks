@@ -75,7 +75,7 @@ export function MeteorsDemo() {
               <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
             </div>
             <div className="text-sm md:text-md lg:text-lg text-center pb-14">
-              <h1 className="italic">In {((timeUntilEvent.getMonth() * 30) + timeUntilEvent.getDay())} Days, {timeUntilEvent.getHours()} Hours, {timeUntilEvent.getMinutes()} Minutes, and {timeUntilEvent.getSeconds()} Seconds</h1>
+              <h1 className="italic">In {((timeUntilEvent.getMonth() * 30) + timeUntilEvent.getDay())} days, {timeUntilEvent.getHours()} hours, {timeUntilEvent.getMinutes()} minutes, and {timeUntilEvent.getSeconds()} seconds</h1>
             </div>
             <a
               target="_blank"
