@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import hackClubLogoPng from "../../assets/hack-club-logo.png";
-import onePasswordPng from "../../assests/1Password.png";
+import onePasswordPng from "../../assets/1Password.png";
 
 const Sponsors = () => {
   return (
