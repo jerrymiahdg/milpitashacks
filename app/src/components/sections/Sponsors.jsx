@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import hackClubLogoPng from "../../assets/hack-club-logo.png";
-import onePasswordPng from "../../assets/1Password.png";
+import onePasswordPng from "../../assets/1PasswordLogo.png";
 
 const Sponsors = () => {
   return (
@@ -8,7 +8,7 @@ const Sponsors = () => {
       <div className="pb-20">
         <h1 className="text-4xl font-bold">Sponsors</h1>
       </div>
-      <div className="flex gap-5 max-w-5xl w-full flex-col md:flex-row justify-center">
+      <div className="flex gap-10 max-w-5xl w-full flex-col md:flex-row justify-center items-center">
         <a href="https://hackclub.com/" target="_blank">
           <img src={hackClubLogoPng} />
         </a>
