@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import hackClubLogoPng from "../../assets/hack-club-logo.png";
+import onePasswordPng from "../../assests/1Password.png";
 
 const Sponsors = () => {
   return (
@@ -10,6 +11,9 @@ const Sponsors = () => {
       <div className="flex gap-5 max-w-5xl w-full flex-col md:flex-row justify-center">
         <a href="https://hackclub.com/" target="_blank">
           <img src={hackClubLogoPng} />
+        </a>
+        <a href="https://1password.com/" target="_blank">
+          <img src={onePasswordPng} />
         </a>
       </div>
       <div className="pt-20">
