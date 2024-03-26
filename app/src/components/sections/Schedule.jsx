@@ -34,6 +34,10 @@ const Schedule = () => {
           <h2 className="text-lg">Keynote Speaker</h2>
         </div>
         <div className="flex justify-between">
+          <h2 className="text-lg">06:30 PM</h2>
+          <h2 className="text-lg">Dinner</h2>
+        </div>
+        <div className="flex justify-between">
           <h2 className="text-lg">08:00 PM</h2>
           <h2 className="text-lg">Coding Ends</h2>
         </div>
