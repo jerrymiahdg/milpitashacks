@@ -4,7 +4,7 @@ import { Button } from "../ui/moving-border";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 
 export function MeteorsDemo() {
-  const dateOfEvent = new Date(2024, 4, 25, 10);
+  const dateOfEvent = new Date(2024, 4, 25, 8, 30);
   const [timeUntilEvent, setTimeUntilEvent] = useState(new Date(dateOfEvent.getTime() - new Date().getTime()));
 
   useEffect(() => {
