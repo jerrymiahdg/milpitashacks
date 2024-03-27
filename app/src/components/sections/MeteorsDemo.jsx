@@ -4,50 +4,41 @@ import { Button } from "../ui/moving-border";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 
 export function MeteorsDemo() {
-  const dateOfEvent = new Date(2024, 4, 25, 8, 30);
-  const [timeUntilEvent, setTimeUntilEvent] = useState(new Date(dateOfEvent.getTime() - new Date().getTime()));
+  const DATE_OF_EVENT = new Date(2024, 4, 25, 8, 30);
+
+  const getFormattedTime = () => {
+    let time = DATE_OF_EVENT.getTime() - new Date().getTime();
+      
+    const result = {};
+
+    result.days = Math.floor(time / (1000 * 60 * 60 * 24));
+
+    time %= (1000 * 60 * 60 * 24);
+
+    result.hrs = Math.floor(time / (1000 * 60 * 60));
+
+    time %= (1000 * 60 * 60);
+
+    result.min = Math.floor(time / (1000 * 60));
+
+    time %= (1000 * 60);
+    
+    result.sec = Math.floor(time / 1000);
+
+    return result;
+  }
+
+  const [formattedTime, setFormattedTime] = useState(getFormattedTime())
 
   useEffect(() => {
     setInterval(() => {
-      setTimeUntilEvent(new Date(dateOfEvent.getTime() - new Date().getTime()));
+      setFormattedTime(getFormattedTime)
     }, 1000)
   }, [])
 
   return (
     <div className="bg-gradient-to-t from-gray-950 bg-primary">
-      {/* <BackgroundGradientAnimation className="h-full"> */}
       <div className=" h-screen relative w-screen">
-        {/* <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" /> */}
-        {/* <div className="relative shadow-xl bg-gray-950 border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-start">
-          <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
-            <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-yellow-200 relative z-20">
-              Milpitas Hacks
-            </h1>
-            <div className="w-[40rem] h-20 relative"> */}
-        {/* Gradients */}
-        {/* <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
-              <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
-              <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
-              <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" /> */}
-        {/* Radial Gradient to prevent sharp edges */}
-        {/* <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
-            </div>
-              <a
-                target="_blank"
-                href="https://p53ay3pczao.typeform.com/to/QaESmyAR"
-              >
-            <Button>
-                Register
-            </Button>
-              </a>
-          </div> */}
-        {/* Meaty part - Meteor effect */}
-        {/* <Meteors number={20} />
-        </div>
-      </div> */}
-
-        {/* <div className=" h-screen relative w-screen"> */}
-        {/* <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" /> */}
         <div className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-start">
           <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
             <div className="flex-col">
@@ -75,7 +66,7 @@ export function MeteorsDemo() {
               <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
             </div>
             <div className="text-sm md:text-md lg:text-lg text-center pb-14">
-              <h1 className="italic">In {((timeUntilEvent.getMonth() * 30) + timeUntilEvent.getDay())} days, {timeUntilEvent.getHours()} hours, {timeUntilEvent.getMinutes()} minutes, and {timeUntilEvent.getSeconds()} seconds</h1>
+              <h1 className="italic">In {formattedTime.days} days, {formattedTime.hrs} hours, {formattedTime.min} minutes, and {formattedTime.sec} seconds</h1>
             </div>
             <a
               target="_blank"
@@ -85,12 +76,8 @@ export function MeteorsDemo() {
               <Button>Register</Button>
             </a>
           </div>
-          {/* Meaty part - Meteor effect */}
-          {/* <Meteors number={200} /> */}
         </div>
       </div>
-
-      {/* </BackgroundGradientAnimation> */}
     </div>
   );
 }
