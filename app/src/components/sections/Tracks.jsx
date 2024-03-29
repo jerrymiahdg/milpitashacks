@@ -7,7 +7,7 @@ const Tracks = () => {
       <div className="flex max-w-7xl w-full flex-col lg:flex-row gap-5">
         <div className="flex flex-col gap-10 p-10 bg-gray-950/50 rounded-lg">
           <h2 className="font-bold text-3xl sm:text-4xl text-yellow-200">
-            Financial Technolgies
+            Financial Technologies
           </h2>
           <h3 className="text-lg">
             Build a predictive analysis of stock market trends
