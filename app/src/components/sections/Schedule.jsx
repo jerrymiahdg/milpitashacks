@@ -42,11 +42,11 @@ const Schedule = () => {
           <h2 className="text-lg">Coding Ends</h2>
         </div>
         <div className="flex justify-between">
-          <h2 className="text-lg">07:45 PM</h2>
+          <h2 className="text-lg">08:00 PM</h2>
           <h2 className="text-lg">Judging Begins</h2>
         </div>
         <div className="flex justify-between">
-          <h2 className="text-lg">08:30 PM</h2>
+          <h2 className="text-lg">09:00 PM</h2>
           <h2 className="text-lg">Awards and Closing Ceremony</h2>
         </div>
       </div>
