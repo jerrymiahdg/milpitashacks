@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import About from "../sections/About";
 import FAQ from "../sections/FAQ";
-import { MeteorsDemo } from "../sections/MeteorsDemo";
+import { BackgroundGradientAnimationDemo } from "../sections/BackgroundGradientAnimationDemo";
 import Schedule from "../sections/Schedule";
 import Sponsors from "../sections/Sponsors";
 import Team from "../sections/Team";
@@ -23,7 +23,7 @@ const Landing = ({
   return (
     <>
       <div ref={homeRef}>
-        <MeteorsDemo />
+        <BackgroundGradientAnimationDemo />
       </div>
       <div ref={aboutRef}>
         <About />

@@ -1,9 +1,10 @@
+
 import React, { useEffect, useState } from "react";
 import { Meteors } from "../ui/meteors";
 import { Button } from "../ui/moving-border";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 
-export function MeteorsDemo() {
+export function BackgroundGradientAnimationDemo() {
   const DATE_OF_EVENT = new Date(2024, 4, 25, 8, 30);
 
   const getFormattedTime = () => {
@@ -37,12 +38,13 @@ export function MeteorsDemo() {
   }, [])
 
   return (
+    <BackgroundGradientAnimation>
     <div className="bg-gradient-to-t from-gray-950 bg-primary">
-      <div className=" h-screen relative w-screen">
+      <div className=" h-screen absolute w-screen">
         <div className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-start">
-          <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
+          <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
             <div className="flex-col">
-              <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-yellow-200 relative z-20">
+              <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-yellow-200 relative">
                 Milpitas Hacks
               </h1>
               <div className="flex justify-between gap-10">
@@ -79,5 +81,6 @@ export function MeteorsDemo() {
         </div>
       </div>
     </div>
+    </BackgroundGradientAnimation>
   );
 }

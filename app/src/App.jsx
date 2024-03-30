@@ -12,7 +12,7 @@ import SideNav from "./components/SideNav";
 import { Route, useLocation, Routes } from "react-router-dom";
 import { useRef } from "react";
 import Sponsors from "./components/sections/Sponsors";
-import { MeteorsDemo } from "./components/sections/MeteorsDemo";
+import { BackgroundGradientAnimationDemo } from "./components/sections/BackgroundGradientAnimationDemo";
 import { Button } from "./components/ui/moving-border";
 import Landing from "./components/pages/Landing";
 import Prospectus from "./components/pages/Prospectus";
