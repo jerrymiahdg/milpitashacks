@@ -23,7 +23,7 @@ const Schedule = () => {
             <h2 className="text-lg">Beginner Frontend Workshop</h2>
           </div>
           <div className="flex py-3 justify-between">
-            <h2 className="text-lg">010:15 AM</h2>
+            <h2 className="text-lg">10:15 AM</h2>
             <h2 className="text-lg">Intermediate Frontend Workshop (Frameworks)</h2>
           </div>
           <div className="flex py-3 justify-between">
