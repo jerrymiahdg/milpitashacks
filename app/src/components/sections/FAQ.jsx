@@ -13,6 +13,11 @@ const FAQ = () => {
       false,
     ],
     [
+      "Can I do this solo or as a team?",
+      "Absolutely. Teams can be a size from 1-4.",
+      false,
+    ],
+    [
       "What is Milpitas Hacks?",
       "A Hackathon a weekend long event where students (in teams of 1-4) compete for prizes, attend workshops, and most importantly, build meaningful projects.",
       false,
