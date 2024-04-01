@@ -185,7 +185,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/jeremiah-de-guzman-0488002ba/"
+                  href="https://www.linkedin.com/in/jeremiahjohnmari-de-guzman-02b8002ba/"
                   target="_blank"
                 >
                   <img
