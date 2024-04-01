@@ -45,7 +45,7 @@ export function BackgroundGradientAnimationDemo() {
           <div className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-start">
             <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
               <div className="flex-col">
-                <h1 className="md:text-7xl text-3xl lg:text-9xl text-yellow-200 font-bold text-centerrelative">
+                <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-centerrelative">
                   Milpitas Hacks
                 </h1>
                 <div className="md:text-xl text-lg lg:text-2xl text-gray-400 flex justify-center gap-3 pt-5 pb-10">
@@ -90,7 +90,7 @@ export function BackgroundGradientAnimationDemo() {
                 href="https://tripetto.app/run/O7E32KMH7T"
                 className="z-20 pt-14"
               >
-                <button className="btn btn-lg border-yellow-200 bg-yellow-200">
+                <button className="btn btn-lg">
                   Register
                   <ArrowRight />
                 </button>
