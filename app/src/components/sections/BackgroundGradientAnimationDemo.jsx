@@ -47,7 +47,7 @@ export function BackgroundGradientAnimationDemo() {
             <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
               <div className="flex-col">
                 <h1 className="text-5xl md:text-8xl sm:text-6xl lg:text-9xl font-bold text-center relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
-                  <a className="">Milpitas</a> Hacks
+                  Milpitas Hacks
                 </h1>
                 <div className="md:text-xl text-lg lg:text-2xl text-gray-400 flex justify-center gap-3 pt-5 pb-10">
                   <h2 className="">May 25, 2024</h2>
