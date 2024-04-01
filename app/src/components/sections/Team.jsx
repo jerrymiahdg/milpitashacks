@@ -3,7 +3,7 @@ import vasistaPng from "../../assets/vasista.png";
 import jeremiahPng from "../../assets/jeremiah.png";
 import pranayPng from "../../assets/pranay.png";
 import aahanPng from "../../assets/aahan.png";
-import aidanPng from "../../assets/aidan.png";
+import jerryPng from "../../assets/jerry.jpg";
 import deveshPng from "../../assets/devesh.png";
 import harishPng from "../../assets/harish.png";
 import vedPng from "../../assets/ved.png"
@@ -338,7 +338,7 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
-              Aidan Hoang
+              Jerry Yong
             </CardItem>
             <CardItem
               as="p"
@@ -352,14 +352,14 @@ const Team = () => {
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src={aidanPng} width="125" height="125" />
+                <img src={jerryPng} width="125" height="125" />
               </CardItem>
               <CardItem
                 translateZ={20}
                 className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/aidan-hoang-15b927257/"
+                  href="https://www.linkedin.com/in/jy-jerry-yong"
                   target="_blank"
                 >
                   <img

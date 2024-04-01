@@ -52,7 +52,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-gray-950 transition-all duration-300">
+                <button className="bg-blue-900 p-3 w-full rounded-md opacity-80 hover:opacity-100 transition-all duration-300">
                   Contact us!
                 </button>
               </a>
@@ -76,7 +76,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-gray-950 transition-all duration-300">
+                <button className="bg-blue-900 p-3 w-full rounded-md opacity-80 hover:opacity-100 transition-all duration-300">
                   Contact us!
                 </button>
               </a>
@@ -99,7 +99,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-90 hover:bg-yellow-400 hover:text-gray-950 transition-all duration-300">
+                <button className="bg-blue-900 p-3 w-full rounded-md opacity-80 hover:opacity-100 transition-all duration-300">
                   Contact us!
                 </button>
               </a>
