@@ -199,7 +199,6 @@ const Team = () => {
             </div>
           </CardBody>
         </CardContainer>
-        
         <CardContainer className="inter-var w-full">
           <CardBody
             className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center"

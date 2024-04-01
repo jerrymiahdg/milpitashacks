@@ -69,13 +69,6 @@ const Nav = () => {
           >
             Sponsors
           </Link>
-          <a
-            href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
-            target="_blank"
-            className="hover:text-blue-300 transition-all"
-          >
-            Donate
-          </a>
           <Link
             to="team"
             className="hover:text-blue-300 transition-all"
@@ -83,6 +76,13 @@ const Nav = () => {
           >
             Team
           </Link>
+          <a
+            href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
+            target="_blank"
+            className="hover:text-blue-300 transition-all"
+          >
+            Donate
+          </a>
         </div>
         <div
           className={`flex gap-5 ${
