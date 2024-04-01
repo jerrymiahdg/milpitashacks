@@ -1,52 +1,27 @@
+import { GraduationCap, Utensils, Trophy } from "lucide-react";
+
 const About = () => {
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 bg-primary pt-20 pb-20 pl-5 pr-5">
+    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900 pt-20 pb-20 pl-5 pr-5">
       <div className="pb-20">
-        <h1 className="text-4xl font-bold">About</h1>
+        <h1 className="text-7xl font-bold transition-transform">About</h1>
       </div>
       <div className="flex gap-5 max-w-7xl w-full flex-col md:flex-row">
-        <div className="flex flex-col gap-2 p-5 bg-gray-950/50 rounded-md w-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="30"
-            viewBox="0 -960 960 960"
-            width="30"
-            fill="white"
-          >
-            <path d="M280-120v-80h160v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80v-80h400v80h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h160v80H280Zm0-408v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z" />
-          </svg>
-          <h2 className="font-bold text-lg">Beginner Friendly</h2>
+        <div className="flex flex-col p-10 bg-gray-950/50 rounded-md w-full transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500">
+          <h2 className="font-bold text-3xl inline-flex gap-5 py-3"><GraduationCap size={35}/>Beginner Friendly</h2>
           <h3 className="text-lg">
             All high schoolers regardless of coding experience can have fun!
           </h3>
         </div>
-        <div className="flex flex-col gap-2 p-5 bg-gray-950/50 rounded-md w-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="30"
-            viewBox="0 -960 960 960"
-            width="30"
-            fill="white"
-          >
-            <path d="M280-120v-80h160v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80v-80h400v80h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h160v80H280Zm0-408v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z" />
-          </svg>
-          <h2 className="font-bold text-lg">Fully catered</h2>
+        <div className="flex flex-col p-10 bg-gray-950/50 rounded-md w-full transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500">
+          <h2 className="font-bold text-3xl inline-flex gap-5 py-3"><Utensils size={35}/>Fully catered</h2>
           <h3 className="text-lg">
             No need to bring lunch or dinner! Our sponsors have generously
             covered food for everyone!
           </h3>
         </div>
-        <div className="flex flex-col gap-2 p-5 bg-gray-950/50 rounded-md w-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="30"
-            viewBox="0 -960 960 960"
-            width="30"
-            fill="white"
-          >
-            <path d="M280-120v-80h160v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80v-80h400v80h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h160v80H280Zm0-408v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z" />
-          </svg>
-          <h2 className="font-bold text-lg">Prizes</h2>
+        <div className="flex flex-col p-10 bg-gray-950/50 rounded-md w-full transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500">
+          <h2 className="font-bold text-3xl inline-flex gap-5 py-3"><Trophy size={35} />Prizes</h2>
           <h3 className="text-lg">Over $TBD in prizes!</h3>
         </div>
       </div>
