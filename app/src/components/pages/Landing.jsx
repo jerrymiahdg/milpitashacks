@@ -50,7 +50,7 @@ const Landing = ({
 
       <div className="flex justify-center bg-gradient-to-b from-gray-950 bg-primary">
         <div className="flex  flex-col items-center justify-center p-20 md:flex-row md:justify-between gap-10 w-full max-w-7xl">
-          <h1 className="text-5xl font-bold">Register now.</h1>
+          <h1 className="text-5xl font-bold text-center md:text-left">Register now.</h1>
           <a
             target="_blank"
             href="https://tripetto.app/run/O7E32KMH7T"

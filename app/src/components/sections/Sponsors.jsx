@@ -7,7 +7,7 @@ const Sponsors = () => {
   return (
     <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900 pt-20 pb-20 pl-5 pr-5">
       <div className="pb-20">
-        <h1 className="text-7xl font-bold">Sponsors</h1>
+        <h1 className="text-6xl md:text-7xl font-bold">Sponsors</h1>
       </div>
       <div className="flex gap-10 max-w-5xl w-full flex-col md:flex-row justify-center items-center">
         <a href="https://hackclub.com/" target="_blank">
