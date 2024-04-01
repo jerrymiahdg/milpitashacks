@@ -85,9 +85,9 @@ const FAQ = () => {
       <div className="pb-20">
         <h1 className="text-7xl font-bold">FAQ</h1>
       </div>
-      <div className="flex flex-col p-5 bg-gray-950/50 rounded-lg max-w-5xl w-full">
+      <div className="backdrop-blur-lg flex flex-col p-5 bg-gray-950/50 rounded-lg max-w-5xl w-full">
         {faqs.map((faq, i) => (
-          <div key={i} className="backdrop-blur-lg border-b border-gray-800">
+          <div key={i} className="border-b border-gray-800">
             <div
               className="flex justify-between p-2 cursor-pointer gap-2 items-center"
               onClick={faqClickHandler(i)}
