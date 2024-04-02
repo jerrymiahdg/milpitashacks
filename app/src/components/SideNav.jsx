@@ -21,7 +21,7 @@ const SideNav = () => {
           ctx.sideNavActive
             ? "max-h-96 py-8 border-b border-l backdrop-blur-lg"
             : "max-h-0"
-        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-primary/50 right-0 px-8 gap-5 rounded-bl-2xl transition-all  border-secondary z-40`}
+        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-slate-950/50 right-0 px-8 gap-5 rounded-bl-2xl transition-all border-gray-800 z-40`}
       >
         {!location.pathname.includes("/prospectus") ? (
           <>
@@ -60,13 +60,6 @@ const SideNav = () => {
             >
               Sponsors
             </Link>
-            <a
-              href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
-              target="_blank"
-              className="hover:text-blue-300 transition-all"
-            >
-              Donate
-            </a>
             <Link
               to="team"
               className="hover:text-blue-300 transition-all"
@@ -74,6 +67,20 @@ const SideNav = () => {
             >
               Team
             </Link>
+            <Link
+              to="prospectus"
+              className="hover:text-blue-300 transition-all"
+              onClick={sideNavLinkClickHandler("/prospectus")}
+            >
+              Prospectus
+            </Link>
+            <a
+              href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
+              target="_blank"
+              className="hover:text-blue-300 transition-all"
+            >
+              Donate
+            </a>
           </>
         ) : (
           <>
