@@ -21,7 +21,7 @@ const SideNav = () => {
           ctx.sideNavActive
             ? "max-h-96 py-8 border-b border-l backdrop-blur-lg"
             : "max-h-0"
-        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-slate-950/50 right-0 px-8 gap-5 rounded-bl-2xl transition-all border-gray-800 z-40`}
+        } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-slate-950/25 right-0 px-8 gap-5 rounded-bl-2xl transition-all border-gray-800 z-40`}
       >
         {!location.pathname.includes("/prospectus") ? (
           <>
