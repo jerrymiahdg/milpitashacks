@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import hackClubLogoPng from "../../assets/hack-club-logo.png";
 import onePasswordPng from "../../assets/1PasswordLogo.png";
 import echo3dPng from "../../assets/echo3d.png";
+import desmosPng from "../../assets/desmos.png";
 
 const Sponsors = () => {
   return (
@@ -18,6 +19,9 @@ const Sponsors = () => {
         </a>
         <a href="https://www.echo3d.com/" target="_blank">
           <img src={echo3dPng} />
+        </a>
+        <a href="https://www.desmos.com/" target="_blank">
+          <img src={desmosPng} />
         </a>
       </div>
       <div className="pt-20">
