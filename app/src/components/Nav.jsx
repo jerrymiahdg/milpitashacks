@@ -22,7 +22,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-center fixed w-full bg-primary/50 z-50 border-b border-secondary backdrop-blur-lg">
+    <div className="flex justify-center fixed w-full z-50 bg-slate-950/50 backdrop-blur-lg">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
           <img src={logoPNG} width={50}></img>
@@ -75,6 +75,13 @@ const Nav = () => {
             onClick={() => ctx.scrollToSection("/team")}
           >
             Team
+          </Link>
+          <Link
+            to="prospectus"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/prospectus")}
+          >
+            Prospectus
           </Link>
           <a
             href="https://hcb.hackclub.com/donations/start/milpitas-hacks"

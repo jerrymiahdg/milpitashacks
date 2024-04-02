@@ -59,7 +59,7 @@ const ProspectusFAQ = () => {
   return (
     <div className="flex flex-col items-center py-20 pl-5 pr-5 border-t border-gray-900">
       <div className="pb-20">
-        <h1 className="text-4xl font-bold">FAQ</h1>
+        <h1 className="text-5xl md:text-6xl font-bold">FAQ</h1>
       </div>
       <div className="flex flex-col px-5 pt-5 rounded-lg max-w-5xl w-full">
         {faqs.map((faq, i) => (
