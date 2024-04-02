@@ -77,13 +77,6 @@ const Nav = () => {
           >
             Team
           </Link>
-          <Link
-            to="prospectus"
-            className="hover:text-blue-300 transition-all"
-            onClick={() => ctx.scrollToSection("/prospectus")}
-          >
-            Prospectus
-          </Link>
           <a
             href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
             target="_blank"
