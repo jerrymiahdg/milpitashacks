@@ -173,7 +173,7 @@ const Nav = () => {
               </svg>
             </a>
           <button
-            className={`bg-gray-500/50 opacity-80 p-2 rounded-md transition-all hover:opacity-100 ${
+            className={`bg-gray-500/25 opacity-80 p-2 rounded-md transition-all hover:opacity-100 ${
               width > 750 ? "hidden" : ""
             }`}
             onClick={menuClickHandler}
