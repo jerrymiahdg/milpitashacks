@@ -16,6 +16,7 @@ import { BackgroundGradientAnimationDemo } from "./components/sections/Backgroun
 import { Button } from "./components/ui/moving-border";
 import Landing from "./components/pages/Landing";
 import Prospectus from "./components/pages/Prospectus";
+import { NextUIProvider } from "@nextui-org/system";
 
 export const Context = createContext();
 
@@ -72,38 +73,40 @@ function App() {
 
   return (
     <>
-      <Context.Provider
-        value={{ sideNavActive, setSideNavActive, scrollToSection }}
-      >
-        <Nav />
-        <SideNav />
-        <Routes>
-          <Route
-            path="/*"
-            element={
-              <Landing
-                tracksRef={tracksRef}
-                homeRef={homeRef}
-                aboutRef={aboutRef}
-                scheduleRef={scheduleRef}
-                teamRef={teamRef}
-                faqRef={faqRef}
-                sponsorsRef={sponsorsRef}
-              />
-            }
-          />
-          <Route
-            path="prospectus/*"
-            element={
-              <Prospectus
-                missionRef={missionRef}
-                prospectusRef={prospectusRef}
-                prospectusFaqRef={prospectusFaqRef}
-              />
-            }
-          />
-        </Routes>
-      </Context.Provider>
+      <NextUIProvider>
+        <Context.Provider
+          value={{ sideNavActive, setSideNavActive, scrollToSection }}
+        >
+          <Nav />
+          <SideNav />
+          <Routes>
+            <Route
+              path="/*"
+              element={
+                <Landing
+                  tracksRef={tracksRef}
+                  homeRef={homeRef}
+                  aboutRef={aboutRef}
+                  scheduleRef={scheduleRef}
+                  teamRef={teamRef}
+                  faqRef={faqRef}
+                  sponsorsRef={sponsorsRef}
+                />
+              }
+            />
+            <Route
+              path="prospectus/*"
+              element={
+                <Prospectus
+                  missionRef={missionRef}
+                  prospectusRef={prospectusRef}
+                  prospectusFaqRef={prospectusFaqRef}
+                />
+              }
+            />
+          </Routes>
+        </Context.Provider>
+      </NextUIProvider>
     </>
   );
 }

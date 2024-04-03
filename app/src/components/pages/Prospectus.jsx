@@ -1,5 +1,6 @@
 import ProspectusFAQ from "../sections/ProspectusFAQ";
 import { LampDemo } from "../ui/lamp";
+import { Button } from "@nextui-org/button";
 
 const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
   return (
@@ -11,7 +12,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
             Milpitas Hacks is the very first hackathon at Milpitas High School.
             Milpitas High School has long been the home of avid programmers,
             from web developers to backend engineers. We want to spread our
-            passion to the rest of the Bay Area through Milpitas Hacks, 
+            passion to the rest of the Bay Area through Milpitas Hacks,
             a hackathon for Bay Area high schoolers that emphasizes the
             inclusion of women in STEM. This commitment of ours is reflected in
             our partnership with Milpitas High STEM Girls as well as Milpitas
@@ -25,8 +26,8 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
             Sponsoring gets you various benefits, including <a className="font-black">
               displaying your logo
             </a> on our
-              website and other materials, distributing <a className="font-black">
-                recruiting materials to 200+ members</a>, 
+            website and other materials, distributing <a className="font-black">
+              recruiting materials to 200+ members</a>,
             displaying <a className="font-black">company swag</a>, and showcasing your <a className="font-black">APIs/products</a>
             , among
             other benefits. We hope to welcome you into our Milpitas Hacks
@@ -55,9 +56,9 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-80 hover:opacity-100 transition-all duration-300">
+                <Button size="lg" className="w-full bg-gradient-to-br from-white to-blue-300">
                   Contact us!
-                </button>
+                </Button>
               </a>
             </div>
           </div>
@@ -79,9 +80,9 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-80 hover:opacity-100 transition-all duration-300">
+                <Button size="lg" className="w-full bg-gradient-to-br from-white to-blue-300">
                   Contact us!
-                </button>
+                </Button>
               </a>
             </div>
           </div>
@@ -102,9 +103,9 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">
-                <button className="bg-blue-900 p-3 w-full rounded-md opacity-80 hover:opacity-100 transition-all duration-300">
+                <Button size="lg" className="w-full bg-gradient-to-br from-white to-blue-300">
                   Contact us!
-                </button>
+                </Button>
               </a>
             </div>
           </div>

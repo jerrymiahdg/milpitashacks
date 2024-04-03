@@ -7,7 +7,7 @@ import Sponsors from "../sections/Sponsors";
 import Team from "../sections/Team";
 import Thanks from "../sections/Thanks";
 import Tracks from "../sections/Tracks";
-import { Button } from "../ui/moving-border";
+import { Button } from "@nextui-org/button";
 import { Context } from "../../App";
 import { ArrowRight } from "lucide-react";
 
@@ -56,10 +56,10 @@ const Landing = ({
             href="https://tripetto.app/run/O7E32KMH7T"
             className="z-20"
           >
-            <button className="btn btn-lg">
+            <Button size="lg" className="h-16 bg-gradient-to-br from-white to-blue-300">
               Register
               <ArrowRight />
-            </button>
+            </Button>
           </a>
         </div>
       </div>

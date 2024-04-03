@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Meteors } from "../ui/meteors";
-import { Button } from "../ui/moving-border";
+import { Button } from "@nextui-org/button";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 import { ArrowRight } from "lucide-react";
 
@@ -91,10 +91,10 @@ export function BackgroundGradientAnimationDemo() {
                 href="https://tripetto.app/run/O7E32KMH7T"
                 className="z-20 pt-14"
               >
-                <button className="btn btn-lg">
+                <Button size="lg" className="h-16 bg-gradient-to-br from-white to-blue-300">
                   Register
                   <ArrowRight />
-                </button>
+                </Button>
               </a>
             </div>
           </div>
