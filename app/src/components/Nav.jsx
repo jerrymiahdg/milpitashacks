@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import logoPNG from "../assets/Milpitas Hacks Logo.png";
 import { Link, useLocation } from "react-router-dom";
 import { Context } from "../App";
+import { Menu } from "lucide-react";
 
 const Nav = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -22,7 +23,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-center fixed w-full bg-primary/50 z-50 border-b border-secondary backdrop-blur-lg">
+    <div className="flex justify-center fixed w-full z-50 bg-slate-950/50 backdrop-blur-lg">
       <div className="flex justify-between items-center p-2 max-w-7xl w-full">
         <Link to="home" onClick={() => ctx.scrollToSection("/home")}>
           <img src={logoPNG} width={50}></img>
@@ -165,20 +166,12 @@ const Nav = () => {
               </svg>
             </a>
           <button
-            className={`bg-secondary opacity-80 p-2 rounded-md transition-all hover:opacity-100 ${
+            className={`bg-gray-500/25 opacity-80 p-2 rounded-md transition-all hover:opacity-100 ${
               width > 750 ? "hidden" : ""
             }`}
             onClick={menuClickHandler}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="25"
-              viewBox="0 -960 960 960"
-              width="25"
-              fill="white"
-            >
-              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-            </svg>
+            <Menu />
           </button>
         </div>
       </div>

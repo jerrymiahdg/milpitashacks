@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Accordion, AccordionItem } from "@nextui-org/react";
 
 const ProspectusFAQ = () => {
   const [faqs, setFaqs] = useState([
@@ -59,41 +60,15 @@ const ProspectusFAQ = () => {
   return (
     <div className="flex flex-col items-center py-20 pl-5 pr-5 border-t border-gray-900">
       <div className="pb-20">
-        <h1 className="text-4xl font-bold">FAQ</h1>
+        <h1 className="text-5xl md:text-6xl font-bold">FAQ</h1>
       </div>
-      <div className="flex flex-col px-5 pt-5 rounded-lg max-w-5xl w-full">
+      <Accordion variant="" className="backdrop-blur-lg flex flex-col py-5 px-10 bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg max-w-5xl w-full">
         {faqs.map((faq, i) => (
-          <div key={i} className="border-b border-gray-800">
-            <div
-              className="flex justify-between p-2 gap-2 cursor-pointer items-center"
-              onClick={faqClickHandler(i)}
-            >
-              <h2 className="text-lg w-full font-bold">{faq[0]}</h2>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 -960 960 960"
-                width="24"
-                fill="white"
-                className={`transition-all ${faq[2] ? "rotate-45" : ""}`}
-              >
-                <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
-              </svg>
-            </div>
-            <div
-              className={`text-lg pl-2 transition-all ${faq[2] ? "pb-2" : ""}`}
-            >
-              <h1
-                className={`${
-                  faq[2] ? " max-h-72" : "max-h-0"
-                } ease-in-out transition-all overflow-hidden`}
-              >
-                {faq[1]}
-              </h1>
-            </div>
-          </div>
+          <AccordionItem key={i} aria-label={faq[0]} title={<span className="text-white">{faq[0]}</span>}>
+            {faq[1]}
+          </AccordionItem>
         ))}
-      </div>
+      </Accordion>
     </div>
   );
 };
