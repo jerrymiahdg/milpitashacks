@@ -3,6 +3,7 @@ import hackClubLogoPng from "../../assets/hack-club-logo.png";
 import onePasswordPng from "../../assets/1PasswordLogo.png";
 import echo3dPng from "../../assets/echo3d.png";
 import desmosPng from "../../assets/desmos.png";
+import interviewcakePng from "../../assets/interviewcake.png";
 
 const Sponsors = () => {
   return (
@@ -22,6 +23,9 @@ const Sponsors = () => {
         </a>
         <a href="https://www.desmos.com/" target="_blank">
           <img src={desmosPng} />
+        </a>
+        <a href="https://www.interviewcake.com/" target="_blank">
+          <img src={interviewcakePng} />
         </a>
       </div>
       <div className="pt-20">
