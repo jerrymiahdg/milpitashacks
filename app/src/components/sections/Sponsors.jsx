@@ -11,23 +11,21 @@ const Sponsors = () => {
       <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold">Sponsors</h1>
       </div>
-      <div className="flex gap-10 max-w-5xl w-full flex-col md:flex-row justify-center items-center">
+      <div className="grid md:grid-cols-2 gap-10 max-w-5xl w-full justify-center items-center flex-wrap">
         <a href="https://hackclub.com/" target="_blank">
-          <img src={hackClubLogoPng} />
+          <img src={hackClubLogoPng}  className="w-full"/>
         </a>
         <a href="https://1password.com/" target="_blank">
-          <img src={onePasswordPng} />
+          <img src={onePasswordPng}  className="w-full"/>
         </a>
         <a href="https://www.echo3d.com/" target="_blank">
-          <img src={echo3dPng} />
+          <img src={echo3dPng}  className="w-full"/>
         </a>
         <a href="https://www.desmos.com/" target="_blank">
-          <img src={desmosPng} />
+          <img src={desmosPng}  className="w-full"/>
         </a>
-      </div>
-      <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900 pt-20 pb-20 pl-5 pr-5">
-      <a href="https://www.interviewcake.com/" target="_blank">
-          <img src={interviewcakePng} className="w-128 h-16"/>
+        <a href="https://www.interviewcake.com/" target="_blank">
+          <img src={interviewcakePng} className="w-full"/>
         </a>
       </div>
       <div className="pt-20">
