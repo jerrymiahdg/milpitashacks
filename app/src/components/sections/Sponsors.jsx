@@ -24,8 +24,10 @@ const Sponsors = () => {
         <a href="https://www.desmos.com/" target="_blank">
           <img src={desmosPng} />
         </a>
-        <a href="https://www.interviewcake.com/" target="_blank">
-          <img src={interviewcakePng} />
+      </div>
+      <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900 pt-20 pb-20 pl-5 pr-5">
+      <a href="https://www.interviewcake.com/" target="_blank">
+          <img src={interviewcakePng} className="w-128 h-16"/>
         </a>
       </div>
       <div className="pt-20">
