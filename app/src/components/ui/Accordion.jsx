@@ -16,7 +16,9 @@ const Accordion = (props) => {
           <h1 className="text-left text-lg w-full">{props.title}</h1>
           <ChevronLeft
             color="gray"
-            className={`w-4 transition-all ${!closed && "rotate-[-90deg]"}`}
+            className={`w-4 transition-all ${
+              props.openFaq === props.id && "rotate-[-90deg]"
+            }`}
           />
         </div>
       </button>
