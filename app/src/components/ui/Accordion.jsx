@@ -12,7 +12,6 @@ const Accordion = (props) => {
             </div>
         </button>
         <div className={`grid overflow-hidden ease-in-out transition-all ${closed ? " grid-rows-[0fr] opacity-0" : `opacity-100 grid-rows-[1fr] pb-4`}`}>
-            
             <div className="overflow-hidden"><div className='p-2'/>{props.body}</div>
         </div>
     </div>
