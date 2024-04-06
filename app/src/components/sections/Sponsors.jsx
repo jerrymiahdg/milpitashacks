@@ -11,7 +11,7 @@ const Sponsors = () => {
       <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold">Sponsors</h1>
       </div>
-      <div className="grid md:grid-cols-2 gap-10 max-w-5xl w-full justify-center items-center flex-wrap">
+      <div className="grid md:grid-cols-2 gap-10 max-w-5xl w-full justify-center items-center">
         <a href="https://hackclub.com/" target="_blank">
           <img src={hackClubLogoPng}  className="w-full"/>
         </a>
