@@ -58,6 +58,8 @@ const ProspectusFAQ = () => {
     };
   };
 
+  const [openFaq, setOpenFaq] = useState(-1);
+
   return (
     <div className="flex flex-col items-center py-20 pl-5 pr-5 border-t border-gray-900">
       <div className="pb-20">
@@ -71,7 +73,16 @@ const ProspectusFAQ = () => {
         ))}
       </Accordion> */}
       <div className="backdrop-blur-lg flex flex-col py-5 px-10 bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg max-w-5xl w-full">
-        {faqs.map((faq, i) => <Accordion key={i} title={faq[0]} body={faq[1]}/>)}
+        {faqs.map((faq, i) => (
+          <Accordion
+            key={i}
+            id={i}
+            title={faq[0]}
+            body={faq[1]}
+            openFaq={openFaq}
+            setOpenFaq={setOpenFaq}
+          />
+        ))}
       </div>
     </div>
   );

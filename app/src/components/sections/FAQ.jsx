@@ -74,9 +74,11 @@ const FAQ = () => {
   //       });
   //     }
   //   };
-  // };  
+  // };
 
   const [closed, setClosed] = useState(true);
+
+  const [openFaq, setOpenFaq] = useState(-1);
 
   return (
     <div className="flex flex-col items-center pt-20 pb-20 pl-5 pr-5 bg-cover bg-gradient-to-b from-gray-900 to-gray-950">
@@ -84,7 +86,16 @@ const FAQ = () => {
         <h1 className="text-7xl font-bold">FAQ</h1>
       </div>
       <div className="backdrop-blur-lg flex flex-col py-5 px-10 bg-gradient-to-tr from-gray-900 to-[#2a2a5a] rounded-lg max-w-5xl w-full">
-        {faqs.map((faq, i) => <Accordion key={i} title={faq[0]} body={faq[1]}/>)}
+        {faqs.map((faq, i) => (
+          <Accordion
+            key={i}
+            id={i}
+            title={faq[0]}
+            body={faq[1]}
+            openFaq={openFaq}
+            setOpenFaq={setOpenFaq}
+          />
+        ))}
       </div>
     </div>
   );
