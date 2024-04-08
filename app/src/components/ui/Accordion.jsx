@@ -2,8 +2,6 @@ import { ChevronLeft } from "lucide-react";
 import { useState } from "react";
 
 const Accordion = (props) => {
-  const [closed, setClosed] = useState(true);
-
   return (
     <div className="w-full h-fit border-b border-b-1 border-[#1c1c2c]/25">
       <button

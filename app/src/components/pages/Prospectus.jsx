@@ -5,9 +5,7 @@ import { Button } from "@nextui-org/button";
 const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
   return (
     <div className="bg-slate-950" ref={missionRef}>
-      <div className="px-5">
-        <LampDemo className="w-64" />
-      </div>
+      <LampDemo className="" />
       <div className="flex justify-center">
         <div className="flex flex-col gap-20 items-center px-10 pt-0 pb-20 max-w-4xl w-full font-bold">
           <h2 className="bg-gradient-to-br from-slate-300 to-slate-400 bg-clip-text text-transparent text-center leading-7 font-normal">

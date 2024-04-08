@@ -76,8 +76,6 @@ const FAQ = () => {
   //   };
   // };
 
-  const [closed, setClosed] = useState(true);
-
   const [openFaq, setOpenFaq] = useState(-1);
 
   return (

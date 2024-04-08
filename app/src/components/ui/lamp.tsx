@@ -16,7 +16,9 @@ export function LampDemo() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-blue-300 py-4 bg-clip-text text-center text-6xl font-bold tracking-tight text-transparent md:text-7xl"
       >
-        Milpitas Hacks<br />Sponsors Prospectus
+        Milpitas Hacks
+        <br />
+        Sponsors Prospectus
       </motion.h1>
     </LampContainer>
   );
@@ -36,7 +38,7 @@ export const LampContainer = ({
         className
       )}
     >
-      <div className="relative translate-y-[7em] flex w-full flex-1 scale-y-125 items-center justify-center isolate z-0 ">
+      <div className=" relative translate-y-[7em] flex w-full flex-1 scale-y-125 items-center justify-center isolate z-0 ">
         <motion.div
           initial={{ opacity: 0.5, width: "15rem" }}
           whileInView={{ opacity: 1, width: "30rem" }}
