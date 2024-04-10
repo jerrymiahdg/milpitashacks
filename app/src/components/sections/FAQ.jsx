@@ -13,8 +13,8 @@ const FAQ = () => {
       "No! The Hackathon is totally free to attend, and all food (lunch, dinner, and snacks) will be provided.",
     ],
     [
-      "Can I do this solo or as a team?",
-      "Absolutely. Teams can be a size from 1-4.",
+      "Can I participate in a team?",
+      "Absolutely! Teams can be up to 4 people; we encourage hackers to team up, but you can also go solo.  If you don't have a team, don't worry! We will have a team formation session at the beginning of the event.",
     ],
     [
       "What is Milpitas Hacks?",
@@ -49,10 +49,10 @@ const FAQ = () => {
       <>
         More questions? Reach out to us via{" "}
         <a
-          href="mailto: milpitashacks@gmail.com"
+          href="mailto: team@milpitashacks.com"
           className="text-blue-200 hover:underline"
         >
-          milpitashacks@gmail.com
+          team@milpitashacks.com
         </a>
       </>,
     ],

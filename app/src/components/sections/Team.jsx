@@ -1,4 +1,5 @@
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
+import { BackgroundGradient } from "../ui/background-gradient";
 import vasistaPng from "../../assets/vasista.png";
 import jeremiahPng from "../../assets/jeremiah.png";
 import pranayPng from "../../assets/pranay.png";
@@ -10,6 +11,8 @@ import vedPng from "../../assets/ved.png"
 import oliverPng from "../../assets/oliver.png"
 import logoPng from "../../assets/Milpitas Hacks Logo.png";
 import linkedInPng from "../../assets/linkedin.png";
+import raviPng from "../../assets/ravi.jpg";
+import nikunjPng from "../../assets/nikunj.jpeg";
 
 const Team = () => {
   return (
@@ -17,6 +20,43 @@ const Team = () => {
       <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold ">Team</h1>
       </div>
+
+      <div className="flex flex-row items-center pb-20 px-5 gap-10">
+        <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+          <img
+            src={raviPng}
+            alt="jordans"
+            height="400"
+            width="400"
+            className="object-contain rounded-full"
+          />
+          <p className="text-base text-center sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+            Ravi Annavajjhala
+          </p>
+
+          <p className="text-sm text-center text-neutral-600 dark:text-neutral-400">
+            CEO of Kinara, Inc.<br />MBA in Finance and Marketing at the Wharton School of the University of Pennsylvania
+          </p>
+        </BackgroundGradient>
+
+        <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+          <img
+            src={nikunjPng}
+            alt="jordans"
+            height="400"
+            width="400"
+            className="object-contain rounded-full"
+          />
+          <p className="text-base text-center sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+            Nikunj Mehta
+          </p>
+
+          <p className="text-sm text-center text-neutral-600 dark:text-neutral-400">
+            Founder and CEO of Falkonry<br />Co-Founder of Industry 4.0 Club<br />PhD in Computer Science at the University of Southern California
+          </p>
+        </BackgroundGradient>
+      </div>
+
       <div className="flex gap-5 justify-center flex-col lg:flex-row max-w-5xl w-full flex-wrap">
         <CardContainer className="inter-var w-full">
           <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-64 flex flex-col items-center">
@@ -251,7 +291,12 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center">
+          <CardBody
+            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center"
+            flex
+            flex-col
+            items-center
+          >
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
@@ -292,7 +337,12 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center">
+          <CardBody
+            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center"
+            flex
+            flex-col
+            items-center
+          >
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
@@ -333,7 +383,12 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center">
+          <CardBody
+            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center"
+            flex
+            flex-col
+            items-center
+          >
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
