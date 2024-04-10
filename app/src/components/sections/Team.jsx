@@ -21,7 +21,7 @@ const Team = () => {
         <h1 className="text-6xl md:text-7xl font-bold ">Team</h1>
       </div>
 
-      <div className="flex md:flex-col lg:flex-row items-center pb-20 px-5 gap-10">
+      <div className="flex sm:flex-col md:flex-col lg:flex-row items-center pb-20 px-5 gap-10">
         <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
           <img
             src={raviPng}
