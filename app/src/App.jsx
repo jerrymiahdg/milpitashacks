@@ -31,6 +31,8 @@ function App() {
   const prospectusRef = useRef();
   const missionRef = useRef();
   const prospectusFaqRef = useRef();
+  const judgesRef = useRef();
+  const speakersRef = useRef();
 
   const [sideNavActive, setSideNavActive] = useState(false);
 
@@ -64,6 +66,10 @@ function App() {
       scrollByRef(prospectusRef);
     } else if (scrollTo === "/prospectus/faq") {
       scrollByRef(prospectusFaqRef);
+    } else if (scrollTo == "/judges") {
+      scrollByRef(judgesRef);
+    } else if (scrollTo == "/speakers") {
+      scrollByRef(speakersRef);
     }
   };
 
@@ -91,6 +97,8 @@ function App() {
                   teamRef={teamRef}
                   faqRef={faqRef}
                   sponsorsRef={sponsorsRef}
+                  judgesRef={judgesRef}
+                  speakersRef={speakersRef}
                 />
               }
             />

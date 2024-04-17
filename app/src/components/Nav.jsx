@@ -57,6 +57,13 @@ const Nav = () => {
             Tracks
           </Link>
           <Link
+            to="speakers"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/speakers")}
+          >
+            Speakers
+          </Link>
+          <Link
             to="faq"
             className="hover:text-blue-300 transition-all"
             onClick={() => ctx.scrollToSection("/faq")}
@@ -64,18 +71,18 @@ const Nav = () => {
             FAQ
           </Link>
           <Link
+            to="judges"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/judges")}
+          >
+            Judges
+          </Link>
+          <Link
             to="sponsors"
             className="hover:text-blue-300 transition-all"
             onClick={() => ctx.scrollToSection("/sponsors")}
           >
             Sponsors
-          </Link>
-          <Link
-            to="team"
-            className="hover:text-blue-300 transition-all"
-            onClick={() => ctx.scrollToSection("/team")}
-          >
-            Team
           </Link>
           <a
             href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
