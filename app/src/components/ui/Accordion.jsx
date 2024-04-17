@@ -27,7 +27,7 @@ const Accordion = (props) => {
             : `opacity-100 grid-rows-[1fr] pb-4`
         }`}
       >
-        <div className="overflow-hidden">
+        <div className="overflow-hidden font-normal">
           <div className="p-2" />
           {props.body}
         </div>

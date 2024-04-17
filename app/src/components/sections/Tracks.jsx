@@ -2,7 +2,7 @@ import { Megaphone, Landmark, MessageCircleHeart, Accessibility } from "lucide-r
 
 const Tracks = () => {
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 bg-gray-900 pt-20 pb-20 pl-5 pr-5">
+    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 bg-gray-900 pt-20 pb-40 pl-5 pr-5">
       <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold">Tracks</h1>
       </div>
@@ -12,7 +12,7 @@ const Tracks = () => {
             <Megaphone size={35} />
             TBA
           </h2>
-          <h3 className="text-lg">
+          <h3 className="font-normal text-lg">
             To be announced...
           </h3>
         </div>
@@ -21,7 +21,7 @@ const Tracks = () => {
             <Megaphone size={35}/>
             TBA
           </h2>
-          <h3 className="text-lg">
+          <h3 className="font-normal text-lg">
             To be announced...
           </h3>
         </div>
@@ -30,7 +30,7 @@ const Tracks = () => {
             <Megaphone size={35}/>
             TBA
           </h2>
-          <h3 className="text-lg">
+          <h3 className="font-normal text-lg">
             To be announced...
           </h3>
         </div>

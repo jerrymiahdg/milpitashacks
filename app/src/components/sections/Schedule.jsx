@@ -1,6 +1,6 @@
 const Schedule = () => {
   return (
-    <div className="flex flex-col items-center pt-20 pb-20 pl-5 pr-5 justify-center gap-20 bg-gradient-to-t from-gray-950 bg-gray-900 20">
+    <div className="flex flex-col items-center pt-20 pb-40 pl-5 pr-5 justify-center gap-20 bg-gradient-to-t from-gray-950 bg-gray-900 20">
       <div className="rounded-lg flex-col max-w-3xl w-full gap-5 flex">
         <h1 className="font-bold text-6xl md:text-7xl text-center pb-10">
           Schedule
