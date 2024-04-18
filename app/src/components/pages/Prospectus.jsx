@@ -72,7 +72,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
               <div className="text-lg flex flex-col gap-2">
                 <h1>Everything in bronze + the following:</h1>
                 <ul className="list-disc pl-5 flex flex-col gap-2">
-                  <li>1 Emails to 150+ participants</li>
+                  <li>1 Email to 150+ participants</li>
                   <li>Logo on our website under silver tier</li>
                   <li>Send a judge to the panel</li>
                   <li>
