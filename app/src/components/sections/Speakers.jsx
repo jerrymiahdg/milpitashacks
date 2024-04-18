@@ -5,7 +5,7 @@ import nikunjPng from "../../assets/nikunj.jpeg";
 
 const Speakers = () => {
   return (
-    <div className="flex flex-col items-center py-20 px-5  bg-gradient-to-t from-gray-900 to-gray-900">
+    <div className="flex flex-col items-center text-center py-20 px-5  bg-gradient-to-t from-gray-900 to-gray-900">
       <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold ">Keynote Speakers</h1>
       </div>
