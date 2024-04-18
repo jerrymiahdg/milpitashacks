@@ -79,7 +79,7 @@ const FAQ = () => {
   const [openFaq, setOpenFaq] = useState(-1);
 
   return (
-    <div className="flex flex-col items-center pt-20 pb-20 pl-5 pr-5 bg-cover bg-gradient-to-b from-gray-900 to-gray-950">
+    <div className="flex flex-col items-center pt-20 pb-40 pl-5 pr-5 bg-cover bg-gradient-to-b from-gray-900 to-gray-950">
       <div className="pb-20">
         <h1 className="text-7xl font-bold">FAQ</h1>
       </div>

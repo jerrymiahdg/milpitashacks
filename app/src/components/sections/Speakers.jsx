@@ -14,7 +14,7 @@ const Speakers = () => {
         <BackgroundGradient className="rounded-[22px] w-80 p-4 sm:p-10 bg-zinc-900">
           <img
             src={raviPng}
-            alt="jordans"
+            alt="Ravi Annavajjhala, CEO of Kinara, Inc."
             height="400"
             width="400"
             className="object-contain rounded-full"
@@ -23,18 +23,17 @@ const Speakers = () => {
             Ravi Annavajjhala
           </p>
 
-          <p className="text-sm text-center text-white">
-            CEO of Kinara, Inc.
-          </p>
+          <p className="text-sm text-center text-white">CEO of Kinara, Inc.</p>
           <p className="text-sm text-center text-gray-500">
-            MBA in Finance and Marketing at the Wharton School of the University of Pennsylvania
+            MBA in Finance and Marketing at the Wharton School of the University
+            of Pennsylvania
           </p>
         </BackgroundGradient>
 
         <BackgroundGradient className="rounded-[22px] w-80 h-max p-4 sm:p-10 bg-zinc-900">
           <img
             src={nikunjPng}
-            alt="jordans"
+            alt="Nikunj Mehta, Founder and CEO of Falkonry"
             height="400"
             width="400"
             className="object-contain rounded-full"
@@ -47,7 +46,9 @@ const Speakers = () => {
             Founder and CEO of Falkonry
           </p>
           <p className="text-sm text-center text-gray-500">
-            Co-Founder of Industry 4.0 Club<br />PhD in Computer Science at the University of Southern California
+            Co-Founder of Industry 4.0 Club
+            <br />
+            PhD in Computer Science at the University of Southern California
           </p>
         </BackgroundGradient>
       </div>

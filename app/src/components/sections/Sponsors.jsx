@@ -13,19 +13,23 @@ const Sponsors = () => {
       </div>
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl w-full justify-center items-center">
         <a href="https://hackclub.com/" target="_blank">
-          <img src={hackClubLogoPng}  className="w-full"/>
+          <img src={hackClubLogoPng} className="w-full" alt="Hack Club Logo" />
         </a>
         <a href="https://1password.com/" target="_blank">
-          <img src={onePasswordPng}  className="w-full"/>
+          <img src={onePasswordPng} className="w-full" alt="1Password Logo" />
         </a>
         <a href="https://www.echo3d.com/" target="_blank">
-          <img src={echo3dPng}  className="w-full"/>
+          <img src={echo3dPng} className="w-full" alt="echo3D Logo" />
         </a>
         <a href="https://www.desmos.com/" target="_blank">
-          <img src={desmosPng}  className="w-full"/>
+          <img src={desmosPng} className="w-full" alt="Desmos Logo" />
         </a>
         <a href="https://www.interviewcake.com/" target="_blank">
-          <img src={interviewcakePng} className="w-full"/>
+          <img
+            src={interviewcakePng}
+            className="w-full"
+            alt="Interview Cake Logo"
+          />
         </a>
       </div>
       <div className="pt-20">

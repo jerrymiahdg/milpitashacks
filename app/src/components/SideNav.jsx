@@ -47,11 +47,25 @@ const SideNav = () => {
               Tracks
             </Link>
             <Link
+              to="speakers"
+              className="hover:text-blue-300 transition-all"
+              onClick={sideNavLinkClickHandler("/speakers")}
+            >
+              Speakers
+            </Link>
+            <Link
               to="faq"
               className="hover:text-blue-300 transition-all"
               onClick={sideNavLinkClickHandler("/faq")}
             >
               FAQ
+            </Link>
+            <Link
+              to="judges"
+              className="hover:text-blue-300 transition-all"
+              onClick={sideNavLinkClickHandler("/judges")}
+            >
+              Judges
             </Link>
             <Link
               to="sponsors"

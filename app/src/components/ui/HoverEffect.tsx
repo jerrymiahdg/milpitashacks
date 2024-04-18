@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import linkedinPng from "../../assets/linkedin.png";
@@ -11,34 +11,30 @@ import pradeepPng from "../../assets/pradeep.jpeg";
 export const projects = [
   {
     title: "Pavan Kumar",
-    description:
-      "Senior Manager at Apple",
+    description: "Senior Manager at Apple",
     link: "https://www.linkedin.com/in/pavanrvs/",
-    png: pavanPng
+    png: pavanPng,
   },
 
   {
     title: "Kevin Macwan",
-    description:
-      "Software Engineering Manager at Amazon",
+    description: "Software Engineering Manager at Amazon",
     link: "https://www.linkedin.com/in/kevin-macwan-85a55165/",
-    png: kevinPng
+    png: kevinPng,
   },
 
   {
     title: "Murali Ganji",
-    description:
-      "Software Engineer at Meta",
+    description: "Software Engineer at Meta",
     link: "https://www.linkedin.com/in/murali-ganji-81b85424/",
-    png: muraliPng
+    png: muraliPng,
   },
 
   {
     title: "Pradeep Kumar",
-    description:
-      "Software Development Engineer at Amazon",
+    description: "Software Development Engineer at Amazon",
     link: "https://www.linkedin.com/in/pkumar28/",
-    png: pradeepPng
+    png: pradeepPng,
   },
   // ...rest of the projects
 ];
@@ -88,18 +84,17 @@ export const HoverEffect = () => {
                       src={project.png}
                       width="125"
                       height="125"
+                      alt={project.title}
                     />
                   </div>
                   <div className="pt-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center">
-                    <a
-                      href={project.link}
-                      target="_blank"
-                    >
+                    <a href={project.link} target="_blank">
                       <img
                         src={linkedinPng}
                         className="rounded-sm"
                         width="25"
                         height="25"
+                        alt="LinkedIn Logo"
                       />
                     </a>
                   </div>
@@ -112,4 +107,3 @@ export const HoverEffect = () => {
     </div>
   );
 };
-
