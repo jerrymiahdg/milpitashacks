@@ -10,14 +10,6 @@ import pradeepPng from "../../assets/pradeep.jpeg";
 
 export const projects = [
   {
-    title: "Lakshminarayanan Vijayaraghavan",
-    description:
-      "Senior Software Engineer at Tiktok",
-    link: "https://www.linkedin.com/in/lvijayaraghavan/",
-    png: lakshPng
-  },
-  
-  {
     title: "Pavan Kumar",
     description:
       "Senior Manager at Apple",
@@ -56,7 +48,7 @@ export const HoverEffect = () => {
 
   return (
     <div className="max-w-5xl mx-auto px-8 z-20">
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  py-">
         {projects.map((project, idx) => (
           <div
             key={project?.link}
