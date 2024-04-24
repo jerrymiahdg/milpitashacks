@@ -18,7 +18,7 @@ const Sponsors = () => {
       </div>
 
       <div className="flex flex-wrap justify-center">
-        <a href="https://hackclub.com/" target="_blank">
+        <a href="https://www.milpitas.gov" target="_blank">
           <img src={milpitasPng} className="h-72" alt="Hack Club Logo" />
         </a>
       </div>
