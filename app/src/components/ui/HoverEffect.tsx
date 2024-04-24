@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -7,6 +9,8 @@ import pavanPng from "../../assets/pavan.jpeg";
 import kevinPng from "../../assets/kevin.jpeg";
 import muraliPng from "../../assets/murali.png";
 import pradeepPng from "../../assets/pradeep.jpeg";
+import gaureshPng from "../../assets/gauresh.jpg";
+import blankPng from "../../assets/blank.jpeg";
 
 export const projects = [
   {
@@ -36,6 +40,12 @@ export const projects = [
     link: "https://www.linkedin.com/in/pkumar28/",
     png: pradeepPng,
   },
+
+  { title: "Gauresh Rane",
+    description: "Engineer Manager at WhatsApp",
+    link: "https://www.linkedin.com/in/gauresh-rane-55772913/",
+    png: gaureshPng,
+  },
   // ...rest of the projects
 ];
 
@@ -44,11 +54,11 @@ export const HoverEffect = () => {
 
   return (
     <div className="max-w-5xl mx-auto px-8 z-20">
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  py-">
+      <div className="flex flex-wrap justify-center">
         {projects.map((project, idx) => (
           <div
             key={project?.link}
-            className="relative group  block p-2 h-full w-full "
+            className="relative group  block p-2 h-full w-80 "
             onMouseEnter={() => setHoveredIndex(idx)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
@@ -80,7 +90,7 @@ export const HoverEffect = () => {
                   </p>
                   <div className="py-5 rounded-xl text-xs font-normal dark:text-white flex items-center justify-center">
                     <img
-                      className="rounded-full"
+                      className="rounded-full aspect-square object-cover"
                       src={project.png}
                       width="125"
                       height="125"

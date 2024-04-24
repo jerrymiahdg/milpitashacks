@@ -4,6 +4,7 @@ import onePasswordPng from "../../assets/1PasswordLogo.png";
 import echo3dPng from "../../assets/echo3d.png";
 import desmosPng from "../../assets/desmos.png";
 import interviewcakePng from "../../assets/interviewcake.png";
+import milpitasPng from "../../assets/milpitas.svg";
 
 const Sponsors = () => {
   return (
@@ -11,23 +12,34 @@ const Sponsors = () => {
       <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold">Sponsors</h1>
       </div>
-      <div className="grid md:grid-cols-2 gap-10 max-w-5xl w-full justify-center items-center">
+
+      <div className="pb-10">
+        <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500">Silver</h2>
+      </div>
+
+      <div className="flex flex-wrap justify-center">
         <a href="https://hackclub.com/" target="_blank">
-          <img src={hackClubLogoPng} className="w-full" alt="Hack Club Logo" />
+          <img src={milpitasPng} className="h-72" alt="Hack Club Logo" />
+        </a>
+      </div>
+
+      <div className="pt-40 flex flex-wrap justify-center gap-10">
+        <a href="https://hackclub.com/" target="_blank">
+          <img src={hackClubLogoPng} className="w-80" alt="Hack Club Logo" />
         </a>
         <a href="https://1password.com/" target="_blank">
-          <img src={onePasswordPng} className="w-full" alt="1Password Logo" />
+          <img src={onePasswordPng} className="w-80" alt="1Password Logo" />
         </a>
         <a href="https://www.echo3d.com/" target="_blank">
-          <img src={echo3dPng} className="w-full" alt="echo3D Logo" />
+          <img src={echo3dPng} className="w-80" alt="echo3D Logo" />
         </a>
         <a href="https://www.desmos.com/" target="_blank">
-          <img src={desmosPng} className="w-full" alt="Desmos Logo" />
+          <img src={desmosPng} className="w-80" alt="Desmos Logo" />
         </a>
         <a href="https://www.interviewcake.com/" target="_blank">
           <img
             src={interviewcakePng}
-            className="w-full"
+            className="w-96"
             alt="Interview Cake Logo"
           />
         </a>
