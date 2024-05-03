@@ -9,6 +9,7 @@ import pavanPng from "../../assets/pavan.jpeg";
 import kevinPng from "../../assets/kevin.jpeg";
 import muraliPng from "../../assets/murali.png";
 import pradeepPng from "../../assets/pradeep.jpeg";
+import sumitPng from "../../assets/sumit.png";
 import gaureshPng from "../../assets/gauresh.jpg";
 import blankPng from "../../assets/blank.jpeg";
 
@@ -39,6 +40,12 @@ export const projects = [
     description: "Software Development Engineer at Amazon",
     link: "https://www.linkedin.com/in/pkumar28/",
     png: pradeepPng,
+  },
+
+  { title: "Sumit Bhatnagar",
+    description: "VP of Software Engineering at JP Morgan Chase & Co.",
+    link: "https://www.linkedin.com/in/sumitbhatnagar1411/",
+    png: sumitPng,
   },
 
   { title: "Gauresh Rane",
