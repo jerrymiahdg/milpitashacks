@@ -38,7 +38,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
         className="flex flex-col items-center p-5 gap-5 pb-20"
         ref={prospectusRef}
       >
-        <div className="font-normal flex flex-col md:grid grid-cols-3 max-w-7xl w-full border border-gray-800 rounded-md">
+        <div className="font-normal flex flex-col md:grid grid-cols-4 max-w-7xl w-full border border-gray-800 rounded-md">
           <div className="md:border-r border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
               Bronze | $750
@@ -64,6 +64,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
               </a>
             </div>
           </div>
+
           <div className="border-t md:border-t-0 md:border-r border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
               Silver | $1200
@@ -91,12 +92,13 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
               </a>
             </div>
           </div>
+
           <div className=" flex flex-col">
             <div className="font-bold text-lg p-5 border-t md:border-t-0  bg-gray-950/50 border-b border-gray-800">
               Gold | $2000
             </div>{" "}
             <div className="p-5 gap-5 flex flex-col justify-between h-full">
-              <div className=" text-lg flex flex-col gap-2">
+              <div className=" text-lg flex flex-col gap-2 pb-5">
                 <h1>Everything in silver and bronze + the following:</h1>
                 <ul className="list-disc pl-5 flex flex-col gap-2">
                   <li>5 emails to 150+ participants</li>
@@ -105,6 +107,28 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
                   <li>Custom award category with company name</li>
                   <li>Initial API/Product Demos</li>
                   <li>Sending 2 judges to the judging panel</li>
+                </ul>
+              </div>
+              <a href="mailto:milpitashacks@gmail.com">
+                <Button
+                  size="lg"
+                  className="w-full bg-gradient-to-br from-white to-blue-300"
+                >
+                  Contact us!
+                </Button>
+              </a>
+            </div>
+          </div>
+
+          <div className="md:border-r border-gray-800 flex flex-col">
+            <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
+              Partner | $3000
+            </div>
+            <div className="p-5 gap-5 flex flex-col justify-between h-full">
+              <div className="text-lg flex flex-col gap-2">
+                <h1>Everything in gold, silver, and bronze + the following:</h1>
+                <ul className="list-disc pl-5 flex flex-col gap-2">
+                  <li>Request additional custom perks for your company</li>
                 </ul>
               </div>
               <a href="mailto:milpitashacks@gmail.com">

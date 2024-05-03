@@ -19,7 +19,7 @@ const Team = () => {
       </div>
       <div className="flex gap-5 justify-center flex-col lg:flex-row max-w-5xl w-full flex-wrap">
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-64 flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center shadow-2xl"
@@ -67,7 +67,58 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-64 flex flex-col items-center">
+          <CardBody
+            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center"
+            flex
+            flex-col
+            items-center
+          >
+            <CardItem
+              translateZ="50"
+              className="text-md font-bold text-white text-center"
+            >
+              Vasista Ramachandruni
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="60"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+            >
+              Executive Lead
+            </CardItem>
+            <div className="">
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <img
+                  src={vasistaPng}
+                  width="125"
+                  className="rounded-full"
+                  height="125"
+                  alt="Picture of Vasista Ramachandruni, Lead and Head of Operations at Milpitas Hacks"
+                />
+              </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+              >
+                <a href="https://www.linkedin.com/in/vasistar/" target="_blank">
+                  <img
+                    src={linkedInPng}
+                    className="rounded-sm"
+                    width="25"
+                    height="25"
+                    alt="LinkedIn Logo"
+                  />
+                </a>
+              </CardItem>
+            </div>
+          </CardBody>
+        </CardContainer>
+
+        <CardContainer className="inter-var w-full">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
@@ -79,7 +130,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Founder and Executive Lead
+              Founder and Director
             </CardItem>
             <div className="">
               <CardItem
@@ -114,57 +165,7 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody
-            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-64 h-64 flex flex-col items-center"
-            flex
-            flex-col
-            items-center
-          >
-            <CardItem
-              translateZ="50"
-              className="text-md font-bold text-white text-center"
-            >
-              Vasista Ramachandruni
-            </CardItem>
-            <CardItem
-              as="p"
-              translateZ="60"
-              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
-            >
-              Lead and Head of Operations
-            </CardItem>
-            <div className="">
-              <CardItem
-                translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white"
-              >
-                <img
-                  src={vasistaPng}
-                  width="125"
-                  className="rounded-full"
-                  height="125"
-                  alt="Picture of Vasista Ramachandruni, Lead and Head of Operations at Milpitas Hacks"
-                />
-              </CardItem>
-              <CardItem
-                translateZ={20}
-                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
-              >
-                <a href="https://www.linkedin.com/in/vasistar/" target="_blank">
-                  <img
-                    src={linkedInPng}
-                    className="rounded-sm"
-                    width="25"
-                    height="25"
-                    alt="LinkedIn Logo"
-                  />
-                </a>
-              </CardItem>
-            </div>
-          </CardBody>
-        </CardContainer>
-        <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
@@ -213,7 +214,7 @@ const Team = () => {
         </CardContainer>
         <CardContainer className="inter-var w-full">
           <CardBody
-            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center"
+            className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center"
             flex
             flex-col
             items-center
@@ -265,7 +266,7 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
@@ -312,7 +313,7 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
@@ -359,7 +360,7 @@ const Team = () => {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var w-full">
-          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-64 flex flex-col items-center">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
             <CardItem
               translateZ="50"
               className="text-md font-bold text-white text-center"
