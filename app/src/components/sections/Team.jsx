@@ -96,7 +96,7 @@ const Team = () => {
                   width="125"
                   className="rounded-full"
                   height="125"
-                  alt="Picture of Vasista Ramachandruni, Lead and Head of Operations at Milpitas Hacks"
+                  alt="Picture of Vasista Ramachandruni, Executive Lead at Milpitas Hacks"
                 />
               </CardItem>
               <CardItem
@@ -141,7 +141,7 @@ const Team = () => {
                   src={pranayPng}
                   width="125"
                   height="125"
-                  alt="Picture of Pranay Jain, Founder and Exective Lead of Milpitas Hacks"
+                  alt="Picture of Pranay Jain, Director of Milpitas Hacks"
                 />
               </CardItem>
               <CardItem

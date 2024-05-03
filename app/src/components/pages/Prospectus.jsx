@@ -14,9 +14,9 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
             from web developers to backend engineers. We want to spread our
             passion to the rest of the Bay Area through Milpitas Hacks, a
             hackathon for Bay Area high schoolers that emphasizes the inclusion
-            of women in STEM. This commitment of ours is reflected in our
-            partnership with Milpitas High STEM Girls as well as Milpitas High
-            Girls Who Code. This year, we are aiming to have around 200
+            of women in STEM. This commitment of ours is reflected in our all-female
+            marketing team as well as the Women In STEM focus for our
+            Code for Cause Track. This year, we are aiming to have around 200
             participants at Milpitas Hacks, which we can only do through your
             support! Help us make the first hackathon at Milpitas High School
             since its founding 55 years ago a success and support women in STEM
@@ -41,7 +41,7 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
         <div className="font-normal flex flex-col md:grid grid-cols-4 max-w-7xl w-full border border-gray-800 rounded-md">
           <div className="md:border-r border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
-              Bronze | $750
+              <span className="bg-clip-text text-transparent bg-gradient-to-br from-white to-amber-800">Bronze</span> | $750
             </div>
             <div className="p-5 gap-5 flex flex-col justify-between h-full">
               <div className="text-lg flex flex-col gap-2">
@@ -67,11 +67,11 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
 
           <div className="border-t md:border-t-0 md:border-r border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
-              Silver | $1200
+              <span className="bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500">Silver</span> | $1200
             </div>
             <div className="p-5 gap-5 flex flex-col justify-between h-full">
               <div className="text-lg flex flex-col gap-2">
-                <h1>Everything in bronze + the following:</h1>
+                <h1 className="font-semibold">Everything in bronze + the following:</h1>
                 <ul className="list-disc pl-5 flex flex-col gap-2">
                   <li>1 Email to 150+ participants</li>
                   <li>Logo on our website under silver tier</li>
@@ -95,11 +95,11 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
 
           <div className=" flex flex-col">
             <div className="font-bold text-lg p-5 border-t md:border-t-0  bg-gray-950/50 border-b border-gray-800">
-              Gold | $2000
+              <span className="bg-clip-text text-transparent bg-gradient-to-br from-white to-amber-400">Gold</span> | $2000
             </div>{" "}
             <div className="p-5 gap-5 flex flex-col justify-between h-full">
               <div className=" text-lg flex flex-col gap-2 pb-5">
-                <h1>Everything in silver and bronze + the following:</h1>
+                <h1 className="font-semibold">Everything in silver and bronze + the following:</h1>
                 <ul className="list-disc pl-5 flex flex-col gap-2">
                   <li>5 emails to 150+ participants</li>
                   <li>Distribute company swag</li>
@@ -120,13 +120,13 @@ const Prospectus = ({ missionRef, prospectusRef, prospectusFaqRef }) => {
             </div>
           </div>
 
-          <div className="md:border-r border-gray-800 flex flex-col">
+          <div className="md:border-l border-gray-800 flex flex-col">
             <div className="font-bold text-lg p-5 bg-gray-950/50 border-b border-gray-800">
-              Partner | $3000
+              <span className="bg-clip-text text-transparent bg-gradient-to-br from-orange-500 to-amber-100">Partner</span> | $3000
             </div>
             <div className="p-5 gap-5 flex flex-col justify-between h-full">
               <div className="text-lg flex flex-col gap-2">
-                <h1>Everything in gold, silver, and bronze + the following:</h1>
+                <h1 className="font-semibold">Everything in gold, silver, and bronze + the following:</h1>
                 <ul className="list-disc pl-5 flex flex-col gap-2">
                   <li>Request additional custom perks for your company</li>
                 </ul>
