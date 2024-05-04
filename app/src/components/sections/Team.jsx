@@ -170,6 +170,54 @@ const Team = () => {
               translateZ="50"
               className="text-md font-bold text-white text-center"
             >
+              Oliver Ma
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="60"
+              className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
+            >
+              Frontend Tech Lead
+            </CardItem>
+            <div className="">
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <img
+                  src={oliverPng}
+                  className="rounded-full aspect-square object-cover"
+                  width="125"
+                  height="125"
+                  alt="Picture of Oliver Ma, Frontend Tech Lead of Milpitas Hacks"
+                />
+              </CardItem>
+              <CardItem
+                translateZ={20}
+                className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
+              >
+                <a
+                  href="https://www.linkedin.com/in/oliver-ma-1337702bb/"
+                  target="_blank"
+                >
+                  <img
+                    src={linkedInPng}
+                    className="rounded-sm"
+                    width="25"
+                    height="25"
+                    alt="LinkedIn Logo"
+                  />
+                </a>
+              </CardItem>
+            </div>
+          </CardBody>
+        </CardContainer>
+        <CardContainer className="inter-var w-full">
+          <CardBody className="bg-gray-950/50 relative group/card transition-all shadow-[0_0px_50px_-15px_rgba(0,0,0,0.3)] hover:shadow-[0_0px_100px_-15px_rgba(0,0,0,0.3)] shadow-indigo-800 hover:shadow-indigo-500 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border w-full lg:w-60 h-min flex flex-col items-center">
+            <CardItem
+              translateZ="50"
+              className="text-md font-bold text-white text-center"
+            >
               Jeremiah de Guzman
             </CardItem>
             <CardItem
@@ -177,7 +225,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Tech Lead
+              Backend Tech Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -189,7 +237,7 @@ const Team = () => {
                   className="rounded-full"
                   width="125"
                   height="125"
-                  alt="Picture of Jeremiah de Guzman, Tech Lead of Milpitas Hacks"
+                  alt="Picture of Jeremiah de Guzman, Backend Tech Lead of Milpitas Hacks"
                 />
               </CardItem>
               <CardItem
