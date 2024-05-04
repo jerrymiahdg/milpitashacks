@@ -177,7 +177,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Frontend Tech Lead
+              Co-Tech Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -225,7 +225,7 @@ const Team = () => {
               translateZ="60"
               className="text-gray-500 text-sm max-w-sm mt dark:text-gray-300"
             >
-              Backend Tech Lead
+              Co-Tech Lead
             </CardItem>
             <div className="">
               <CardItem
