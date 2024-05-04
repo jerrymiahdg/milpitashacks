@@ -1,8 +1,8 @@
 import { GraduationCap, Utensils, Trophy } from "lucide-react";
 
 // lmfao
-const prizes = 18;
-const prizeAmt = 1500;
+const prizes = 19;
+const prizeAmt = 1600;
 
 const About = () => {
   return (
