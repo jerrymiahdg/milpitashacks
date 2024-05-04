@@ -4,7 +4,7 @@ import onePasswordPng from "../../assets/1PasswordLogo.png";
 import echo3dPng from "../../assets/echo3d.png";
 import desmosPng from "../../assets/desmos.png";
 import interviewcakePng from "../../assets/interviewcake.png";
-import milpitasPng from "../../assets/milpitas.svg";
+import milpitasPng from "../../assets/milpitas.png";
 
 const Sponsors = () => {
   return (
@@ -19,7 +19,7 @@ const Sponsors = () => {
 
       <div className="flex flex-wrap justify-center">
         <a href="https://www.milpitas.gov" target="_blank">
-          <img src={milpitasPng} className="h-72" alt="Hack Club Logo" />
+          <img src={milpitasPng} className="h-80" alt="Hack Club Logo" />
         </a>
       </div>
 
