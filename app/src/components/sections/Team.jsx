@@ -234,7 +234,7 @@ const Team = () => {
               >
                 <img
                   src={jeremiahPng}
-                  className="rounded-full"
+                  className="rounded-full aspect-square object-cover"
                   width="125"
                   height="125"
                   alt="Picture of Jeremiah de Guzman, Backend Tech Lead of Milpitas Hacks"
