@@ -62,7 +62,7 @@ export const HoverEffect = () => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="max-w-5xl mx-auto px-8 z-20">
+    <div className="max-w-5xl mx-auto px-5 z-20">
       <div className="flex flex-wrap justify-center">
         {projects.map((project, idx) => (
           <div
