@@ -5,6 +5,7 @@ import echo3dPng from "../../assets/echo3d.png";
 import desmosPng from "../../assets/desmos.png";
 import interviewcakePng from "../../assets/interviewcake.png";
 import milpitasPng from "../../assets/milpitas.png";
+import ahaIndianCuisineJpg from "../../assets/ahaindiancuisine.jpg";
 
 const Sponsors = () => {
   return (
@@ -14,12 +15,24 @@ const Sponsors = () => {
       </div>
 
       <div className="pb-10">
-        <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500">Silver</h2>
+        <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500">
+          Silver
+        </h2>
       </div>
 
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center flex-col items-center gap-10">
         <a href="https://www.milpitas.gov" target="_blank">
           <img src={milpitasPng} className="h-80" alt="Hack Club Logo" />
+        </a>
+        <a
+          href="https://www.lokosite.com/biz/ahaindiancuisinemilpitas"
+          target="_blank"
+        >
+          <img
+            src={ahaIndianCuisineJpg}
+            className="h-80"
+            alt="aha Indian Cuisine Logo"
+          />
         </a>
       </div>
 
