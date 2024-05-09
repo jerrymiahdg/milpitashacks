@@ -22,7 +22,7 @@ const Sponsors = () => {
 
       <div className="flex flex-wrap justify-center flex-col items-center gap-10">
         <a href="https://www.milpitas.gov" target="_blank">
-          <img src={milpitasPng} className="h-80" alt="Hack Club Logo" />
+          <img src={milpitasPng} className="max-h-80" alt="Hack Club Logo" />
         </a>
         <a
           href="https://www.lokosite.com/biz/ahaindiancuisinemilpitas"
@@ -30,7 +30,7 @@ const Sponsors = () => {
         >
           <img
             src={ahaIndianCuisineJpg}
-            className="h-80"
+            className="max-h-80"
             alt="aha Indian Cuisine Logo"
           />
         </a>
