@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { Meteors } from "../ui/meteors";
 import { Button } from "@nextui-org/button";
@@ -15,35 +14,37 @@ export function BackgroundGradientAnimationDemo() {
 
     result.days = Math.floor(time / (1000 * 60 * 60 * 24));
 
-    time %= (1000 * 60 * 60 * 24);
+    time %= 1000 * 60 * 60 * 24;
 
     result.hrs = Math.floor(time / (1000 * 60 * 60));
 
-    time %= (1000 * 60 * 60);
+    time %= 1000 * 60 * 60;
 
     result.min = Math.floor(time / (1000 * 60));
 
-    time %= (1000 * 60);
+    time %= 1000 * 60;
 
     result.sec = Math.floor(time / 1000);
 
     return result;
-  }
+  };
 
-  const [formattedTime, setFormattedTime] = useState(getFormattedTime())
+  const [formattedTime, setFormattedTime] = useState(getFormattedTime());
 
   useEffect(() => {
     setInterval(() => {
-      setFormattedTime(getFormattedTime)
-    }, 1000)
-  }, [])
+      setFormattedTime(getFormattedTime);
+    }, 1000);
+  }, []);
 
   return (
     <BackgroundGradientAnimation>
       <div className="bg-gradient-to-t from-gray-950 bg-primary">
         <div className=" h-screen absolute w-screen">
-          <div className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col 
-          justify-center items-start">
+          <div
+            className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col 
+          justify-center items-start"
+          >
             <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
               <div className="flex-col">
                 <h1 className="text-5xl md:text-8xl sm:text-6xl lg:text-9xl font-bold text-center relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
@@ -91,7 +92,10 @@ export function BackgroundGradientAnimationDemo() {
                 href="https://tripetto.app/run/O7E32KMH7T"
                 className="z-20 pt-14"
               >
-                <Button size="lg" className="h-16 bg-gradient-to-br from-white to-blue-300">
+                <Button
+                  size="lg"
+                  className="h-16 bg-gradient-to-br from-white to-blue-300"
+                >
                   Register
                   <ArrowRight />
                 </Button>
