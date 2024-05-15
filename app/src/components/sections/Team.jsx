@@ -234,7 +234,7 @@ const Team = () => {
               >
                 <img
                   src={jeremiahPng}
-                  className="rounded-full"
+                  className="rounded-full aspect-square object-cover"
                   width="125"
                   height="125"
                   alt="Picture of Jeremiah de Guzman, Backend Tech Lead of Milpitas Hacks"
@@ -245,7 +245,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white w-full flex justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/jeremiahjohnmari-de-guzman-02b8002ba/"
+                  href="https://www.linkedin.com/in/jeremiah-de-guzman-02b8002ba/"
                   target="_blank"
                 >
                   <img
@@ -345,7 +345,7 @@ const Team = () => {
                 className="py-2 rounded-xl text-xs font-normal dark:text-white flex w-full justify-center"
               >
                 <a
-                  href="https://www.linkedin.com/in/harish-manukonda-8bbb02274/"
+                  href="https://www.linkedin.com/in/vinayamanivenkatasaiharish-manukonda-8bbb02274/"
                   target="_blank"
                 >
                   <img

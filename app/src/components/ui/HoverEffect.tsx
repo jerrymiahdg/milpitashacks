@@ -43,13 +43,15 @@ export const projects = [
     png: pradeepPng,
   },
 
-  { title: "Sumit Bhatnagar",
+  {
+    title: "Sumit Bhatnagar",
     description: "VP of Software Engineering at JP Morgan Chase & Co.",
     link: "https://www.linkedin.com/in/sumitbhatnagar1411/",
     png: sumitPng,
   },
 
-  { title: "Gauresh Rane",
+  {
+    title: "Gauresh Rane",
     description: "Engineer Manager at WhatsApp",
     link: "https://www.linkedin.com/in/gauresh-rane-55772913/",
     png: gaureshPng,
@@ -66,12 +68,12 @@ export const HoverEffect = () => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="max-w-5xl mx-auto px-8 z-20">
+    <div className="max-w-5xl mx-auto px-5 z-20">
       <div className="flex flex-wrap justify-center">
         {projects.map((project, idx) => (
           <div
             key={project?.link}
-            className="relative group  block p-2 h-full w-80 "
+            className="relative group  block p-2 h-full w-full sm:w-1/2 md:w-1/3"
             onMouseEnter={() => setHoveredIndex(idx)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
