@@ -9,6 +9,7 @@ import pavanPng from "../../assets/pavan.jpeg";
 import kevinPng from "../../assets/kevin.jpeg";
 import muraliPng from "../../assets/murali.png";
 import pradeepPng from "../../assets/pradeep.jpeg";
+import sandeepPng from "../../assets/sandeep.png";
 import sumitPng from "../../assets/sumit.png";
 import gaureshPng from "../../assets/gauresh.jpg";
 import blankPng from "../../assets/blank.jpeg";
@@ -52,6 +53,11 @@ export const projects = [
     description: "Engineer Manager at WhatsApp",
     link: "https://www.linkedin.com/in/gauresh-rane-55772913/",
     png: gaureshPng,
+  },
+  { title: "Sandeep Shah",
+    description: "Sr. Director, Corporate Quality at Netapp",
+    link: "https://linkedin.com/in/sandeep-shah-10082a1/",
+    png: sandeepPng,
   },
   // ...rest of the projects
 ];
