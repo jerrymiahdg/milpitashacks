@@ -9,7 +9,7 @@ import ahaIndianCuisineJpg from "../../assets/ahaindiancuisine.jpg";
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900 pt-20 pb-20 pl-5 pr-5">
+    <div className="flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900 pt-20 pb-40 pl-5 pr-5">
       <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold">Sponsors</h1>
       </div>
@@ -22,7 +22,11 @@ const Sponsors = () => {
 
       <div className="flex flex-wrap justify-center items-center gap-10">
         <a href="https://www.milpitas.gov" target="_blank">
-          <img src={milpitasPng} className="max-h-80 rounded-xl" alt="Hack Club Logo" />
+          <img
+            src={milpitasPng}
+            className="max-h-80 rounded-xl"
+            alt="Hack Club Logo"
+          />
         </a>
         <a
           href="https://www.lokosite.com/biz/ahaindiancuisinemilpitas"

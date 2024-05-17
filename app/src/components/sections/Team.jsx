@@ -14,7 +14,7 @@ import linkedInPng from "../../assets/linkedin.png";
 const Team = () => {
   return (
     <div className="flex flex-col items-center py-20 px-5  bg-gradient-to-t from-gray-950 to-gray-900">
-      <div className="py-20">
+      <div className="pb-20">
         <h1 className="text-6xl md:text-7xl font-bold ">Team</h1>
       </div>
       <div className="flex gap-5 justify-center flex-col lg:flex-row max-w-5xl w-full flex-wrap">

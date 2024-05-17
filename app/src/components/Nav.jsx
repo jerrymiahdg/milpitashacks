@@ -84,6 +84,13 @@ const Nav = () => {
           >
             Sponsors
           </Link>
+          <Link
+            to="team"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/team")}
+          >
+            Team
+          </Link>
           <a
             href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
             target="_blank"

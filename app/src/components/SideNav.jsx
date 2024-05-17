@@ -19,8 +19,8 @@ const SideNav = () => {
       <div
         className={`${
           ctx.sideNavActive
-            ? "max-h-96 py-8 border-b border-l backdrop-blur-lg"
-            : "max-h-0"
+            ? "max-h-[750px] py-8 border-b border-l backdrop-blur-lg opacity-100"
+            : "max-h-0 opacity-0"
         } translate-y-[67px] ease-in-out overflow-hidden flex flex-col fixed bg-slate-950/25 right-0 px-8 gap-5 rounded-bl-2xl transition-all border-transparent z-40`}
       >
         {!location.pathname.includes("/prospectus") ? (
@@ -73,6 +73,13 @@ const SideNav = () => {
               onClick={sideNavLinkClickHandler("/sponsors")}
             >
               Sponsors
+            </Link>
+            <Link
+              to="team"
+              className="hover:text-blue-300 transition-all"
+              onClick={sideNavLinkClickHandler("/team")}
+            >
+              Team
             </Link>
             <a
               href="https://hcb.hackclub.com/donations/start/milpitas-hacks"

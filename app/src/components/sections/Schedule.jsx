@@ -24,11 +24,11 @@ const Schedule = () => {
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">10:15 AM</h2>
-            <h2 className=" text-lg text-right">Intermediate Framework Workshop</h2>
+            <h2 className=" text-lg text-right">Intermediate React Workshop</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">10:30 AM</h2>
-            <h2 className=" text-lg text-right">AI/ML Workshop</h2>
+            <h2 className=" text-lg text-right">Expertise AI/ML Workshop</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">12:30 PM</h2>
@@ -61,8 +61,13 @@ const Schedule = () => {
         </div>
       </div>
       <h2 className="max-w-xl text-center text-lg">
-        <a className="font-normal">This schedule is </a><a className="font-extrabold">subject to change.</a><a className="font-normal"> Please
-        check back periodically or right before the day of the hackathon.</a>
+        <a className="font-normal">This schedule is </a>
+        <a className="font-extrabold">subject to change.</a>
+        <a className="font-normal">
+          {" "}
+          Please check back periodically or right before the day of the
+          hackathon.
+        </a>
       </h2>
     </div>
   );
