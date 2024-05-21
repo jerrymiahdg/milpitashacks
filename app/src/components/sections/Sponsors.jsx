@@ -6,6 +6,7 @@ import desmosPng from "../../assets/desmos.png";
 import interviewcakePng from "../../assets/interviewcake.png";
 import milpitasPng from "../../assets/milpitas.png";
 import ahaIndianCuisineJpg from "../../assets/ahaindiancuisine.jpg";
+import ewavePng from "../../assets/ewave.png";
 
 const Sponsors = () => {
   return (
@@ -38,7 +39,18 @@ const Sponsors = () => {
             alt="aha Indian Cuisine Logo"
           />
         </a>
+        <a
+          href="https://www.ewave.hk/"
+          target="_blank"
+        >
+          <img
+            src={ewavePng}
+            className="max-w-64 rounded-xl"
+            alt="ewave logo"
+          />
+        </a>
       </div>
+      
 
       <div className="pt-40 flex flex-wrap justify-center gap-10">
         <a href="https://hackclub.com/" target="_blank">
