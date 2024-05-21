@@ -84,6 +84,13 @@ const Nav = () => {
           >
             Sponsors
           </Link>
+          <Link
+            to="team"
+            className="hover:text-blue-300 transition-all"
+            onClick={() => ctx.scrollToSection("/team")}
+          >
+            Team
+          </Link>
           <a
             href="https://hcb.hackclub.com/donations/start/milpitas-hacks"
             target="_blank"
@@ -129,7 +136,7 @@ const Nav = () => {
           </a>
         </div>
         <div className="flex gap-5 items-center">
-          <a target="_blank" href="https://discord.gg/VWpmCzZ3Kx">
+          <a target="_blank" href="https://discord.gg/TkM3MGaTHF">
             <svg
               width="30px"
               height="30px"
