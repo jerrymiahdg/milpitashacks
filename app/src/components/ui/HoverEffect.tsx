@@ -12,6 +12,7 @@ import pradeepPng from "../../assets/pradeep.jpeg";
 import sandeepPng from "../../assets/sandeep.png";
 import sumitPng from "../../assets/sumit.png";
 import gaureshPng from "../../assets/gauresh.jpg";
+import sampatPng from "../../assets/sampat.jpeg";
 import blankPng from "../../assets/blank.jpeg";
 
 export const projects = [
@@ -56,10 +57,17 @@ export const projects = [
     link: "https://www.linkedin.com/in/gauresh-rane-55772913/",
     png: gaureshPng,
   },
+
   { title: "Sandeep Shah",
     description: "Sr. Director, Corporate Quality at Netapp",
     link: "https://linkedin.com/in/sandeep-shah-10082a1/",
     png: sandeepPng,
+  },
+
+  { title: "Sampat Kundu",
+    description: "Data & Analytics Manager at Apple",
+    link: "https://www.linkedin.com/in/sampat-kundu-1146a823/",
+    png: sampatPng,
   },
   // ...rest of the projects
 ];
