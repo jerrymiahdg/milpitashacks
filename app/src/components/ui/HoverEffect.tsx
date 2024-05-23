@@ -7,7 +7,7 @@ import linkedinPng from "../../assets/linkedin.png";
 import lakshPng from "../../assets/laksh.jpeg";
 import pavanPng from "../../assets/pavan.jpeg";
 import kevinPng from "../../assets/kevin.jpeg";
-import muraliPng from "../../assets/murali.png";
+import srinivasPng from "../../assets/srinivas.png";
 import pradeepPng from "../../assets/pradeep.jpeg";
 import sandeepPng from "../../assets/sandeep.png";
 import sumitPng from "../../assets/sumit.png";
@@ -31,10 +31,10 @@ export const projects = [
   },
 
   {
-    title: "Murali Ganji",
-    description: "Software Engineer at Meta",
-    link: "https://www.linkedin.com/in/murali-ganji-81b85424/",
-    png: muraliPng,
+    title: "Srinivas Mamidi",
+    description: "Senior Lead Software Engineer at Comcast",
+    link: "https://www.linkedin.com/in/srinivas-mamidi-ba216129/",
+    png: srinivasPng,
   },
 
   {
