@@ -24,13 +24,6 @@ export const projects = [
   },
 
   {
-    title: "Kevin Macwan",
-    description: "Software Engineering Manager at Amazon",
-    link: "https://www.linkedin.com/in/kevin-macwan-85a55165/",
-    png: kevinPng,
-  },
-
-  {
     title: "Srinivas Mamidi",
     description: "Senior Lead Software Engineer at Comcast",
     link: "https://www.linkedin.com/in/srinivas-mamidi-ba216129/",
