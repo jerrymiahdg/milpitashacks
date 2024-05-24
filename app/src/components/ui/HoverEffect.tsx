@@ -13,6 +13,7 @@ import sandeepPng from "../../assets/sandeep.png";
 import sumitPng from "../../assets/sumit.png";
 import gaureshPng from "../../assets/gauresh.jpg";
 import sampatPng from "../../assets/sampat.jpeg";
+import pritishPng from "../../assets/pritish.jpeg";
 import blankPng from "../../assets/blank.jpeg";
 
 export const projects = [
@@ -38,7 +39,7 @@ export const projects = [
   },
 
   { title: "Sandeep Shah",
-    description: "Sr. Director, Corporate Quality at Netapp",
+    description: "Sr. Director & Corporate Quality at Netapp",
     link: "https://linkedin.com/in/sandeep-shah-10082a1/",
     png: sandeepPng,
   },
@@ -48,6 +49,12 @@ export const projects = [
     link: "https://www.linkedin.com/in/sampat-kundu-1146a823/",
     png: sampatPng,
   },
+
+  // { title: "Pritish Udgata",
+  //   description: "AI Products & ML Platform at Adobe",
+  //   link: "https://www.linkedin.com/in/pritishudgata/",
+  //   png: pritishPng,
+  // },
   // ...rest of the projects
 ];
 
