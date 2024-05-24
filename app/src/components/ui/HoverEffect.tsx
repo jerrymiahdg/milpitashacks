@@ -31,20 +31,6 @@ export const projects = [
   },
 
   {
-    title: "Pradeep Kumar",
-    description: "Software Development Engineer at Amazon",
-    link: "https://www.linkedin.com/in/pkumar28/",
-    png: pradeepPng,
-  },
-
-  {
-    title: "Sumit Bhatnagar",
-    description: "VP of Software Engineering at JP Morgan Chase & Co.",
-    link: "https://www.linkedin.com/in/sumitbhatnagar1411/",
-    png: sumitPng,
-  },
-
-  {
     title: "Gauresh Rane",
     description: "Engineer Manager at WhatsApp",
     link: "https://www.linkedin.com/in/gauresh-rane-55772913/",
