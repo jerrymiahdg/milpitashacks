@@ -57,7 +57,7 @@ export function Countdown() {
                     target="_blank"
                     className="hover:underline "
                   >
-                    @Milpitas High School
+                    @Milpitas High School Theater
                   </a>
                 </div>
               </div>
