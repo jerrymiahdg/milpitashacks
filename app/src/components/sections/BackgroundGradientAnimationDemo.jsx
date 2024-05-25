@@ -53,7 +53,7 @@ export function BackgroundGradientAnimationDemo() {
                 <div className="md:text-xl text-lg lg:text-2xl text-gray-400 flex justify-center gap-3 pt-5 pb-10">
                   <h2 className="">May 25, 2024</h2>
                   <a
-                    href="https://www.google.com/maps/place/Milpitas+High+School/@37.4509418,-121.901557,18.63z/data=!4m6!3m5!1s0x808fcf3566e07d13:0x8cb806b94146f8!8m2!3d37.4509315!4d-121.9005301!16zL20vMDVjanI0?entry=ttu"
+                    href="https://maps.app.goo.gl/iRRKw3qPCmobhjBu7"
                     target="_blank"
                     className="hover:underline "
                   >
