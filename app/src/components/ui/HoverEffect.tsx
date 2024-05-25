@@ -50,11 +50,11 @@ export const projects = [
     png: sampatPng,
   },
 
-  // { title: "Pritish Udgata",
-  //   description: "AI Products & ML Platform at Adobe",
-  //   link: "https://www.linkedin.com/in/pritishudgata/",
-  //   png: pritishPng,
-  // },
+  { title: "Pritish Udgata",
+    description: "AI Products & ML Platform at Adobe",
+    link: "https://www.linkedin.com/in/pritishudgata/",
+    png: pritishPng,
+  },
   // ...rest of the projects
 ];
 
