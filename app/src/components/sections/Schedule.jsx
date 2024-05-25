@@ -20,11 +20,11 @@ const Schedule = () => {
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">09:15 AM</h2>
-            <h2 className=" text-lg text-right">A Guide to Hackathons Workshop</h2>
+            <h2 className=" text-lg text-right">How to Win a Hackathon - Berkeley CS Student</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">09:30 AM</h2>
-            <h2 className=" text-lg text-right">Frontend Workshop w/ Hack Club Head of Hackathons</h2>
+            <h2 className=" text-lg text-right">Frontend Workshop - Hack Club Head of Hackathons</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">10:30 AM</h2>
@@ -32,7 +32,7 @@ const Schedule = () => {
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">11:30 AM</h2>
-            <h2 className=" text-lg text-right">Expertise AI/ML Workshop</h2>
+            <h2 className=" text-lg text-right">AI/ML Workshop - Expertise NPO</h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">12:30 PM</h2>
@@ -40,7 +40,7 @@ const Schedule = () => {
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">03:30 PM</h2>
-            <h2 className=" text-lg text-right">Keynote Speaker</h2>
+            <h2 className=" text-lg text-right">Keynote Speaker - Dr. Nikunj Mehta </h2>
           </div>
           <div className="flex py-3 gap-3 justify-between">
             <h2 className=" text-lg text-nowrap">06:30 PM</h2>
