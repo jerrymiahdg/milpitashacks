@@ -9,6 +9,7 @@ import Tracks from "./components/sections/Tracks";
 import FAQ from "./components/sections/FAQ";
 import Team from "./components/sections/Team";
 import SideNav from "./components/SideNav";
+import ConditionalNav from "./components/ConditionalNav";
 import { Route, useLocation, Routes } from "react-router-dom";
 import { useRef } from "react";
 import Sponsors from "./components/sections/Sponsors";
@@ -16,6 +17,7 @@ import { BackgroundGradientAnimationDemo } from "./components/sections/Backgroun
 import { Button } from "./components/ui/moving-border";
 import Landing from "./components/pages/Landing";
 import Prospectus from "./components/pages/Prospectus";
+import Countdown from "./components/pages/Countdown";
 import { NextUIProvider } from "@nextui-org/system";
 
 export const Context = createContext();
@@ -83,12 +85,15 @@ function App() {
         <Context.Provider
           value={{ sideNavActive, setSideNavActive, scrollToSection }}
         >
-          <Nav />
+          <ConditionalNav>
+            <Nav />
+          </ConditionalNav>
           <SideNav />
           <Routes>
             <Route
               path="/*"
               element={
+                
                 <Landing
                   tracksRef={tracksRef}
                   homeRef={homeRef}
@@ -110,6 +115,12 @@ function App() {
                   prospectusRef={prospectusRef}
                   prospectusFaqRef={prospectusFaqRef}
                 />
+              }
+            />
+            <Route
+              path="countdown/*"
+              element={
+                <Countdown />
               }
             />
           </Routes>
