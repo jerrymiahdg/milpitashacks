@@ -64,12 +64,6 @@ export function BackgroundGradientAnimationDemo() {
               <div className="grid grid-flow-col gap-10 text-center auto-cols-max">
                 <div className="flex flex-col">
                   <span className="countdown font-mono text-5xl">
-                    <span style={{ "--value": formattedTime.days }}></span>
-                  </span>
-                  days
-                </div>
-                <div className="flex flex-col">
-                  <span className="countdown font-mono text-5xl">
                     <span style={{ "--value": formattedTime.hrs }}></span>
                   </span>
                   hours
