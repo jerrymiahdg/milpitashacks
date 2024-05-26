@@ -47,7 +47,7 @@ export function BackgroundGradientAnimationDemo() {
           >
             <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
               <div className="w-full flex-col">
-                <h1 className="text-2xl opacity-75 md:text-5xl sm:text-3xl lg:text-6xl font-bold text-center w-full relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
+                <h1 className=" py-5 text-2xl opacity-75 md:text-5xl sm:text-3xl lg:text-6xl font-bold text-center w-full relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
                   Thank you for attending!
                 </h1>
                 <h1 className="text-5xl md:text-8xl sm:text-6xl lg:text-9xl font-bold text-center w-full relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
