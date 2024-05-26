@@ -61,7 +61,7 @@ export function BackgroundGradientAnimationDemo() {
                   </a>
                 </div>
               </div>
-              <div className="grid grid-flow-col gap-10 text-center auto-cols-max">
+              {/* <div className="grid grid-flow-col gap-10 text-center auto-cols-max">
           
                 <div className="flex flex-col">
                   <span className="countdown font-mono text-5xl">
@@ -75,7 +75,7 @@ export function BackgroundGradientAnimationDemo() {
                   </span>
                   sec
                 </div>
-              </div>
+              </div> */}
               <a
                 target="_blank"
                 href="https://tripetto.app/run/O7E32KMH7T"
