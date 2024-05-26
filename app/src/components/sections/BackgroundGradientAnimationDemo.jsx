@@ -43,11 +43,14 @@ export function BackgroundGradientAnimationDemo() {
         <div className=" h-screen absolute w-screen">
           <div
             className="relative border-none px-4 h-full overflow-hidden rounded-2xl flex flex-col 
-          justify-center items-start"
+          justify-center items-start w-full"
           >
             <div className="w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
-              <div className="flex-col">
-                <h1 className="text-5xl md:text-8xl sm:text-6xl lg:text-9xl font-bold text-center relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
+              <div className="w-full flex-col">
+                <h1 className="text-2xl opacity-75 md:text-5xl sm:text-3xl lg:text-6xl font-bold text-center w-full relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
+                  Thank you for attending!
+                </h1>
+                <h1 className="text-5xl md:text-8xl sm:text-6xl lg:text-9xl font-bold text-center w-full relative bg-gradient-to-b from-white to-blue-300 inline-block text-transparent bg-clip-text">
                   Milpitas Hacks
                 </h1>
                 <div className="md:text-xl text-lg lg:text-2xl text-gray-400 flex justify-center gap-3 pt-5 pb-10">
@@ -78,14 +81,14 @@ export function BackgroundGradientAnimationDemo() {
               </div> */}
               <a
                 target="_blank"
-                href="https://tripetto.app/run/O7E32KMH7T"
+                href="https://milpitas-hacks.devpost.com/"
                 className="z-20 pt-14"
               >
                 <Button
                   size="lg"
                   className="h-16 bg-gradient-to-br from-white to-blue-300"
                 >
-                  Register
+                  Devpost
                   <ArrowRight />
                 </Button>
               </a>
